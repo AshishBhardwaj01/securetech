@@ -8,6 +8,7 @@ import VenueSpacesContainer from "../components/whysecure2.jsx";
 import Venue from "../components/venue.jsx";
 import Component from "../components/solutioncards.jsx";
 import Background from "../components/navbar.jsx";
+import MySection from "../components/backgroundimg.jsx";
 
 const SecuretechavHomepage = () => {
   return (
@@ -34,7 +35,8 @@ const SecuretechavHomepage = () => {
           <h1 className="m-0 h-[81px] w-[673px] relative text-inherit tracking-[-0.05em] font-semibold font-poppins inline-block shrink-0 max-w-full mq450:text-23xl mq925:text-37xl">{`Solutions & Services`}</h1>
         </section>
         <Background />
-        <section className="absolute top-[129px] left-[0px] w-full flex flex-col items-end justify-start pt-0 px-[61px] pb-[56.2px] box-border gap-[594px] max-w-full text-center text-51xl text-orangered-100 font-poppins mq925:gap-[148px] mq1350:gap-[297px] mq1350:pl-[30px] mq1350:pr-[30px] mq1350:box-border">
+        <MySection/>
+        {/* <section className="absolute top-[129px] left-[0px] w-full flex flex-col items-end justify-start pt-0 px-[61px] pb-[56.2px] box-border gap-[594px] max-w-full text-center text-51xl text-orangered-100 font-poppins mq925:gap-[148px] mq1350:gap-[297px] mq1350:pl-[30px] mq1350:pr-[30px] mq1350:box-border">
           <div className="w-full h-[1114px] absolute !m-[0] right-[0px] bottom-[2px] left-[0px] bg-[url('image4@2x.png')] bg-cover bg-no-repeat bg-[top]" />
           <div className="self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[21px] box-border max-w-full">
             <h1 className="m-0 h-[431px] w-[1144px] relative text-inherit font-normal font-poppins flex items-center shrink-0 max-w-full z-[1] mq450:text-23xl mq925:text-37xl">
@@ -57,7 +59,7 @@ const SecuretechavHomepage = () => {
               src="/figure.svg"
             />
           </button>
-        </section>
+        </section> */}
       </main>
     </div>
   );
