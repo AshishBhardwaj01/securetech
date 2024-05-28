@@ -43,7 +43,7 @@ const Component = ({ className = "" }) => {
               src="/pikaso-texttoimage-stylizedvectorillustrationshowcasingadiverse@2x.png"
             />
           </div>
-          <div className="w-full sm:w-[30em] flex flex-col items-start justify-start py-0 pr-3 pl-3 box-border gap-8 max-w-[95%]">
+          <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 pr-3 pl-3 box-border gap-8 max-w-[95%]">
             <h2 className="m-0 relative text-inherit tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               Architectural Acoustics
             </h2>
@@ -65,7 +65,7 @@ const Component = ({ className = "" }) => {
               src="/imag9.png"
             />
           </div>
-          <div className="w-full sm:w-[30em] flex flex-col items-start justify-start py-0 pr-3 pl-3 box-border gap-8 max-w-[95%]">
+          <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 pr-3 pl-3 box-border gap-8 max-w-[95%]">
             <h2 className="m-0 relative text-inherit tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               Audio Visual
             </h2>
@@ -87,7 +87,7 @@ const Component = ({ className = "" }) => {
               src="imag10.png"
             />
           </div>
-          <div className="w-full sm:w-[30em] flex flex-col items-start justify-start py-0 pr-3 pl-3 box-border gap-8 max-w-[95%]">
+          <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 pr-3 pl-3 box-border gap-8 max-w-[95%]">
             <h2 className="m-0 relative text-inherit tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               Information technology
             </h2>
@@ -109,7 +109,7 @@ const Component = ({ className = "" }) => {
               src="/imag11.png"
             />
           </div>
-          <div className="w-full sm:w-[30em] flex flex-col items-start justify-start py-0 pr-3 pl-3 box-border gap-8 max-w-[95%]">
+          <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 pr-3 pl-3 box-border gap-8 max-w-[95%]">
             <h2 className="m-0 relative text-inherit tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               Light Structures
             </h2>
@@ -131,7 +131,7 @@ const Component = ({ className = "" }) => {
               src="/pikaso-texttoimage-stylizedvectorillustrationshowcasingadiverse@2x.png"
             />
           </div>
-          <div className="w-full sm:w-[30em] flex flex-col items-start justify-start py-0 pr-3 pl-3 box-border gap-8 max-w-[95%]">
+          <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 py-0 pr-3 pl-3 box-border gap-8 max-w-[95%]">
             <h2 className="m-0 relative text-inherit tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               project management
             </h2>
@@ -153,7 +153,7 @@ const Component = ({ className = "" }) => {
               src="/pikaso-texttoimage-stylizedvectorillustrationshowcasingadiverse@2x.png"
             />
           </div>
-          <div className="w-full sm:w-[30em] flex flex-col items-start justify-start py-0 pr-3 pl-3 box-border gap-8 max-w-[95%]">
+          <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 pr-3 pl-3 box-border gap-8 max-w-[95%]">
             <h2 className="m-0 relative text-inherit tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               post project services
             </h2>

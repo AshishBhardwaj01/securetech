@@ -40,7 +40,7 @@ const FrameComponent2 = ({ className = "" }) => {
 
   return (
     <section
-      className={`absolute top-[5350px] lg:top-[6200px] left-[0px] w-full flex flex-col items-center justify-start lg:justify-center py-0 px-[20px] box-border gap-[34px] max-w-full text-center text-51xl text-black font-poppins ${className}`}
+      className={`absolute top-[5950px] lg:top-[6200px] left-[0px] w-full flex flex-col items-center justify-start lg:justify-center py-0 px-[20px] box-border gap-[34px] max-w-full text-center text-51xl text-black font-poppins ${className}`}
     >
       <div className="w-full justify-center py-0 px-5 max-w-full">
         <h1 className="m-0 relative text-inherit tracking-[-0.05em] font-semibold font-poppins inline-block shrink-0 max-w-full mq450:text-23xl mq925:text-37xl">{`Our Clients`}</h1>
