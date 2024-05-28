@@ -19,11 +19,11 @@ const SecuretechavHomepage = () => {
       <main className="h-[7630px] flex-1 relative bg-white max-w-full text-center text-51xl text-black font-poppins mq925:h-auto mq925:min-h-[7630]">
       <App />
       <MySection/>
-         <div className="absolute top-[1600px] left-[50%] transform -translate-x-1/2 bg-gray-100 w-full max-w-[1923px] flex flex-row items-center justify-center pt-[60px] px-5 pb-[67px] box-border text-center text-black font-palatino-linotype">
+         {/* <div className="absolute top-[1600px] left-[50%] transform -translate-x-1/2 bg-gray-100 w-full max-w-[1923px] flex flex-row items-center justify-center pt-[60px] px-5 pb-[67px] box-border text-center text-black font-palatino-linotype">
   <h1 className="m-0 h-auto w-full max-w-[673px] tracking-[-0.05em] font-semibold font-poppins text-32xl-2 sm:text-lg md:text-24 lg:text-3xl xl:text-3xl">
     {`Solutions & Services`}
   </h1>
-      </div> 
+      </div>  */}
       <Component />
       <Venue/>
       <VenueSpacesContainer />
