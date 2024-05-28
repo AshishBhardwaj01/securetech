@@ -5,11 +5,11 @@ const FrameComponent6 = ({ className = "" }) => {
   return (
     
     <section
-      className={`self-stretch flex flex-row items-start justify-center gap-[31.4px] max-w-full text-right text-11xl text-gray-200 font-poppins mq1350:flex-wrap ${className}`}
+      className={`self-stretch flex flex-row lg:flex-col items-start justify-center gap-[31.4px] max-w-full text-right text-11xl text-gray-200 font-poppins mq1350:flex-wrap ${className}`}
     >
       <div className="flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[18px] box-border min-w-[287px] max-w-full mq1350:flex-1">
         <div className="self-stretch flex flex-col items-end justify-start pt-0 px-0 pb-[50.5px] box-border gap-[9.5px] max-w-full">
-          <h2 className="m-0 relative text-inherit leading-[32px] font-bold font-poppins mq450:text-lg mq450:leading-[19px] mq925:text-5xl mq925:leading-[26px]">
+          <h2 className="m-0 relative text-inherit leading-[32px] font-bold font-poppins sm:text-xs md:text-lg lg:text-[0.5rem] lg:leading-[0.6rem] xl:text-2xl">
             Industry Expertise
           </h2>
           <div className="w-[413.3px] relative text-base leading-[26px] flex items-center max-w-full">
@@ -57,7 +57,7 @@ const FrameComponent6 = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <div className="w-[416px] rounded-189xl bg-white box-border flex flex-row items-end justify-start py-[27px] px-[66px] gap-[46px] max-w-full text-center text-xl text-white font-noto-sans border-[2px] border-dashed border-silver mq925:flex-wrap">
+      <div className="w-[416px] rounded-189xl bg-white box-border flex flex-row items-end justify-start lg:hidden py-[27px] px-[66px] gap-[46px] max-w-full text-center text-xl text-white font-noto-sans border-[2px] border-dashed border-silver mq925:flex-wrap">
         <div className="ml-[-79px] h-[178px] w-[33px] flex flex-col items-start justify-start shrink-0">
           <div className="self-stretch rounded-base-5 bg-firebrick flex flex-row items-start justify-start py-[3px] px-2.5">
             <b className="relative inline-block min-w-[12px] mq450:text-base">
@@ -68,7 +68,7 @@ const FrameComponent6 = ({ className = "" }) => {
         <div className="w-[284px] flex flex-col items-start justify-start gap-[290px] shrink-0">
           <div className="self-stretch flex flex-row items-start justify-between gap-[20px] mq450:flex-wrap mq450:justify-center">
             <div className="w-[33px] flex flex-row items-start justify-start relative">
-            <div className="h-[330px] w-[330px] absolute !m-[0] right-[-274px] bottom-[-310px] rounded-full overflow-hidden bg-[url('/public/whyanalytixnewpng@3x.png')] bg-cover bg-no-repeat bg-[top]">
+            <div className="h-[330px] w-[330px] absolute !m-[0] right-[-274px] bottom-[-310px] rounded-full overflow-hidden bg-[url('/public/whyanalytixnewpng@3x.png')] bg-cover bg-no-repeat lg:hidden bg-[top]">
     <div className="absolute inset-0 flex items-center justify-center">
         <div className="w-24 h-24 flex items-center justify-center rounded-full bg-white">
             <img
@@ -177,4 +177,3 @@ FrameComponent6.propTypes = {
 };
 
 export default FrameComponent6;
-

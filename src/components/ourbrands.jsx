@@ -81,7 +81,7 @@ const FrameComponent3 = ({ className = "" }) => {
 
   return (
     <section
-      className={`absolute top-[6450px] left-[0px] w-full flex flex-col items-center justify-start ${className}`}
+      className={`absolute top-[6050px] lg:top-[6650px] left-[0px] w-full flex flex-col items-center justify-center ${className}`}
     >
       <h3 className="text-center mb-4 text-2l font-semibold m-0 relative text-inherit tracking-[-0.05em] font-poppins inline-block shrink-0 max-w-full mq450:text-23xl mq925:text-37xl">Our Brand</h3>
       <div className="w-full">

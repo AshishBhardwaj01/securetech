@@ -43,24 +43,24 @@ const Venue = ({ className = "" }) => {
   ];
 
   return (
-    <section
-      className={`absolute top-[2500px] left-[298px] w-[1362px] flex flex-col items-start justify-start gap-[60px] max-w-full text-left text-51xl text-black font-poppins ${className}`}
-    >
-      <div className="w-[1323px] flex flex-row items-start justify-center py-0 px-5 box-border max-w-full">
-        <h1 className="m-0 w-[581px] relative text-inherit tracking-[-0.05em] font-semibold font-poppins inline-block shrink-0 max-w-full mq450:text-23xl mq925:text-37xl">{`Venues & Spaces`}</h1>
+    <section className={`relative top-[2600px]  lg:top-[500px] left-1/2 transform -translate-x-1/2 w-full flex flex-col items-center justify-start gap-14 text-left text-51xl text-black font-poppins ${className}`}>
+      <div className="w-full flex flex-row items-start justify-center py-0 px-5 box-border">
+        <h1 className="m-0 max-w-full text-center tracking-[-0.05em] font-semibold font-poppins inline-block shrink-0 text-32xl-2 sm:text-lg md:text-24 lg:text-3xl xl:text-3xl">{`Venues & Spaces`}</h1>
       </div>
-      <div className="w-[1348px] h-[652px] flex flex-row items-start justify-start pt-0 pb-[30px] pr-5 pl-0 box-border max-w-full">
-        <Slider {...settings} className="self-stretch flex-1 max-w-full">
+      <div className="w-full h-auto flex flex-row items-start justify-start pt-0 pb-8 px-5 box-border">
+        <Slider {...settings} className="w-full">
           {slides.map((slide, index) => (
-            <div key={index} className="self-stretch flex-1 bg-gray-700 flex flex-col items-start justify-start py-0 px-[163px] box-border max-w-full">
-              <img
-                className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
-                loading="lazy"
-                alt=""
-                src={slide.image}
-              />
-              <div className="w-full text-center py-2 flex items-center justify-center h-[70px]">
-                <p className="text-black font- text-xl">{slide.text}</p>
+            <div key={index} className="w-full flex flex-col items-center justify-center py-0 px-4 box-border">
+              <div className="max-w-[60%] mx-auto sm:max-w-[100%] ">
+                <img
+                  className="w-full h-auto max-h-full object-cover"
+                  loading="lazy"
+                  alt=""
+                  src={slide.image}
+                />
+              </div>
+              <div className="w-full text-center py-2 flex items-center justify-center h-16">
+                <p className="text-black font-medium text-lg-5 md:text-5xl">{slide.text}</p>
               </div>
             </div>
           ))}

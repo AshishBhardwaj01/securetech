@@ -62,51 +62,32 @@ module.exports = {
       },
     },
     fontSize: {
-      "5xl": "24px",
-      "51xl": "70px",
-      "23xl": "42px",
-      "37xl": "56px",
-      lg: "18px",
-      "16xl": "35px",
-      base: "16px",
-      "11xl": "30px",
-      xl: "20px",
-      mini: "15px",
-      lgi: "19px",
-      "21xl": "40px",
-      "13xl": "32px",
-      "19xl": "38px",
-      "4xl": "23px",
-      "sm-9": "13.9px",
-      sm: "14px",
-      "sm-7": "13.7px",
-      "sm-6": "13.6px",
-      "sm-5": "13.5px",
-      "base-9": "16.9px",
-      "base-5": "16.5px",
-      "base-6": "16.6px",
-      mid: "17px",
-      "base-3": "16.3px",
-      "lgi-1": "19.1px",
-      "smi-4": "12.4px",
-      "mini-9": "14.9px",
-      "smi-3": "12.3px",
-      "3xl": "22px",
+      "lg-5": "1.15625rem",  // 18.5px to rem
+      "5xl-2": "1.5125rem",  // 24.2px to rem
+      "39xl-9": "3.68125rem",  // 58.9px to rem
+      "5xl": "1.5rem",  // 24px to rem
+      mini: "0.9375rem",  // 15px to rem
+      sm: "0.875rem",  // 14px to rem
+      xs: "0.75rem",  // 12px to rem
+      "39xl-1": "3.63125rem",  // 58.1px to rem
+      smi: "0.8125rem",  // 13px to rem
+      "4xl-3": "1.45625rem",  // 23.3px to rem
+      "32xl-2": "3.2rem",  // 51.2px to rem
+      base: "1rem",  // 16px to rem
+      lg: "1.125rem",  // 18px to rem
+      mid: "1.0625rem",  // 17px to rem
+      "77xl": "6rem",  // 96px to rem
       inherit: "inherit",
     },
     screens: {
-      mq1825: {
-        raw: "screen and (max-width: 1825px)",
-      },
-      mq1350: {
-        raw: "screen and (max-width: 1350px)",
-      },
-      mq925: {
-        raw: "screen and (max-width: 925px)",
-      },
-      mq450: {
-        raw: "screen and (max-width: 450px)",
-      },
+      mq975: { raw: "screen and (max-width: 61.25em)" },  // 975px to em
+      mq700: { raw: "screen and (max-width: 43.75em)" },  // 700px to em
+      mq450: { raw: "screen and (max-width: 28.125em)" },  // 450px to em
+      sm: { max: '35.99875em' },  // 575.98px to em
+      md: { max: '47.99875em' },  // 767.98px to em
+      lg: { max: '61.99875em' },  // 991.98px to em
+      xl: { max: '74.99875em' },  // 1199.98px to em
+      '2xl': { min: '75em' },  // 1200px to em
     },
   },
   corePlugins: {

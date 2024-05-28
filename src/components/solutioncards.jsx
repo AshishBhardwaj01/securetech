@@ -13,12 +13,28 @@ const Component = ({ className = "" }) => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <Slider
       {...settings}
-      className={`absolute top-[1500px] left-[34px] w-[1856.3px] flex flex-column items-start justify-start gap-[50.1px] max-w-full grid-cols-[repeat(3,_minmax(439px,_1fr))] text-left text-11xl text-black font-poppins mq925:grid-cols-[minmax(439px,_1fr)] mq1825:justify-center mq1825:grid-cols-[repeat(2,_minmax(439px,_761px))] ${className}`}
+      className={`absolute top-[1800px] left-[34px] w-[1856.3px] flex flex-column items-start justify-start gap-[50.1px] max-w-full grid-cols-[repeat(3,_minmax(439px,_1fr))] text-left lg:max-w-full text-11xl text-black font-poppins mq925:grid-cols-[minmax(439px,_1fr)] mq1825:justify-center mq1825:grid-cols-[repeat(2,_minmax(439px,_761px))] ${className}`}
     >
       <div className="flex flex-col items-start justify-start pt-0 pb-[41.1px] pr-0 pl-3 box-border relative gap-[33px] max-w-[95%]">
         <img

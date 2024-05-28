@@ -1,63 +1,63 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { useState } from 'react';
 
-const Background = ({ className = "" }) => {
-  return (
-    <header className={`sticky w-full top-0 right-0 left-0 shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-gray-500 flex flex-row items-start justify-between pt-1 pb-4 pr-16 pl-28 box-border z-[99] gap-5 max-w-full text-center text-16xl text-white font-poppins mq925:pl-7 mq925:box-border mq1350:pl-14 mq1350:pr-8 mq1350:box-border ${className}`}>
-      <div className="w-[607px] flex flex-row items-start justify-start gap-4 max-w-full">
-        <img
-          className="h-[126px] w-[136px] relative object-cover"
-          loading="lazy"
-          alt="SecureTech Logo"
-          src="/image-5@2x.png"
-        />
-        <div className="flex-1 flex flex-col items-start justify-start pt-11 px-0 pb-0 box-border max-w-full">
-          <h1 className="m-0 self-stretch h-8 relative text-inherit leading-[120.6%] font-semibold font-poppins flex items-center justify-center shrink-0 whitespace-nowrap">
-            SecureTech AV Designs
-          </h1>
-        </div>
-      </div>
-      <nav className="w-[701px] flex flex-col items-start justify-start pt-11 px-0 pb-0 box-border max-w-full text-left text-lg text-orangered-200">
-        <div className="self-stretch flex flex-row items-start justify-start gap-9 max-w-full mq925:gap-4.5">
-          <div className="w-[94px] flex flex-row items-start justify-start mq1350:hidden mq1350:w-0">
-            <div className="flex-1 relative leading-8 font-medium whitespace-nowrap mq1350:hidden hover:text-white hover:underline">
-              Home
-            </div>
-          </div>
-          <div className="flex flex-col items-start justify-start py-0 pr-2 pl-0">
-            <div className="flex flex-row items-start justify-start py-0 px-0 mq1350:hidden">
-              <div className="w-[108px] relative leading-8 font-medium whitespace-nowrap flex items-center shrink-0 mq1350:hidden hover:text-white hover:underline">
-                About Us
-              </div>
-            </div>
-          </div>
-          <div className="flex-1 flex flex-row items-start justify-start max-w-full">
-            <div className="flex-1 flex flex-row items-start justify-start max-w-full mq925:hidden">
-              <div className="w-[140px] flex flex-row items-start justify-start py-0 px-px box-border">
-                <div className="w-[120px] relative leading-8 font-medium whitespace-nowrap flex items-center shrink-0 hover:text-white hover:underline">
-                  Solution
-                </div>
-              </div>
-              <div className="flex-1 flex flex-row items-start justify-start z-1 ml-[-5px]">
-                <div className="flex-1 relative leading-8 font-medium whitespace-nowrap hover:text-white hover:underline">
-                  Corporate Profile
-                </div>
-              </div>
-            </div>
-            <div className="w-[100px] flex flex-row items-start justify-start py-0 px-0 box-border">
-              <div className="w-[111.7px] relative leading-8 font-medium flex items-center shrink-0 whitespace-nowrap hover:text-white hover:underline">
-                Contact Us
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-  );
-};
 
-Background.propTypes = {
-  className: PropTypes.string,
-};
+function App() {
+ const [isOpen, setIsOpen] = useState(false);
 
-export default Background;
+ return (
+   <nav className="flex flex-row items-center justify-between flex-wrap p-6">
+     <div className="flex items-center flex-shrink-0 text-white mr-6 2xl:mr-72">
+       <img src="image-5@2x.png" className="w-100 h-10 mr-2" alt="Logo" />
+       <span className="text-xl text-black font-bold">SecureTech AV Designs</span>
+     </div>
+     <div className="block 2xl:hidden">
+       <button
+         onClick={() => setIsOpen(!isOpen)}
+         className="flex items-center px-3 py-2 rounded text-black-500 hover:text-black-400"
+       >
+         <svg
+           className={`fill-current h-3 w-3 ${isOpen ? "hidden" : "block"}`}
+           viewBox="0 0 20 20"
+           xmlns="http://www.w3.org/2000/svg"
+         >
+           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+         </svg>
+         <svg
+           className={`fill-current h-3 w-3 ${isOpen ? "block" : "hidden"}`}
+           viewBox="0 0 20 20"
+           xmlns="http://www.w3.org/2000/svg"
+         >
+           <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
+         </svg>
+       </button>
+     </div>
+     <div
+       className={`w-full block flex-grow 2xl:flex 2xl:items-center 2xl:w-auto ${isOpen ? "block" : "hidden"}`}
+     >
+       <div className="text-sm 2xl:flex-grow">
+         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-white-200 mr-4">
+           Home
+         </a>
+         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-white-200 mr-4">
+           About Us
+         </a>
+         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-white-200 mr-4">
+           Solution
+         </a>
+         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-white-200 mr-4">
+           Corporate Profile
+         </a>
+         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-white-200 mr-4">
+           Contact Us
+         </a>
+       </div>
+       <div>
+         <button className="inline-flex items-center bg-amber-500 border-0 py-2 px-4 text-white">
+           Sign In
+         </button>
+       </div>
+     </div>
+   </nav>
+ );
+}
+export default App;
