@@ -168,19 +168,17 @@ const FrameComponent1 = ({ className = "" }) => {
     >
       <div className="w-full max-w-[1552px] flex flex-col py-[20px] items-center justify-center gap-[2vw]">
         {/* Title Section */}
-        <div className="flex flex-col items-center justify-center py-0 px-5 box-border w-full text-center text-black text-xl sm:text-lg md:text-24 lg:text-xl-2 xl:text-2xl">
-          <div className="w-full max-w-[500.3px] flex flex-row items-center justify-center py-0 px-5 box-border">
-            <h2 className="m-0 relative text-inherit leading-[26px] capitalize font-bold font-poppins">
+        <div className="flex flex-col items-center justify-center py-0 px-5 box-border w-full text-center text-black">
+            <h1 className="m-0 text-2.5xl leading-[100px] font-semibold font-poppins text-black">
               Testimonials
-            </h2>
-          </div>
-          <h1 className="m-0 text-19xl leading-[45px] font-bold font-poppins text-darkslateblue">
+            </h1>
+          <h1 className="m-0 text-lg leading-[10px] font-bold font-poppins text-darkslateblue">
             Hear From Our Happy Clients
           </h1>
         </div>
   
         {/* Intro Text */}
-        <div className="flex flex-row items-center justify-center py-0 pr-5 pl-[21px] box-border w-full text-center text-xl sm:text-lg md:text-24 lg:text-xl-2 xl:text-2xl">
+        <div className="flex flex-row items-center justify-center py-0 pr-5 pl-[21px] box-border w-full text-center text-base">
           <div className="w-full max-w-[772.8px] relative leading-[24px] flex items-center shrink-0 z-[1]">
             <span className="w-full">
               <p className="m-0">

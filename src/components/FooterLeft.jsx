@@ -95,12 +95,7 @@ const FooterLeft = ({ className = "" }) => {
            
               project execution with skilled workforce & post-project service.
             </p>
-            <address className="text-white font-poppins h-full">
-              <span className="text-chocolate font-poppins">Company Address</span>
-              <span className="font-poppins">
-                : Secure TechAV Designs Private Limited A-70-SECTOR 33 NOIDA, UTTAR PRADESH, 201301
-              </span>
-            </address>
+            
           </div>
           <div className="flex flex-col lg:py-2 space-y-4">
             <div className="w-full h-auto gap-5">
@@ -112,11 +107,14 @@ const FooterLeft = ({ className = "" }) => {
                className="rounded" >
                </iframe>
             </div>
-            <p className="text-white">
-              Visit us at our office for more information.
-            </p>
+            <address className="text-white font-poppins h-full">
+              <span className="text-chocolate font-poppins">Company Address</span>
+              <span className="font-poppins">
+                : Secure TechAV Designs Private Limited A-70-SECTOR 33 NOIDA, UTTAR PRADESH, 201301
+              </span>
+            </address>
           </div>
-        <div className="flex top-0 right-0 flex flex-col items-start justify-start gap-4 py-5text-lg p-5">
+        <div className="flex top-0 left-0 flex flex-col items-start justify-start gap-4 py-5text-lg p-5">
           <div className="tracking-tighter leading-snug font-semibold">Sitemap</div>
           <div className="flex flex-col items-start justify-start gap-2 text-base hover:no-underline">
             <a

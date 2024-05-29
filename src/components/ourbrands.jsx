@@ -82,8 +82,8 @@ const FrameComponent3 = ({ className = "" }) => {
     <section
       className={`relative top-[1800px] xl:top-[900px] lg:top-[2000px] w-full p-[10px] py-[10px] flex-col items-center justify-center ${className}`}
     >
-      <div className="text-[3vw] md:text-[3vw] lg:text-[2vw] ">
-      <h3 className="text-center mb-4 text-2l font-semibold m-0 relative text-inherit tracking-[-0.05em] p-10 font-poppins shrink-0 max-w-full lg:text-lg xl:text-xl">Our Brands</h3>
+      <div className="m-0 text-2.5xl">
+      <h1 className="text-center mb-4 relative text-inherit font-semibold tracking-[-0.05em] p-10 font-poppins shrink-0 max-w-full ">Our Brands</h1>
       </div>
       <div className="w-full ">
         <Slider {...settings}>

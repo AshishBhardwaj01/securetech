@@ -62,21 +62,24 @@ module.exports = {
       },
     },
     fontSize: {
+      xs: "0.75rem", 
+      smi: "0.8125rem",  // 15px to rem
+      sm: "0.875rem",  
+      mini: "0.9375rem",
+      base: "1rem", 
+      mid: "1.0625rem",
+      lg: "1.5rem", 
       "lg-5": "1.15625rem",  // 18.5px to rem
       "5xl-2": "1.5125rem",  // 24.2px to rem
-      "39xl-9": "3.68125rem",  // 58.9px to rem
-      "5xl": "1.5rem",  // 24px to rem
-      mini: "0.9375rem",  // 15px to rem
-      sm: "0.875rem",  // 14px to rem
-      xs: "0.75rem",  // 12px to rem
-      "39xl-1": "3.63125rem",  // 58.1px to rem
-      smi: "0.8125rem",  // 13px to rem
-      "4xl-3": "1.45625rem",  // 23.3px to rem
-      "32xl-2": "3.2rem",  // 51.2px to rem
-      base: "1rem",  // 16px to rem
-      lg: "1.125rem",  // 18px to rem
-      mid: "1.0625rem",  // 17px to rem
-      "77xl": "6rem",  // 96px to rem
+      "39xl-9": "3.68125rem",  // 58.9px to rem // 24px to rem
+      "4xl-3": "1.45625rem",
+      "5xl": "1.5rem",
+      "2xl":"2rem",
+      "2.5xl":"2.5rem",
+      "6xl":"3rem" ,  // 23.3px to rem
+      "7xl": "3.2rem",  // 51.2px to rem
+      "8xl": "3.63125rem", // 17px to rem
+      "9xl": "6rem",  // 96px to rem
       inherit: "inherit",
     },
     screens: {

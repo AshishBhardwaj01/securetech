@@ -8,7 +8,7 @@ const VenueSpacesContainer = ({ className = "" }) => {
       <div className="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-0.5 box-border max-w-full text-center">
         <div className="flex-1 flex flex-col items-start justify-start gap-[10px] lg:gap-[10px] max-w-full">
         <div className="w-full flex flex-row items-center justify-center py-0 px-[2.5rem] box-border">
-  <h1 className="m-0 max-w-full text-center tracking-[-0.05em] font-semibold font-poppins inline-block shrink-0 text-32xl-2 sm:text-lg md:text-24 lg:text-3xl xl:text-3xl">
+  <h1 className="m-0 max-w-full text-center tracking-[-0.05em] font-semibold font-poppins inline-block shrink-0 text-2.5xl">
     Why SecureTech AV
   </h1>
 </div>
