@@ -28,7 +28,7 @@ const images = [
 const ImageItem = ({ src, pt }) => (
   <div className={`h-[208.5px] w-[215px] flex flex-col items-start justify-start pt-${pt} px-0 pb-0 box-border shrink-0`}>
     <img
-      className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-fit shrink-0"
+      className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-contain shrink-0"
       alt=""
       src={src}
     />
@@ -81,15 +81,15 @@ const FrameComponent3 = ({ className = "" }) => {
 
   return (
     <section
-      className={`relative top-[1800px] xl:top-[950px] lg:top-[1600px] w-full p-[10px] flex-col items-center justify-center ${className}`}
+      className={`relative top-[1800px] xl:top-[950px] lg:top-[1600px] w-full p-[10px] py-[10px] flex-col items-center justify-center ${className}`}
     >
-      <div className="text-[3vw] md:text-[2vw] lg:text-[1vw]">
-      <h3 className="text-center mb-4 text-2l font-semibold m-0 relative text-inherit tracking-[-0.05em] p-10 font-poppins shrink-0 max-w-full mq450:text-23xl mq925:text-37xl">Our Brand</h3>
+      <div className="text-[3vw] md:text-[3vw] lg:text-[2vw] ">
+      <h3 className="text-center mb-4 text-2l font-semibold m-0 relative text-inherit tracking-[-0.05em] p-10 font-poppins shrink-0 max-w-full lg:text-lg xl:text-xl">Our Brands</h3>
       </div>
-      <div className="w-full">
+      <div className="w-full ">
         <Slider {...settings}>
           {images.map((src, index) => (
-            <div key={index} className="flex items-center justify-center ">
+            <div key={index} className="flex items-center justify-center h-[150px] max-w-full lg:max-w-full">
               <ImageItem src={src} pt={paddingTops[index]} />
             </div>
           ))}

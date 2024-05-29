@@ -119,9 +119,9 @@ const FooterLeft = ({ className = "" }) => {
           </div>
         <div className="flex top-0 right-0 flex flex-col items-start justify-start gap-4 text-lg p-5">
           <div className="tracking-tighter leading-snug font-semibold">Sitemap</div>
-          <div className="flex flex-col items-start justify-start gap-2 text-base">
+          <div className="flex flex-col items-start justify-start gap-2 text-base hover:underline">
             <a
-              className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:underline cursor-pointer"
+              className="tracking-tight leading-snug font-light text-inherit hover:font-bold cursor-pointer"
               href="https://www.figma.com/design/IApfjMwLHH2HcQEzFuA1Df?node-id=528-2"
               target="_blank"
               rel="noopener noreferrer"

@@ -35,24 +35,24 @@ function App() {
        className={`w-full block flex-grow 2xl:flex 2xl:items-center 2xl:w-auto ${isOpen ? "block" : "hidden"}`}
      >
        <div className="text-sm 2xl:flex-grow">
-         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-white-200 mr-4">
+         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            Home
          </a>
-         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-white-200 mr-4">
+         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            About Us
          </a>
-         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-white-200 mr-4">
+         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            Solution
          </a>
-         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-white-200 mr-4">
+         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            Corporate Profile
          </a>
-         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-white-200 mr-4">
+         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            Contact Us
          </a>
        </div>
        <div>
-         <button className="inline-flex items-center bg-amber-500 border-0 py-2 px-4 text-white">
+         <button className="inline-flex items-center bg-amber-500 border-0 py-2 px-4 text-white no-underline hover:underline">
            Sign In
          </button>
        </div>

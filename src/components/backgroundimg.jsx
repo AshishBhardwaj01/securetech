@@ -26,7 +26,7 @@ const MySection = ({ className = "" }) => {
           src="/figure.svg"
         />
       </button>
-      <div className="absolute 2xl:h-[1000px] lg:h-[900] inset-0 z-0 overflow-hidden">
+      <div className="absolute 2xl:h-[1000px] inset-0 z-0 overflow-hidden">
         <img
           src={image4}
           alt="Background"

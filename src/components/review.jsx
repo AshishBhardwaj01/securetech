@@ -164,9 +164,9 @@ const FrameComponent1 = ({ className = "" }) => {
 
   return (
     <section
-      className={`relative top-[1600.2px] xl:top-[900.2px] lg:top-[100.2px] items-center justify-center w-full h-screen p-10 lg:p-1 text-center text-base text-gray-300 font-poppins ${className}`}
+      className={`relative top-[1800.2px] xl:top-[900.2px] lg:top-[100.2px] items-center justify-center w-full h-screen p-10  lg:p-1 text-center text-base text-gray-300 font-poppins ${className}`}
     >
-      <div className="w-full max-w-[1552px] flex flex-col items-center justify-center gap-[2vw]">
+      <div className="w-full max-w-[1552px] flex flex-col py-[20px] items-center justify-center gap-[2vw]">
         {/* Title Section */}
         <div className="flex flex-col items-center justify-center py-0 px-5 box-border w-full text-center text-deepskyblue text-xl sm:text-lg md:text-24 lg:text-xl-2 xl:text-2xl">
           <div className="w-full max-w-[452.3px] flex flex-row items-center justify-center py-0 px-5 box-border">

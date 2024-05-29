@@ -31,13 +31,7 @@ const FrameComponent6 = ({ className = "" }) => {
           <div className="w-[431.4px] relative text-base leading-[26px] flex items-center max-w-full">
             <span className="w-full">
               <p className="m-0">
-                Our state-of-the-art and secure infrastructure
-              </p>
-              <p className="m-0">
-                safeguards sensitive information, minimizing risks,
-              </p>
-              <p className="m-0">
-                and maximizing operational efficiency for businesses.
+                Our state-of-the-art and secure infrastructure safeguards sensitive information, minimizing risks,and maximizing operational efficiency for businesses.
               </p>
             </span>
           </div>
@@ -48,12 +42,9 @@ const FrameComponent6 = ({ className = "" }) => {
           </h2>
           <div className="self-stretch relative text-base leading-[26px]">
             <p className="m-0">
-              Partner with Analytix for a team of highly skilled AV
+              Partner with Analytix for a team of highly skilled AV Engineering and Programming professionals, ensuring efficient deliveries and swift project start.
             </p>
-            <p className="m-0">
-              Engineering and Programming professionals, ensuring
-            </p>
-            <p className="m-0">efficient deliveries and swift project start.</p>
+            
           </div>
         </div>
       </div>
@@ -120,15 +111,9 @@ const FrameComponent6 = ({ className = "" }) => {
           </h2>
           <div className="relative text-base leading-[26px]">
             <p className="m-0">
-              Leverage our team of experienced AV engineers and
+              Leverage our team of experienced AV engineers and  programmers, combined with our state-of-the-art infrastructure to ensure premium quality output for all your AV projects.
             </p>
-            <p className="m-0">
-              programmers, combined with our state-of-the-art
-            </p>
-            <p className="m-0">
-              infrastructure to ensure premium quality output for all
-            </p>
-            <p className="m-0">your AV projects.</p>
+          
           </div>
         </div>
         <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[30.5px] box-border gap-[9.5px] max-w-full">
@@ -138,15 +123,9 @@ const FrameComponent6 = ({ className = "" }) => {
           <div className="w-[420.1px] relative text-base leading-[26px] flex items-center max-w-full">
             <span className="w-full">
               <p className="m-0">
-                Select services that help your business grow. Utilize
+                Select services that help your business grow. Utilize our skilled expertise when you need it the most. Manage workloads in busy times, while also saving costs during lean periods.
               </p>
-              <p className="m-0">
-                our skilled expertise when you need it the most.
-              </p>
-              <p className="m-0">
-                Manage workloads in busy times, while also saving
-              </p>
-              <p className="m-0">costs during lean periods.</p>
+             
             </span>
           </div>
         </div>
@@ -156,15 +135,9 @@ const FrameComponent6 = ({ className = "" }) => {
           </h2>
           <div className="relative text-base leading-[26px]">
             <p className="m-0">
-              Maximize value with Analytix. Benefit from flexible
+              Maximize value with Analytix. Benefit from flexible pricing options tailored to your needs, ensuring cost-effectiveness without compromising quality. Trust our industry expertise for exceptional results.
             </p>
-            <p className="m-0">
-              pricing options tailored to your needs, ensuring cost-
-            </p>
-            <p className="m-0">
-              effectiveness without compromising quality. Trust our
-            </p>
-            <p className="m-0">industry expertise for exceptional results.</p>
+           
           </div>
         </div>
       </div>
