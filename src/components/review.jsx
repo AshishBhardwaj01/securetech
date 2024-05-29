@@ -166,7 +166,7 @@ const FrameComponent1 = ({ className = "" }) => {
     <section
       className={`relative top-[1800.2px] xl:top-[650.2px] lg:top-[100.2px] items-center justify-center w-full h-screen p-10  lg:p-1 text-center text-base text-gray-300 font-poppins ${className}`}
     >
-      <div className="w-full max-w-[1552px] flex flex-col py-[20px] items-center justify-center gap-[2vw]">
+      <div className="max-w-[full flex flex-col py-[20px] items-center justify-center gap-[2vw]">
         {/* Title Section */}
         <div className="flex flex-col items-center justify-center py-0 px-5 box-border w-full text-center text-black">
             <h1 className="m-0 text-2.5xl leading-[100px] font-semibold font-poppins text-black">
@@ -178,7 +178,7 @@ const FrameComponent1 = ({ className = "" }) => {
         </div>
   
         {/* Intro Text */}
-        <div className="flex flex-row items-center justify-center py-0 pr-5 pl-[21px] box-border w-full text-center text-base">
+        <div className="flex flex-row items-center justify-center py-0 px-10 box-border w-full text-center text-base">
           <div className="w-full max-w-[772.8px] relative leading-[24px] flex items-center shrink-0 z-[1]">
             <span className="w-full">
               <p className="m-0">

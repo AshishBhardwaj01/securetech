@@ -50,8 +50,8 @@ const Venue = ({ className = "" }) => {
   };
 
   return (
-    <section className={`relative top-[1300px] xl:top-[500px]  lg:top-[900px]  left-1/2 transform -translate-x-1/2 w-full flex flex-col items-center justify-start gap-14 text-left text-51xl text-black font-poppins ${className}`}>
-      <div className="w-full flex flex-row items-start justify-center py-0 px-5 box-border">
+    <section className={`relative top-[1300px] xl:top-[500px]  lg:top-[900px]  left-1/2 transform -translate-x-1/2 w-full flex flex-col items-center justify-center gap-14 text-left text-51xl text-black font-poppins ${className}`}>
+      <div className="w-full flex flex-row items-center justify-center py-0 px-5 box-border">
         <h1 className="m-0 max-w-full text-center tracking-[-0.05em] font-semibold font-poppins inline-block shrink-0 text-2.5xl">{`Venues & Spaces`}</h1>
       </div>
       
@@ -65,7 +65,7 @@ const Venue = ({ className = "" }) => {
           {'‹'}
         </div>
       </button>
-      <div className="w-full h-auto flex flex-row items-start justify-start pt-0 pb-8 px-5 box-border">
+      <div className="w-full h-auto flex flex-row items-center justify-center pt-0 pb-8 px-5 box-border">
         <Slider {...settings} className="w-full flex flx-col">
           {slides.map((slide, index) => (
             <div key={index} className="w-full flex flex-col items-center justify-center py-0 px-4 box-border">
