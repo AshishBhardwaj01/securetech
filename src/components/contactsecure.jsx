@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const FrameComponent = ({ className = "" }) => {
   return (
-    <section className={`relative top-[1700.2px] xl:top-[800.2px] lg:top-[00.2px] w-full flex flex-col items-center justify-center gap-10 p-10 box-border text-center text-5xl text-darkslategray-200 font-sans lg:flex-col ${className}`}>
+    <section className={`relative top-[1700.2px] xl:top-[500.2px] lg:top-[700.2px] w-full flex flex-col items-center justify-center gap-10 p-10 box-border text-center text-5xl text-darkslategray-200 font-sans lg:flex-col ${className}`}>
       <div className="flex flex-row items-start justify-start gap-2 py-[10px] lg:flex-col lg:items-center lg:justify-center lg:gap-5">
         <div className="flex flex-col 2xl:mt-[-80px] items-center justify-center 2xl:items-start 2xl:justify-start gap-5 lg:items-center lg:justify-center lg:gap-5">
           <div className="w-60 rounded-2xl bg-whitesmoke flex flex-col items-start justify-start p-5 box-border relative shrink-0">

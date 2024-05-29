@@ -81,7 +81,7 @@ const FrameComponent3 = ({ className = "" }) => {
 
   return (
     <section
-      className={`relative top-[1800px] xl:top-[950px] lg:top-[1600px] w-full p-[10px] py-[10px] flex-col items-center justify-center ${className}`}
+      className={`relative top-[1800px] xl:top-[900px] lg:top-[2000px] w-full p-[10px] py-[10px] flex-col items-center justify-center ${className}`}
     >
       <div className="text-[3vw] md:text-[3vw] lg:text-[2vw] ">
       <h3 className="text-center mb-4 text-2l font-semibold m-0 relative text-inherit tracking-[-0.05em] p-10 font-poppins shrink-0 max-w-full lg:text-lg xl:text-xl">Our Brands</h3>
@@ -89,7 +89,7 @@ const FrameComponent3 = ({ className = "" }) => {
       <div className="w-full ">
         <Slider {...settings}>
           {images.map((src, index) => (
-            <div key={index} className="flex items-center justify-center h-[150px] max-w-full lg:max-w-full">
+            <div key={index} className="flex items-center justify-center h-[150px] max-w-full lg:h-[50px]">
               <ImageItem src={src} pt={paddingTops[index]} />
             </div>
           ))}
