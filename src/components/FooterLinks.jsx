@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const FooterLinks = ({ className = "" }) => {
   return (
     <div className={`w-[1756.6px] flex flex-row items-start justify-center max-w-full text-left text-sm-5 text-white font-sans ${className}`}>
-      <div className="w-[1299.9px] flex flex-col items-start justify-start gap-[32.5px] max-w-full mq925:gap-[16px]">
+      <div className="w-[1299.9px] flex flex-col items-center justify-center gap-[32.5px] max-w-full mq925:gap-[16px]">
         <div className="flex flex-row items-start justify-start gap-[16px]">
           <img className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]" alt="" src="/link.svg" />
           <img className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]" alt="" src="/link-1.svg" />
@@ -12,7 +12,7 @@ const FooterLinks = ({ className = "" }) => {
           <img className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]" alt="" src="/link-3.svg" />
           <img className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]" alt="" src="/link-4.svg" />
         </div>
-        <div className="self-stretch flex flex-row items-start justify-end max-w-full">
+        <div className="self-stretch flex flex-row items-center justify-center max-w-full">
           <div className="flex flex-row flex-wrap items-end justify-start gap-[11.2px] max-w-full">
             <div className="h-[18.9px] box-border flex flex-row items-end justify-start pt-0 pb-[0.5px] pr-2 pl-0 border-r-[1px] border-solid border-white">
               <div className="relative tracking-[-0.56px] leading-[18.9px] font-extralight">
