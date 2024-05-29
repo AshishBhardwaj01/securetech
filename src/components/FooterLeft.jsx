@@ -119,7 +119,7 @@ const FooterLeft = ({ className = "" }) => {
           </div>
         <div className="flex top-0 right-0 flex flex-col items-start justify-start gap-4 text-lg p-5">
           <div className="tracking-tighter leading-snug font-semibold">Sitemap</div>
-          <div className="flex flex-col items-start justify-start gap-2 text-base hover:underline">
+          <div className="flex flex-col items-start justify-start gap-2 text-base hover:no-underline">
             <a
               className="tracking-tight leading-snug font-light text-inherit hover:font-bold cursor-pointer"
               href="https://www.figma.com/design/IApfjMwLHH2HcQEzFuA1Df?node-id=528-2"
@@ -129,22 +129,22 @@ const FooterLeft = ({ className = "" }) => {
             >
               Home
             </a>
-            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:underline cursor-pointer">
+            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               Events Services
             </div>
-            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:underline cursor-pointer">
+            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               About Us
             </div>
-            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:underline cursor-pointer">
+            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               Our Work
             </div>
-            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:underline cursor-pointer">
+            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               Venues
             </div>
-            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:underline cursor-pointer">
+            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               News
             </div>
-            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:underline cursor-pointer">
+            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               Contact
             </div>
           </div>
