@@ -32,9 +32,9 @@ function App() {
        </button>
      </div>
      <div
-       className={`w-full block flex-grow 2xl:flex 2xl:items-center 2xl:w-auto ${isOpen ? "block" : "hidden"}`}
+       className={`w-full block 2xl:flex 2xl:items-center 2xl:w-auto ${isOpen ? "block" : "hidden"}`}
      >
-       <div className="text-sm 2xl:flex-grow">
+       <div className="text-sm ">
          <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            Home
          </a>
