@@ -36,13 +36,4 @@ body {
   text-decoration: underline;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  gap: 16px; /* Adjust the gap between columns as needed */
-}
 
-.column {
-  background-color: #f0f0f0;
-  padding: 16px;
-}

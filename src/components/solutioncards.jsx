@@ -45,11 +45,11 @@ const Component = ({ className = "" }) => {
             />
           </div>
           <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 pr-3 pl-3 box-border gap-8 max-w-[95%]">
-            <h2 className="m-0 relative text-inherit tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
+            <h2 className="m-0 relative text-black tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               Architectural Acoustics
             </h2>
             <div className="self-stretch relative text-1vmax tracking-[-0.05em] inline-block shrink-0 z-1">
-              <ul className="m-0 font-poppins text-inherit pl-[0.5vmax]">
+              <ul className="m-0 list-none font-poppins text-inherit pl-[0.5vmax]">
                 <li className="mb-0">Soundproofing solutions</li>
                 <li className="mb-0">Acoustic design and consulting</li>
                 <li>Noise control and mitigation...</li>
@@ -67,11 +67,11 @@ const Component = ({ className = "" }) => {
             />
           </div>
           <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 pr-3 pl-3 box-border gap-8 max-w-[95%]">
-            <h2 className="m-0 relative text-inherit tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
+            <h2 className="m-0 relative text-black tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               Audio Visual
             </h2>
             <div className="self-stretch relative text-1vmax tracking-[-0.05em] inline-block shrink-0 z-1">
-              <ul className="m-0 font-poppins text-inherit pl-[1.1vmax]">
+              <ul className="m-0 list-none font-poppins text-inherit pl-[1.1vmax]">
                 <li className="mb-0">Soundproofing solutions</li>
                 <li className="mb-0">Acoustic design and consulting</li>
                 <li>Noise control and mitigation...</li>
@@ -89,11 +89,11 @@ const Component = ({ className = "" }) => {
             />
           </div>
           <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 pr-3 pl-3 box-border gap-8 max-w-[95%]">
-            <h2 className="m-0 relative text-inherit tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
+            <h2 className="m-0 relative text-black tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               Information technology
             </h2>
             <div className="self-stretch relative text-1vmax tracking-[-0.05em] inline-block shrink-0 z-1">
-              <ul className="m-0 font-poppins text-inherit pl-[1.1vmax]">
+              <ul className="m-0 list-none font-poppins text-inherit pl-[1.1vmax]">
                 <li className="mb-0">Soundproofing solutions</li>
                 <li className="mb-0">Acoustic design and consulting</li>
                 <li>Noise control and mitigation...</li>
@@ -111,11 +111,11 @@ const Component = ({ className = "" }) => {
             />
           </div>
           <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 pr-3 pl-3 box-border gap-8 max-w-[95%]">
-            <h2 className="m-0 relative text-inherit tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
+            <h2 className="m-0 relative text-black tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               Light Structures
             </h2>
             <div className="self-stretch relative text-1vmax tracking-[-0.05em] inline-block shrink-0 z-1">
-              <ul className="m-0 font-poppins text-inherit pl-[1.1vmax]">
+              <ul className="m-0 list-none font-poppins text-inherit pl-[1.1vmax]">
                 <li className="mb-0">Soundproofing solutions</li>
                 <li className="mb-0">Acoustic design and consulting</li>
                 <li>Noise control and mitigation...</li>
@@ -133,11 +133,11 @@ const Component = ({ className = "" }) => {
             />
           </div>
           <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 py-0 pr-3 pl-3 box-border gap-8 max-w-[95%]">
-            <h2 className="m-0 relative text-inherit tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
+            <h2 className="m-0 relative text-black tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               Project Management
             </h2>
             <div className="self-stretch relative text-1vmax tracking-[-0.05em] inline-block shrink-0 z-1">
-              <ul className="m-0 font-poppins text-inherit pl-[1.1vmax]">
+              <ul className="m-0 list-none font-poppins text-inherit pl-[1.1vmax]">
                 <li className="mb-0">Soundproofing solutions</li>
                 <li className="mb-0">Acoustic design and consulting</li>
                 <li>Noise control and mitigation...</li>
@@ -155,11 +155,11 @@ const Component = ({ className = "" }) => {
             />
           </div>
           <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 pr-3 pl-3 box-border gap-8 max-w-[95%]">
-            <h2 className="m-0 relative text-inherit tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
+            <h2 className="m-0 relative text-black tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               Post Project Services
             </h2>
             <div className="self-stretch relative text-1vmax tracking-[-0.05em] inline-block shrink-0 z-1">
-              <ul className="m-0 font-poppins text-inherit pl-[1.1vmax]">
+              <ul className="m-0 list-none font-poppins text-inherit pl-[1.1vmax]">
                 <li className="mb-0">Soundproofing solutions</li>
                 <li className="mb-0">Acoustic design and consulting</li>
                 <li>Noise control and mitigation...</li>

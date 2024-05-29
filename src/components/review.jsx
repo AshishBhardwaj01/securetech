@@ -168,8 +168,8 @@ const FrameComponent1 = ({ className = "" }) => {
     >
       <div className="w-full max-w-[1552px] flex flex-col py-[20px] items-center justify-center gap-[2vw]">
         {/* Title Section */}
-        <div className="flex flex-col items-center justify-center py-0 px-5 box-border w-full text-center text-deepskyblue text-xl sm:text-lg md:text-24 lg:text-xl-2 xl:text-2xl">
-          <div className="w-full max-w-[452.3px] flex flex-row items-center justify-center py-0 px-5 box-border">
+        <div className="flex flex-col items-center justify-center py-0 px-5 box-border w-full text-center text-black text-xl sm:text-lg md:text-24 lg:text-xl-2 xl:text-2xl">
+          <div className="w-full max-w-[500.3px] flex flex-row items-center justify-center py-0 px-5 box-border">
             <h2 className="m-0 relative text-inherit leading-[26px] capitalize font-bold font-poppins">
               Testimonials
             </h2>

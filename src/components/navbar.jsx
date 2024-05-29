@@ -52,9 +52,9 @@ function App() {
          </a>
        </div>
        <div>
-         <button className="inline-flex items-center bg-amber-500 border-0 py-2 px-4 text-white no-underline hover:underline">
+         {/* <button className="inline-flex items-center bg-amber-500 border-0 py-2 px-4 text-white no-underline hover:underline">
            Sign In
-         </button>
+         </button> */}
        </div>
      </div>
    </nav>
