@@ -129,13 +129,13 @@ const FooterLeft = ({ className = "" }) => {
               Home
             </a>
             <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
-              Events Services
+              AV Solutions
             </div>
             <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               About Us
             </div>
             <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
-              Our Work
+              Our Projects
             </div>
             <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               Venues
