@@ -174,7 +174,7 @@ const FrameComponent1 = ({ className = "" }) => {
               Testimonials
             </h2>
           </div>
-          <h1 className="m-0 text-19xl leading-[45px] font-bold font-roboto text-darkslateblue">
+          <h1 className="m-0 text-19xl leading-[45px] font-bold font-poppins text-darkslateblue">
             Hear From Our Happy Clients
           </h1>
         </div>
