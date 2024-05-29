@@ -49,7 +49,7 @@ const Component = ({ className = "" }) => {
               Architectural Acoustics
             </h2>
             <div className="self-stretch relative text-1vmax tracking-[-0.05em] inline-block shrink-0 z-1">
-              <ul className="m-0 font-poppins text-inherit pl-[1.1vmax]">
+              <ul className="m-0 font-poppins text-inherit pl-[0.5vmax]">
                 <li className="mb-0">Soundproofing solutions</li>
                 <li className="mb-0">Acoustic design and consulting</li>
                 <li>Noise control and mitigation...</li>

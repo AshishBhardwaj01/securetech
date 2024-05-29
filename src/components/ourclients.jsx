@@ -105,7 +105,7 @@ const FrameComponent2 = ({ className = "" }) => {
               "
               loading="lazy"
               alt=""
-              src="/p8-1@2x.png"
+              src="/dslogo.png"
             />
           </div>
           <div className="flex items-center justify-center px-2">
