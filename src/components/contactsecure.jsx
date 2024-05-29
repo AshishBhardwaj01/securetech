@@ -24,7 +24,7 @@ const FrameComponent = ({ className = "" }) => {
           <h1 className="self-stretch text-transparent bg-clip-text bg-gradient-to-r from-[#c83a8c] to-[#3498db] font-bold leading-tight text-2.5xl">
             Contact SecureTech AV now!
           </h1>
-          <div className="flex flex-col items-center justify-center gap-2.5">
+          <div className="flex flex-col items-start justify-center gap-2.5">
             <h2 className="text-black font-medium text-1vh leading-tight text-base">
               <p className="text-base">
                 Transform your space with SecureTech AV's cutting-edge solutions.From audio-visual integration to dynamic lighting and acoustics,</p>
@@ -35,7 +35,7 @@ const FrameComponent = ({ className = "" }) => {
                 Our expert team ensures seamless implementation and ongoing support.
               </p>
             </h2>
-            <button className="cursor-pointer py-2 px-5 mt-5 bg-darkslategray-300 rounded-2xl flex items-center justify-center text-white border-2 border-darkslategray-300 hover:bg-steelblue-300 hover:border-steelblue-300">
+            <button className="cursor-pointer py-2 px-5 mt-5 bg-darkslategray-300 rounded-2xl flex items-start justify-start text-white border-2 border-darkslategray-300 hover:bg-steelblue-300 hover:border-steelblue-300">
               Get in Touch
             </button>
           </div>
