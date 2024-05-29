@@ -3,7 +3,7 @@ import FrameComponent6 from './whysecure1';
 
 const VenueSpacesContainer = ({ className = "" }) => {
   return (
-    <section className={`relative top-[2050px] lg:top-[700px] left-0 px-10 w-[90vw] md:w-[70vmin] flex flex-col items-center justify-start gap-[6vh] max-w-full text-center md:text-left text-[6vw] md:text-[15vmax] text-black font-poppins ${className}`}>
+    <section className={`relative top-[1500px] xl:top-[700px] lg:hidden lg:top-[1100px] left-0 px-10 w-[90vw] md:w-[70vmin] flex flex-col items-center justify-start gap-[6vh] max-w-full text-center md:text-left text-[6vw] md:text-[15vmax] text-black font-poppins ${className}`}>
 
       <div className="self-stretch flex flex-row items-start justify-start py-0 pr-0 pl-0.5 box-border max-w-full text-center">
         <div className="flex-1 flex flex-col items-start justify-start gap-[105px] lg:gap-[10px] max-w-full">

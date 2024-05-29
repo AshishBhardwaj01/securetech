@@ -31,7 +31,7 @@ const SecuretechavHomepage = () => {
       <FrameComponent1 />
       <FrameComponent2 />
       <FrameComponent3 />
-        <footer className="absolute top-[6942px] left-[0px] bg-gray-300 w-full flex flex-col items-end justify-start pt-9 pb-[23.4px] pr-[81px] pl-[71px] box-border gap-[3.2px] max-w-full mq1350:pl-[35px] mq1350:pr-10 mq1350:box-border">
+        <footer className="absolute top-[6942px] xl:relative xl:top-[1142px] left-[0px] bg-gray-300 w-full flex flex-col items-end justify-start pt-9 pb-[23.4px] pr-[81px] pl-[71px] box-border gap-[3.2px] max-w-full mq1350:pl-[35px] mq1350:pr-10 mq1350:box-border">
           <FooterLeft />
           <FooterLinks />
         </footer>

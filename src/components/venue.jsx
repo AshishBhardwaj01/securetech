@@ -43,7 +43,7 @@ const Venue = ({ className = "" }) => {
   ];
 
   return (
-    <section className={`relative top-[1900px]  lg:top-[500px] left-1/2 transform -translate-x-1/2 w-full flex flex-col items-center justify-start gap-14 text-left text-51xl text-black font-poppins ${className}`}>
+    <section className={`relative top-[1300px] xl:top-[600px]  lg:top-[900px]  left-1/2 transform -translate-x-1/2 w-full flex flex-col items-center justify-start gap-14 text-left text-51xl text-black font-poppins ${className}`}>
       <div className="w-full flex flex-row items-start justify-center py-0 px-5 box-border">
         <h1 className="m-0 max-w-full text-center tracking-[-0.05em] font-semibold font-poppins inline-block shrink-0 text-32xl-2 sm:text-lg md:text-24 lg:text-3xl xl:text-3xl">{`Venues & Spaces`}</h1>
       </div>

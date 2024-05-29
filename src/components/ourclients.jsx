@@ -33,6 +33,7 @@ const FrameComponent2 = ({ className = "" }) => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          
         },
       },
     ],
@@ -40,10 +41,10 @@ const FrameComponent2 = ({ className = "" }) => {
 
   return (
     <section
-      className={`absolute top-[5950px] lg:top-[6200px] left-[0px] w-full flex flex-col items-center justify-start lg:justify-center py-0 px-[20px] box-border gap-[34px] max-w-full text-center text-51xl text-black font-poppins ${className}`}
+      className={`relative top-[1700px] xl:top-[900px] lg:top-[1500px] w-full flex-col items-center justify-start lg:justify-center py-0 px-[20px] box-border gap-[100px] max-w-full text-center text-51xl text-black font-poppins ${className}`}
     >
-      <div className="w-full justify-center py-0 px-5 max-w-full">
-        <h1 className="m-0 relative text-inherit tracking-[-0.05em] font-semibold font-poppins inline-block shrink-0 max-w-full mq450:text-23xl mq925:text-37xl">{`Our Clients`}</h1>
+      <div className="w-full justify-center items-center py-0 px-5 max-w-full md:text-left text-[3vw] xl:text-[2vw] lg:text-[2vw]">
+        <h1 className="text-center mb-4 text-2l font-semibold m-0 relative text-inherit tracking-[-0.05em] p-10 font-poppins shrink-0 max-w-full mq450:text-xl mq925:text-xl">{`Our Clients`}</h1>
       </div>
 
       <div className="w-full">
@@ -56,7 +57,8 @@ const FrameComponent2 = ({ className = "" }) => {
               src="/p2-1@2x.png"
             />
           </div>
-          <div className="flex items-center justify-center lg:object-fit px-2">
+          <div className="flex items-center justify-center lg:object-contain
+           px-2">
             <img
               className="h-[215px] max-w-full lg:max-w-full"
               loading="lazy"
@@ -64,7 +66,8 @@ const FrameComponent2 = ({ className = "" }) => {
               src="/p1-1@2x.png"
             />
           </div>
-          <div className="flex items-center justify-center lg:object-fit px-2">
+          <div className="flex items-center justify-center lg:object-contain
+           px-2">
             <img
               className="h-[215px] max-w-full lg:object-fit"
               loading="lazy"
@@ -72,7 +75,8 @@ const FrameComponent2 = ({ className = "" }) => {
               src="/p17-1@2x.png"
             />
           </div>
-          <div className="flex items-center justify-center lg:object-fit px-2">
+          <div className="flex items-center justify-center lg:object-contain
+           px-2">
             <img
               className="h-[215px] max-w-full lg:object-fit"
               loading="lazy"
@@ -82,7 +86,8 @@ const FrameComponent2 = ({ className = "" }) => {
           </div>
           <div className="flex items-center justify-center lg:object-fit px-2">
             <img
-              className="h-[215px] max-w-full lg:object-fit"
+              className="h-[215px] max-w-full lg:object-contain
+              "
               loading="lazy"
               alt=""
               src="/p12-1@2x.png"
@@ -90,7 +95,8 @@ const FrameComponent2 = ({ className = "" }) => {
           </div>
           <div className="flex items-center justify-center px-2">
             <img
-              className="h-[215px] max-w-full lg:object-fit"
+              className="h-[215px] max-w-full lg:object-contain
+              "
               loading="lazy"
               alt=""
               src="/p10-1@2x.png"
@@ -98,7 +104,8 @@ const FrameComponent2 = ({ className = "" }) => {
           </div>
           <div className="flex items-center justify-center px-2">
             <img
-              className="h-[215px] max-w-full lg:object-fit"
+              className="h-[215px] max-w-full lg:object-contain
+              "
               loading="lazy"
               alt=""
               src="/p8-1@2x.png"
@@ -106,7 +113,8 @@ const FrameComponent2 = ({ className = "" }) => {
           </div>
           <div className="flex items-center justify-center px-2">
             <img
-              className="h-[215px] max-w-full lg:object-fit"
+              className="h-[215px] max-w-full lg:object-contain
+              "
               loading="lazy"
               alt=""
               src="/c1-1@2x.png"

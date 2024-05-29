@@ -32,8 +32,8 @@ const Component = ({ className = "" }) => {
   };
 
   return (
-    <div className={`relative top-[1650px] lg:top-[300px] left-0 w-full max-w-full ${className}`}>
-      <h2 className="text-center text-black font-poppins text-3xl mb-8">Solutions and Services</h2>
+    <div className={`relative top-[1200px] lg:top-[100px] xl:top-[500px] left-0 w-full max-w-full ${className}`}>
+      <h2 className="text-center text-black font-poppins font-semibold mb-8 text-32xl-2 sm:text-lg md:text-24 lg:text-3xl xl:text-3xl">Solutions and Services</h2>
       <Slider {...settings} className="flex items-center justify-center gap-8 px-4 sm:px-1">
         <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4 overflow-hidden">
           <div className="max-w-full sm:max-w-[70%] mx-auto relative">

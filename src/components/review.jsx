@@ -7,8 +7,8 @@ const FrameComponent1 = ({ className = "" }) => {
   const testimonials = [
     {
       content: (
-        <div className="flex shadow-md rounded-lg bg-white max-w-full h-auto box-border flex flex-col items-start justify-start p-6 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
-          <div className="flex flex-col items-start justify-start gap-4">
+        <div className="flex shadow-md rounded-lg bg-white max-w-full h-auto box-border flex flex-col items-center justify-center p-6 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
+          <div className="flex flex-col items-center justify-center gap-4">
             <div className="text-left">
               <i className="leading-6 block">
                 There's always a degree of anxiety when you hire labor
@@ -25,7 +25,7 @@ const FrameComponent1 = ({ className = "" }) => {
                 <p className="m-0">back with us to New York!</p>
               </i>
             </div>
-            <div className="w-28 flex flex-col items-start gap-1.5">
+            <div className="w-28 flex flex-col items-center gap-1.5">
               <img
                 className="h-5 w-full object-cover"
                 alt="Google Review"
@@ -39,13 +39,13 @@ const FrameComponent1 = ({ className = "" }) => {
                 <img className="h-3.5 w-4" alt="Star" src="/svg.svg" />
               </div>
             </div>
-            <div className="flex flex-row items-start gap-4 text-xl">
+            <div className="flex flex-row items-center gap-4 text-xl">
               <img
                 className="h-14 w-14 rounded-full object-cover"
                 alt="Alex Claas"
                 src="/1655045839750150x150jpeg@2x.png"
               />
-              <div className="flex flex-col items-start justify-start">
+              <div className="flex flex-col items-center justify-center">
                 <b className="leading-6 block min-w-[95.2px] mq450:text-base mq450:leading-5">
                   Alex Claas
                 </b>
@@ -57,8 +57,8 @@ const FrameComponent1 = ({ className = "" }) => {
     },
     {
       content: (
-        <div className="flex-1 shadow-md rounded-lg bg-white box-border flex flex-col items-start justify-start p-6 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
-          <div className="flex flex-col items-start justify-start gap-4">
+        <div className="flex-1 shadow-md rounded-lg bg-white box-border flex flex-col items-center justify-center p-6 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
+          <div className="flex flex-col items-center justify-center gap-4">
             <div className="text-left">
               <i className="leading-6 block">
                 Audio Visual Nation has been a partner with my AV
@@ -77,7 +77,7 @@ const FrameComponent1 = ({ className = "" }) => {
                 <p className="m-0">have put together.</p>
               </i>
             </div>
-            <div className="w-28 flex flex-col items-start gap-1.5">
+            <div className="w-28 flex flex-col items-center gap-1.5">
               <img
                 className="h-5 w-full object-cover"
                 alt="Google Review"
@@ -91,13 +91,13 @@ const FrameComponent1 = ({ className = "" }) => {
                 <img className="h-3.5 w-4" alt="Star" src="/svg.svg" />
               </div>
             </div>
-            <div className="flex flex-row items-start gap-4 text-xl">
+            <div className="flex flex-row items-center gap-4 text-xl">
               <img
                 className="h-14 w-14 rounded-full object-cover"
                 alt="Abe Gloria"
                 src="/abegloriapng@2x.png"
               />
-              <div className="flex flex-col items-start justify-start">
+              <div className="flex flex-col items-center justify-center">
                 <b className="leading-6 block min-w-[95px] mq450:text-base mq450:leading-5">
                   Abe Gloria
                 </b>
@@ -109,8 +109,8 @@ const FrameComponent1 = ({ className = "" }) => {
     },
     {
       content: (
-        <div className="flex-1 shadow-md rounded-lg bg-white box-border flex flex-col items-start justify-start p-6 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
-          <div className="flex flex-col items-start justify-start gap-4">
+        <div className="flex-1 shadow-md rounded-lg bg-white box-border flex flex-col items-center justify-center p-6 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
+          <div className="flex flex-col items-center justify-center gap-4">
             <div className="text-left">
               <i className="leading-6 block">
                 Great company, great communication, fast response
@@ -121,7 +121,7 @@ const FrameComponent1 = ({ className = "" }) => {
                 <p className="m-0">hours before they were scheduled. Will definitely hire</p>
               </i>
             </div>
-            <div className="w-28 flex flex-col items-start gap-1.5">
+            <div className="w-28 flex flex-col items-center gap-1.5">
               <img
                 className="h-5 w-full object-cover"
                 alt="Google Review"
@@ -135,13 +135,13 @@ const FrameComponent1 = ({ className = "" }) => {
                 <img className="h-3.5 w-4" alt="Star" src="/svg.svg" />
               </div>
             </div>
-            <div className="flex flex-row items-start gap-4 text-xl">
+            <div className="flex flex-row items-center gap-4 text-xl">
               <img
                 className="h-14 w-14 rounded-full object-cover"
                 alt="Abe Gloria"
                 src="/abegloriapng@2x.png"
               />
-              <div className="flex flex-col items-start justify-start">
+              <div className="flex flex-col items-center justify-center">
                 <b className="leading-6 block min-w-[95px] mq450:text-base mq450:leading-5">
                   Abe Gloria
                 </b>
@@ -164,68 +164,70 @@ const FrameComponent1 = ({ className = "" }) => {
 
   return (
     <section
-      className={`absolute top-[4774px] left-0 w-[1610px] flex flex-col items-center justify-center gap-[24.3px] max-w-full text-center text-base text-gray-300 font-poppins ${className}`}
+      className={`relative top-[1600.2px] xl:top-[900.2px] lg:top-[100.2px] items-center justify-center w-full h-screen p-10 lg:p-1 text-center text-base text-gray-300 font-poppins ${className}`}
     >
-      {/* Title Section */}
-      <div className="flex flex-col items-center justify-center py-0 px-5 box-border max-w-full text-center text-deepskyblue text-xl sm:text-lg md:text-24 lg:text-xl-2 xl:text-2xl">
-  <div className="w-full max-w-[1552px] flex flex-col items-center justify-center gap-9.5px">
-    <div className="w-full max-w-[452.3px] flex flex-row items-center justify-center py-0 px-5 box-border">
-      <h2 className="m-0 relative text-inherit leading-[26px] capitalize font-bold font-poppins">
-        Testimonials
-      </h2>
-    </div>
-    <h1 className="m-0 text-19xl leading-[45px] font-bold font-roboto text-darkslateblue">
-      Hear From Our Happy Clients
-    </h1>
-  </div>
-</div>
-
-{/* Intro Text */}
-<div className="flex flex-row items-start justify-center py-0 pr-5 pl-[21px] box-border max-w-full text-center text-xl sm:text-lg md:text-24 lg:text-xl-2 xl:text-2xl">
-  <div className="w-full max-w-[772.8px] relative leading-[24px] flex items-center shrink-0 max-w-full z-[1]">
-    <span className="w-full">
-      <p className="m-0">
-        Don't just take our word for it. See how working with AVN has helped our clients execute unforgettable events
-      </p>
-      <p className="m-0">across the nation.</p>
-    </span>
-  </div>
-</div>
-
-
-      {/* Testimonials Section */}
-      <div className="self-stretch flex flex-row items-start justify-start gap-[10px] sm:gap-[2px] max-w-full text-center font-roboto mq450:flex-row mq450:items-center">
-      {/* Left Navigation Button */}
-      <div className="flex flex-col items-start justify-start h-full">
-        <button
-          className="cursor-pointer pt-2 pb-[13px] pr-4 pl-[17px] bg-transparent rounded-3xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-deepskyblue hover:bg-steelblue-500 hover:box-border hover:border-steelblue-200"
-          onClick={handlePrevClick}
-        >
-          <div className="text-21xl font-roboto text-deepskyblue text-center flex items-center justify-center mq450:text-5xl mq925:text-13xl">
-            ‹
+      <div className="w-full max-w-[1552px] flex flex-col items-center justify-center gap-[2vw]">
+        {/* Title Section */}
+        <div className="flex flex-col items-center justify-center py-0 px-5 box-border w-full text-center text-deepskyblue text-xl sm:text-lg md:text-24 lg:text-xl-2 xl:text-2xl">
+          <div className="w-full max-w-[452.3px] flex flex-row items-center justify-center py-0 px-5 box-border">
+            <h2 className="m-0 relative text-inherit leading-[26px] capitalize font-bold font-poppins">
+              Testimonials
+            </h2>
           </div>
-        </button>
-      </div>
-
-      {/* Testimonial Cards */}
-      <div className="flex overflow-hidden items-center justify-center flex-grow py-3 px-3 box-border gap-[42px] sm:gap-[2px] min-w-[936px] max-w-full z-[1] mq1350:flex-wrap mq1350:min-w-full">
-        {testimonials[currentIndex].content}
-      </div>
-
-      {/* Right Navigation Button */}
-      <div className="flex flex-col items-end justify-end h-full">
-        <button
-          className="cursor-pointer pt-2 pb-[13px] pr-4 pl-[17px] bg-transparent rounded-3xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-deepskyblue hover:bg-steelblue-500 hover:box-border hover:border-steelblue-200"
-          onClick={handleNextClick}
-        >
-          <div className="text-21xl font-roboto text-deepskyblue text-center flex items-center justify-center mq450:text-5xl mq925:text-13xl">
-            ›
+          <h1 className="m-0 text-19xl leading-[45px] font-bold font-roboto text-darkslateblue">
+            Hear From Our Happy Clients
+          </h1>
+        </div>
+  
+        {/* Intro Text */}
+        <div className="flex flex-row items-center justify-center py-0 pr-5 pl-[21px] box-border w-full text-center text-xl sm:text-lg md:text-24 lg:text-xl-2 xl:text-2xl">
+          <div className="w-full max-w-[772.8px] relative leading-[24px] flex items-center shrink-0 z-[1]">
+            <span className="w-full">
+              <p className="m-0">
+                Don't just take our word for it. See how working with AVN has helped our clients execute unforgettable events
+              </p>
+              <p className="m-0">across the nation.</p>
+            </span>
           </div>
-        </button>
+        </div>
+  
+        {/* Testimonials Section */}
+        <div className="w-full flex flex-row items-center justify-center gap-[10px] lg:gap-[2px] text-center font-roboto ">
+          {/* Left Navigation Button */}
+          <div className="flex flex-col items-center justify-center h-full">
+            <button
+              className="cursor-pointer pt-2 pb-[13px] px-4 bg-transparent rounded-3xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-deepskyblue hover:bg-steelblue-500 hover:box-border hover:border-steelblue-200"
+              onClick={handlePrevClick}
+            >
+              <div className="text-21xl font-roboto text-deepskyblue text-center flex items-center justify-center mq450:text-5xl mq925:text-13xl">
+                ‹
+              </div>
+            </button>
+          </div>
+  
+          {/* Testimonial Cards */}
+          <div className="flex overflow-hidden items-center justify-center py-3 px-3 box-border gap-[10px] lg:gap-[2px] min-w-[200px] max-w-full z-[1] mq1350:flex-wrap mq1350:min-w-full">
+            {testimonials[currentIndex].content}
+          </div>
+  
+          {/* Right Navigation Button */}
+          <div className="flex flex-col items-center justify-center h-full">
+            <button
+              className="cursor-pointer pt-2 pb-[13px] pr-4 pl-[17px] bg-transparent rounded-3xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-deepskyblue hover:bg-steelblue-500 hover:box-border hover:border-steelblue-200"
+              onClick={handleNextClick}
+            >
+              <div className="text-21xl font-roboto text-deepskyblue text-center flex items-center justify-center mq450:text-5xl mq925:text-13xl">
+                ›
+              </div>
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
-        </section>
-      );
+    </section>
+  );
+  
+  
+  
     };
     
     FrameComponent1.propTypes = {

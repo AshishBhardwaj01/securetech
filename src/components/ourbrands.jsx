@@ -81,13 +81,15 @@ const FrameComponent3 = ({ className = "" }) => {
 
   return (
     <section
-      className={`absolute top-[6550px] lg:top-[6650px] left-[0px] w-full flex flex-col items-center justify-center ${className}`}
+      className={`relative top-[1800px] xl:top-[950px] lg:top-[1600px] w-full p-[10px] flex-col items-center justify-center ${className}`}
     >
-      <h3 className="text-center mb-4 text-2l font-semibold m-0 relative text-inherit tracking-[-0.05em] font-poppins inline-block shrink-0 max-w-full mq450:text-23xl mq925:text-37xl">Our Brand</h3>
+      <div className="text-[3vw] md:text-[2vw] lg:text-[1vw]">
+      <h3 className="text-center mb-4 text-2l font-semibold m-0 relative text-inherit tracking-[-0.05em] p-10 font-poppins shrink-0 max-w-full mq450:text-23xl mq925:text-37xl">Our Brand</h3>
+      </div>
       <div className="w-full">
         <Slider {...settings}>
           {images.map((src, index) => (
-            <div key={index} className="flex items-center justify-center p-2">
+            <div key={index} className="flex items-center justify-center ">
               <ImageItem src={src} pt={paddingTops[index]} />
             </div>
           ))}
