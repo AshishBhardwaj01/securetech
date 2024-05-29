@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  "/senheigerlogo.png",
+  "/senheiserlogo.png",
   "/britishacousticscommerciallogo2019copy300webp@2x.png",
   "/qnclogo.png",
   "/christielogo.png",
@@ -49,7 +49,6 @@ const FrameComponent3 = ({ className = "" }) => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
     slidesToShow: 5, // Adjust the number of slides to show
     slidesToScroll: 1,
     autoplay: true,

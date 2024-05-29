@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 const Venue = ({ className = "" }) => {
   const settings = {
     infinite: true,
+    dots:false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,

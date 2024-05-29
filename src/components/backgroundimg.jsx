@@ -16,7 +16,7 @@ const MySection = ({ className = "" }) => {
           </span>
         </h1>
       </div>
-      <button className="cursor-pointer 2xl:top-[100px] border-none pt-[1vw] px-[1.5vw] pb-[1vw] bg-darkslateblue w-[18vw] justify-between rounded-tl-[1vw] rounded-br-[1vw] overflow-hidden flex items-start justify-center box-border gap-[2.5vw] whitespace-nowrap z-[50] hover:bg-steelblue-400">
+      <button className="cursor-pointer 2xl:top-[100em] border-none pt-[1vw] px-[1.5vw] pb-[1vw] bg-darkslateblue w-[18vw] justify-between rounded-tl-[1vw] rounded-br-[1vw] overflow-hidden flex items-start justify-center box-border gap-[2.5vw] whitespace-nowrap z-[50] hover:bg-steelblue-400">
         <div className="w-[1.5vw] relative text-[1.5vw] leading-[2vw] font-poppins text-white text-center flex shrink-0">
           Learn more
         </div>
