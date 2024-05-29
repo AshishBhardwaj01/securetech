@@ -78,7 +78,7 @@ const FooterLeft = ({ className = "" }) => {
 
   return (
     <div
-      className={`self-stretch flex flex-col-3 2xl:grid 2xl:grid-cols-3 2xl:gap-50 lg:flex-row items-center justify-center px-10 gap-20 h-auto w-full lg:flex-wrap text-center text-11xl text-white font-sans ${className}`}
+      className={`self-stretch flex flex-col-3 2xl:grid 2xl:grid-cols-3 2xl:gap-50 lg:flex-row items-center justify-center px-10 gap-20 lg:gap-9 h-auto w-full lg:flex-wrap text-center text-11xl text-white font-sans ${className}`}
       style={{ minHeight: '543.9px' }}
     >
       <div className="flex flex-col items-start space-y-4">
@@ -113,11 +113,11 @@ const FooterLeft = ({ className = "" }) => {
                 className="rounded"
               ></iframe>
             </div>
-            <p className="text-gray-400">
+            <p className="text-white">
               Visit us at our office for more information.
             </p>
           </div>
-        <div className="flex top-0 right-0 flex flex-col items-start justify-start gap-4 text-lg p-5">
+        <div className="flex top-0 right-0 flex flex-col items-start justify-start gap-4 py-5text-lg p-5">
           <div className="tracking-tighter leading-snug font-semibold">Sitemap</div>
           <div className="flex flex-col items-start justify-start gap-2 text-base hover:no-underline">
             <a
@@ -142,10 +142,7 @@ const FooterLeft = ({ className = "" }) => {
               Venues
             </div>
             <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
-              News
-            </div>
-            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
-              Contact
+              Contact Us
             </div>
           </div>
         </div>
