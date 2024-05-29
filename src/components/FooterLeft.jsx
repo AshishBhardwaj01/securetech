@@ -104,14 +104,13 @@ const FooterLeft = ({ className = "" }) => {
           </div>
           <div className="flex flex-col lg:py-2 space-y-4">
             <div className="w-full h-auto gap-5">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093714!2d144.9537353153167!3d-37.81720997975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5775f3e21670d0d!2sGoogle!5e0!3m2!1sen!2sus!4v1611112651997!5m2!1sen!2sus" 
-                width="100%" 
-                height="100%" 
-                allowFullScreen="" 
-                loading="lazy"
-                className="rounded"
-              ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6174.160431626374!2d77.3509790616948!3d28.588703179313608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce51b9a3bb81f%3A0x806219bd741a009f!2sSECURETECH%20AV%20DESIGNS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1716970778201!5m2!1sen!2sin" 
+            width="100%" 
+            height="100%"
+              allowfullscreen=""
+               loading="lazy"
+               className="rounded" >
+               </iframe>
             </div>
             <p className="text-white">
               Visit us at our office for more information.
