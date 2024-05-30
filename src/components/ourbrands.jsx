@@ -80,7 +80,7 @@ const FrameComponent3 = ({ className = "" }) => {
 
   return (
     <section
-      className={`relative top-[31vw] 3xl:top-[70rem] xl:top-[23vw] lg:top-[2000px] w-full pl-[10px] py-[10px] flex-col items-center justify-center ${className}`}
+      className={`relative top-[43vw] xl:top-[950px] lg:top-[2000px] w-full pl-[10px] py-[10px] flex-col items-center justify-center ${className}`}
     >
       <div className="m-0 text-2.5xl">
       <h1 className="text-center mb-4 relative text-inherit font-semibold tracking-[-0.05em] p-10 py-[10px] font-poppins shrink-0 max-w-full ">Our Brands</h1>

@@ -7,7 +7,7 @@ const FrameComponent1 = ({ className = "" }) => {
   const testimonials = [
     {
       content: (
-        <div className="flex shadow-md rounded-lg bg-whiteh-auto box-borderflex-col items-center justify-center p-6 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
+        <div className="flex shadow-md rounded-lg bg-whiteh-auto box-borderflex-col items-center justify-center p-6 2xl:py-20 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
           <div className="flex flex-col items-start justify-start gap-4">
             <div className="text-left">
               <i className="leading-6 block">
@@ -57,7 +57,7 @@ const FrameComponent1 = ({ className = "" }) => {
     },
     {
       content: (
-        <div className="flex-1 shadow-md rounded-lg bg-white box-border flex flex-col items-center justify-center p-6 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
+        <div className="flex-1 shadow-md rounded-lg bg-white box-border flex flex-col items-center justify-center p-6 2xl:py-20 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
           <div className="flex flex-col items-center justify-center gap-4">
             <div className="text-left">
               <i className="leading-6 block">
@@ -109,7 +109,7 @@ const FrameComponent1 = ({ className = "" }) => {
     },
     {
       content: (
-        <div className="flex-1 shadow-md rounded-lg bg-white box-border flex flex-col items-center justify-center p-6 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
+        <div className="flex-1 shadow-md rounded-lg bg-white box-border flex flex-col items-center justify-center p-6 2xl:py-20 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
           <div className="flex flex-col items-center justify-center gap-4">
             <div className="text-left">
               <i className="leading-6 block">
