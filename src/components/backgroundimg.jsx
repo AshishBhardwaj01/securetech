@@ -24,7 +24,7 @@ const MySection = ({ className = "" }) => {
           className="w-full h-full object-cover"
         />
       </div>
-      <button className="absolute bottom-0 right-0 mb-[2vw] mr-[2vw] cursor-pointer border-none py-[0.5vw] px-[1vw] bg-darkslateblue w-[12vw] justify-between rounded-tl-[1vw] rounded-br-[1vw] overflow-hidden flex items-center gap-[2.5vw] whitespace-nowrap z-[50] hover:bg-steelblue-400">
+      <button className="absolute bottom-0 right-0 mb-[2vw] mr-[2vw] cursor-pointer border-none py-[vw] px-[1vw] bg-darkslateblue w-[12vw] justify-between rounded-tl-[1vw] rounded-br-[1vw] overflow-hidden flex items-center gap-[2.5vw] whitespace-nowrap z-[50] hover:bg-steelblue-400">
         <div className="text-[1.2vw] leading-[2vw] font-poppins text-white text-center flex-shrink-0">
           Learn more
         </div>

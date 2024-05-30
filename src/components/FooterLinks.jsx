@@ -39,7 +39,7 @@ const FooterLinks = ({ className = "" }) => {
             </span>
           </address>
         </div>
-        <div className="flex top-0 left-0 flex flex-col items-start justify-start gap-4 py-5 text-lg p-5">
+        <div className="flex top-0 left-0 flex-col items-start justify-start gap-4 py-5 text-lg p-5">
           <div className="tracking-tighter leading-snug font-semibold">Sitemap</div>
           <div className="flex flex-col items-start justify-start gap-2 text-base hover:no-underline">
             <a
