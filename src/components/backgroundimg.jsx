@@ -4,7 +4,7 @@ import image4 from '/image4@2x.png'; // Adjust the path as necessary
 
 const MySection = ({ className = "" }) => {
   return (
-    <div className={`relative w-full h-screen flex items-start justify-center ${className}`}>
+    <div className={`relative max-w-full h-screen flex items-start justify-center ${className}`}>
       
       <div className="self-stretch flex flex-row items-center justify-center py-0 pr-[1vw] pl-[1vw] box-border max-w-full">
         <h1 className="m-0 h-[30vw] w-[50vw] text-inherit font-semibold font-poppins flex items-start shrink-0 max-w-full z-[1] mq450:text-[5vw] mq925:text-[7vw]">
@@ -24,12 +24,12 @@ const MySection = ({ className = "" }) => {
           className="w-full h-full object-cover"
         />
       </div>
-      <button className="absolute bottom-0 right-0 mb-[4vw] mr-[4vw] cursor-pointer border-none pt-[1vw] px-[1.5vw] pb-[1vw] bg-darkslateblue w-[18vw] justify-between rounded-tl-[1vw] rounded-br-[1vw] overflow-hidden flex items-center gap-[2.5vw] whitespace-nowrap z-[50] hover:bg-steelblue-400">
-        <div className="text-[1.5vw] leading-[2vw] font-poppins text-white text-center flex-shrink-0">
+      <button className="absolute bottom-0 right-0 mb-[2vw] mr-[2vw] cursor-pointer border-none py-[0.5vw] px-[1vw] bg-darkslateblue w-[12vw] justify-between rounded-tl-[1vw] rounded-br-[1vw] overflow-hidden flex items-center gap-[2.5vw] whitespace-nowrap z-[50] hover:bg-steelblue-400">
+        <div className="text-[1.2vw] leading-[2vw] font-poppins text-white text-center flex-shrink-0">
           Learn more
         </div>
         <img
-          className="h-[1.5vw] w-[1.5vw]"
+          className="h-[1.2vw] w-[1.2vw]"
           alt=""
           src="/figure.svg"
         />
