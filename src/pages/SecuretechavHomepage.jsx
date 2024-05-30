@@ -14,7 +14,7 @@ import App from '../components/navbar.jsx';
 const SecuretechavHomepage = () => {
   return (
     <div className="w-full [background:linear-gradient(#fff,_#fff),_#fff] overflow-hidden flex flex-row items-start justify-start leading-[normal] tracking-[normal] mq925:gap-[353px] mq1350:gap-[706px]">
-      <main className="2xl:h-[430em] xl:h-[6930px] mq1550:h-auto flex-1 relative bg-white max-w-full text-center text-51xl text-black font-poppins mq925:h-auto ">
+      <main className="2xl:h-[450em] xl:h-[6530px] flex-1 relative bg-white max-w-full text-center text-51xl text-black font-poppins mq925:h-auto ">
         <App />
         <MySection />
         <Component  />
@@ -23,11 +23,15 @@ const SecuretechavHomepage = () => {
         <FrameComponent  />
         <FrameComponent1  />
        
-       <FrameComponent2 />
-        <FrameComponent3 /> 
+        <div className="flex-1 flex flex-col">
+        <div className="flex flex-row flex-wrap justify-center items-start space-x-4 p-4">
+          <FrameComponent2 />
+          <FrameComponent3 />
+        </div>
         <footer className=" absolute bottom-0 bg-gray-300 max-w-full flex flex-col items-center justify-center box-border gap-[3.2px]">
           <FooterLinks />
         </footer>
+        </div>
       </main>
     </div>
   );
