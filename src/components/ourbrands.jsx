@@ -80,10 +80,10 @@ const FrameComponent3 = ({ className = "" }) => {
 
   return (
     <section
-      className={`relative top-[1800px] xl:top-[900px] lg:top-[2000px] w-full p-[10px] py-[10px] flex-col items-center justify-center ${className}`}
+      className={`relative top-[40rem] xl:top-[23vw] lg:top-[2000px] w-full pl-[10px] py-[10px] flex-col items-center justify-center ${className}`}
     >
       <div className="m-0 text-2.5xl">
-      <h1 className="text-center mb-4 relative text-inherit font-semibold tracking-[-0.05em] p-10 font-poppins shrink-0 max-w-full ">Our Brands</h1>
+      <h1 className="text-center mb-4 relative text-inherit font-semibold tracking-[-0.05em] p-10 py-[10px] font-poppins shrink-0 max-w-full ">Our Brands</h1>
       </div>
       <div className="w-full ">
         <Slider {...settings}>

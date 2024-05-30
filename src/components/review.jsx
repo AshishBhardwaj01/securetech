@@ -7,8 +7,8 @@ const FrameComponent1 = ({ className = "" }) => {
   const testimonials = [
     {
       content: (
-        <div className="flex shadow-md rounded-lg bg-white max-w-full h-auto box-border flex flex-col items-center justify-center p-6 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
-          <div className="flex flex-col items-center justify-center gap-4">
+        <div className="flex shadow-md rounded-lg bg-whiteh-auto box-borderflex-col items-center justify-center p-6 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
+          <div className="flex flex-col items-start justify-start gap-4">
             <div className="text-left">
               <i className="leading-6 block">
                 There's always a degree of anxiety when you hire labor
@@ -27,7 +27,7 @@ const FrameComponent1 = ({ className = "" }) => {
             </div>
             <div className="w-28 flex flex-col items-center gap-1.5">
               <img
-                className="h-5 w-full object-cover"
+                className="h-5 pt-10 w-full object-cover"
                 alt="Google Review"
                 src="/google-reviewpng@2x.png"
               />
@@ -164,12 +164,12 @@ const FrameComponent1 = ({ className = "" }) => {
 
   return (
     <section
-      className={`relative top-[1800.2px] xl:top-[650.2px] lg:top-[100.2px] items-center justify-center w-full h-screen p-10  lg:p-1 text-center text-base text-gray-300 font-poppins ${className}`}
+      className={`relative top-[41vw] xl:top-[650.2px] lg:top-[100.2px] items-center justify-center w-full h-screen p-10  lg:p-1 text-center text-base text-gray-300 font-poppins ${className}`}
     >
-      <div className="max-w-[full flex flex-col py-[20px] items-center justify-center gap-[2vw]">
+      <div className="max-w-full flex flex-col py-[20px] items-center justify-center gap-[2vw]">
         {/* Title Section */}
-        <div className="flex flex-col items-center justify-center py-0 px-5 box-border w-full text-center text-black">
-            <h1 className="m-0 text-2.5xl leading-[100px] font-semibold font-poppins text-black">
+        <div className="flex flex-col items-center justify-center py-0 px-2 box-border w-full text-center text-black">
+            <h1 className="text-2.5xl leading-[40px] font-semibold font-poppins text-black">
               Testimonials
             </h1>
           <h1 className="m-0 text-lg leading-[10px] font-bold font-poppins text-darkslateblue">
@@ -182,9 +182,9 @@ const FrameComponent1 = ({ className = "" }) => {
           <div className="w-full max-w-[772.8px] relative leading-[24px] flex items-center shrink-0 z-[1]">
             <span className="w-full">
               <p className="m-0">
-                Don't just take our word for it. See how working with AVN has helped our clients execute unforgettable events
+                Don't just take our word for it. See how working with AVN has helped our clients execute unforgettable events across the nation.
               </p>
-              <p className="m-0">across the nation.</p>
+              
             </span>
           </div>
         </div>
@@ -194,7 +194,7 @@ const FrameComponent1 = ({ className = "" }) => {
           {/* Left Navigation Button */}
           <div className="flex flex-col items-center justify-center h-full">
             <button
-              className="cursor-pointer pt-2 pb-[13px] px-4 bg-transparent rounded-3xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-deepskyblue hover:bg-steelblue-500 hover:box-border hover:border-steelblue-200"
+              className="cursor-pointer pt-2 pb-[13px] px-4 bg-transparent rounded-3xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-deepskyblue hover:bg-darkslateblue hover:border-white"
               onClick={handlePrevClick}
             >
               <div className="text-21xl font-roboto text-deepskyblue text-center flex items-center justify-center mq450:text-5xl mq925:text-13xl">
@@ -211,7 +211,7 @@ const FrameComponent1 = ({ className = "" }) => {
           {/* Right Navigation Button */}
           <div className="flex flex-col items-center justify-center h-full">
             <button
-              className="cursor-pointer pt-2 pb-[13px] pr-4 pl-[17px] bg-transparent rounded-3xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-deepskyblue hover:bg-steelblue-500 hover:box-border hover:border-steelblue-200"
+              className="cursor-pointer pt-2 pb-[13px] pr-4 pl-[17px] bg-transparent rounded-3xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-deepskyblue hover:bg-darkslateblue hover:box-border hover:border-white"
               onClick={handleNextClick}
             >
               <div className="text-21xl font-roboto text-deepskyblue text-center flex items-center justify-center mq450:text-5xl mq925:text-13xl">

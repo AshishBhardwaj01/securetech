@@ -32,12 +32,12 @@ const Component = ({ className = "" }) => {
   };
 
   return (
-    <div className={`relative top-[1100px] lg:top-[100px] xl:top-[450px] left-0 w-full max-w-full ${className}`}>
+    <div className={`relative top-[10vw] lg:top-[100px] xl:top-[450px] w-full max-w-full ${className}`}>
       <h2 className="text-center text-black font-poppins font-semibold mb-8 text-2.5xl">Solutions and Services</h2>
       
-      <Slider {...settings} className="flex items-center justify-center gap-8 px-4 sm:px-1">
+      <Slider {...settings} className="flex items-center justify-center gap-8 ml-10 px-4 sm:px-1">
         <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border gap-8 max-w-[95%] bg-white rounded-4 ">
-          <div className="max-w-full sm:max-w-[70%] mx-auto relative">
+          <div className="max-w-full sm:max-w-[70%] mx-auto items center relative">
             <img
               className="ml-[-1.25vmax] w-full h-auto relative rounded-16 sm:rounded-0 object-cover z-1"
               alt=""
@@ -124,15 +124,15 @@ const Component = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4 overflow-hidden">
-          <div className="max-w-full sm:max-w-[70%] mx-auto relative">
+        <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4">
+          <div className="max-w-full sm:max-w-[70%] relative">
             <img
               className="ml-[-1.25vmax] w-full h-auto relative rounded-16 sm:rounded-0 object-cover z-1"
               alt=""
               src="/imag11.png"
             />
           </div>
-          <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 py-0 pr-3 pl-3 box-border gap-8 max-w-[95%]">
+          <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-0 pr-3 pl-3 box-border gap-8 max-w-[95%]">
             <h2 className="m-0 relative text-black tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               Project Management
             </h2>
@@ -146,7 +146,7 @@ const Component = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 box-border relative gap-8 max-w-[95%] bg-white rounded-4">
+        <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4">
           <div className="max-w-full sm:max-w-[70%] mx-auto relative">
             <img
               className="ml-[-1.25vmax] max-w-full h-auto relative rounded-16 sm:rounded-0 object-contain z-1"
@@ -154,7 +154,7 @@ const Component = ({ className = "" }) => {
               src="/imag10.png"
             />
           </div>
-          <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-2 pr-3 pl-3 box-border gap-8 max-w-[95%]">
+          <div className="w-full sm:w-[30em] flex flex-col items-center justify-center py-0 pr-3 pl-3 box-border gap-8 max-w-[95%]">
             <h2 className="m-0 relative text-black tracking-[-0.05em] font-normal font-poppins z-1 lg:text-1.3vmax 2xl:text-1.89vmax">
               Post Project Services
             </h2>
