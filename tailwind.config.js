@@ -41,7 +41,10 @@ module.exports = {
         chocolate: "#f38230",
         "bg-orange-600": "rgb(234 88 12)",
       },
-      spacing: {},
+      spacing: {sm: '8px',
+      md: '12px',
+      lg: '16px',
+      xl: '24px',},
       fontFamily: {
         poppins: "Poppins",
         inter: "Inter",
@@ -91,12 +94,9 @@ module.exports = {
       md: { max: '47.99875em' },  // 767.98px to em
       lg: { max: '61.99875em' },  // 991.98px to em
       xl: { max: '74.99875em' },  // 1199.98px to em
-      '2xl': { min: '75em' }, // 1200px to em
-      
-      
-     
-      
+      '2xl': { min: '75em' }, // 1200px to em 
     },
+    
   },
   corePlugins: {
     preflight: false,

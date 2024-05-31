@@ -28,7 +28,7 @@ const SecuretechavHomepage = () => {
           <FrameComponent2 />
           <FrameComponent3 />
         </div>
-        <footer className="w-full bg-gray-300 flex flex-col items-end justify-center p-4 mt-4">
+        <footer className="w-full bg-black flex flex-col items-end justify-center p-4 mt-4">
           <FooterLinks />
         </footer>
       </div>
