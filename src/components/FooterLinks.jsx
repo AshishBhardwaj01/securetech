@@ -14,7 +14,7 @@ const FooterLinks = ({ className = "" }) => {
             <img src="/image-5@2x.png" alt="Company Logo" className="w-12 h-12" />
             <span className="text-2xl font-bold">SecureTech AV</span>
           </div>
-          <p className="text-white font-poppins">
+          <p className="text-white text-left font-poppins">
             Secure TechAV Designs Private Limited is driven by a passion for absolute technology.
             Our company is a sound unit comprising eminent audio engineers & top of the league infrastructure.
             The core strength of the company is Architectural Acoustics, sound system designing,
@@ -80,7 +80,7 @@ const FooterLinks = ({ className = "" }) => {
             <div className="flex flex-row flex-wrap items-end justify-start gap-[11.2px] max-w-full">
               <div className="h-[18.9px] box-border flex flex-row items-end justify-start pt-0 pb-[0.5px] pr-2 pl-0 border-r-[1px] border-solid border-white">
                 <div className="relative tracking-[-0.56px] leading-[18.9px] font-extralight">
-                  © 2024 Eclipse Presentations Ltd
+                  © 2024 SecureTech AV Private Limited
                 </div>
               </div>
               <div className="relative tracking-[-0.56px] leading-[18.9px] font-extralight inline-block min-w-[78.4px]">
