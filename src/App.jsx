@@ -25,7 +25,7 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "Home";
+        title = "Securetechav";
         metaDescription = "Welcome to the Securetechav Homepage";
         break;
       case "/AboutUs":
