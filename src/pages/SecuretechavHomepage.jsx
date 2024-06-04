@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import MySection from "../components/backgroundimg.jsx";
 import Component from "../components/solutioncards.jsx";
 import Venue from "../components/venue.jsx";
@@ -9,7 +9,7 @@ import FrameComponent2 from "../components/ourclients.jsx";
 import FrameComponent3 from "../components/ourbrands.jsx";
 // import FooterLeft from "../components/FooterLeft";
 import FooterLinks from "../components/FooterLinks";
-import App from '../components/navbar.jsx';
+import App from "../components/navbar.jsx";
 
 const SecuretechavHomepage = () => {
   return (
@@ -17,21 +17,21 @@ const SecuretechavHomepage = () => {
       <main className="2xl:h-[100%] xl:h-[6530px] flex-1 relative bg-white max-w-full text-center text-51xl text-black font-poppins mq925:h-auto ">
         <App />
         <MySection />
-        <Component  />
+        <Component />
         <Venue />
         <VenueSpacesContainer />
-        <FrameComponent  />
-        <FrameComponent1  />
-       
+        <FrameComponent />
+        <FrameComponent1 />
+
         <div className="flex flex-col gap-y-[900px]">
-        <div className="flex flex-col justify-start items-start space-x-4 p-4">
-          <FrameComponent2 />
-          <FrameComponent3 />
+          <div className="flex flex-col justify-start items-start space-x-4 p-4">
+            <FrameComponent2 />
+            <FrameComponent3 />
+          </div>
+          <footer className="w-full bg-black flex flex-col items-end justify-center p-4 mt-4">
+            <FooterLinks />
+          </footer>
         </div>
-        <footer className="w-full bg-black flex flex-col items-end justify-center p-4 mt-4">
-          <FooterLinks />
-        </footer>
-      </div>
       </main>
     </div>
   );

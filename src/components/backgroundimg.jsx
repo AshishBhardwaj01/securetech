@@ -1,11 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import image4 from '/image4@2x.png'; // Adjust the path as necessary
+import React from "react";
+import PropTypes from "prop-types";
+import image4 from "/image4@2x.png"; // Adjust the path as necessary
 
 const MySection = ({ className = "" }) => {
   return (
-    <div className={`relative max-w-full h-screen flex items-start justify-center ${className}`}>
-      
+    <div
+      className={`relative max-w-full h-screen flex items-start justify-center ${className}`}
+    >
       <div className="self-stretch flex flex-row items-center justify-center py-0 pr-[1vw] pl-[1vw] box-border max-w-full">
         <h1 className="m-0 h-[30vw] w-[50vw] text-inherit font-semibold font-poppins flex items-start shrink-0 max-w-full z-[1] mq450:text-[5vw] mq925:text-[7vw]">
           <span className="w-full text-[3vw] text-orangered-100 2xl:text-[3.5vmax] md:text-[3vw]">
@@ -28,11 +29,7 @@ const MySection = ({ className = "" }) => {
         <div className="text-[1.2vw] leading-[2vw] font-poppins text-white text-center flex-shrink-0">
           Learn more
         </div>
-        <img
-          className="h-[1.2vw] w-[1.2vw]"
-          alt=""
-          src="/figure.svg"
-        />
+        <img className="h-[1.2vw] w-[1.2vw]" alt="" src="/figure.svg" />
       </button>
     </div>
   );

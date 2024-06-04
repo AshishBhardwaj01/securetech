@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
+import React, { useState } from "react";
+import PropTypes from "prop-types";
 
 const FrameComponent1 = ({ className = "" }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -14,14 +14,30 @@ const FrameComponent1 = ({ className = "" }) => {
                 There's always a degree of anxiety when you hire labor
               </i>
               <i className="leading-6 block">
-                <p className="m-0">outside of your market – but AVN showed up in force</p>
-                <p className="m-0">and quickly squashed any concerns that I had! Charms,</p>
-                <p className="m-0">Inez, and Mark were extraordinarily helpful in the</p>
-                <p className="m-0">preproduction process and their team on site in Miami</p>
-                <p className="m-0">was helpful, hardworking, and great company.</p>
-                <p className="m-0">Everybody had a positive attitude and had the technical</p>
-                <p className="m-0">skills to back it up. There have been several comments</p>
-                <p className="m-0">on my team about wishing we could bring this team</p>
+                <p className="m-0">
+                  outside of your market – but AVN showed up in force
+                </p>
+                <p className="m-0">
+                  and quickly squashed any concerns that I had! Charms,
+                </p>
+                <p className="m-0">
+                  Inez, and Mark were extraordinarily helpful in the
+                </p>
+                <p className="m-0">
+                  preproduction process and their team on site in Miami
+                </p>
+                <p className="m-0">
+                  was helpful, hardworking, and great company.
+                </p>
+                <p className="m-0">
+                  Everybody had a positive attitude and had the technical
+                </p>
+                <p className="m-0">
+                  skills to back it up. There have been several comments
+                </p>
+                <p className="m-0">
+                  on my team about wishing we could bring this team
+                </p>
                 <p className="m-0">back with us to New York!</p>
               </i>
             </div>
@@ -64,16 +80,36 @@ const FrameComponent1 = ({ className = "" }) => {
                 Audio Visual Nation has been a partner with my AV
               </i>
               <i className="leading-6 block">
-                <p className="m-0">company for many years. They are our go-to labor</p>
-                <p className="m-0">source whenever available. The group of people</p>
-                <p className="m-0">carefully assembled by this company have been critical</p>
-                <p className="m-0">to the success of our events. Basically, they make us</p>
-                <p className="m-0">look good! Beyond the unparalleled individual efforts,</p>
-                <p className="m-0">Audio Visual Nation is responsive and easily moves</p>
-                <p className="m-0">with the MANY changes we all deal with in this</p>
-                <p className="m-0">industry. They are thoroughly accommodating without</p>
-                <p className="m-0">skipping a beat. Our company has, and will continue, to</p>
-                <p className="m-0">rely on Audio Visual Nation and the amazing group they</p>
+                <p className="m-0">
+                  company for many years. They are our go-to labor
+                </p>
+                <p className="m-0">
+                  source whenever available. The group of people
+                </p>
+                <p className="m-0">
+                  carefully assembled by this company have been critical
+                </p>
+                <p className="m-0">
+                  to the success of our events. Basically, they make us
+                </p>
+                <p className="m-0">
+                  look good! Beyond the unparalleled individual efforts,
+                </p>
+                <p className="m-0">
+                  Audio Visual Nation is responsive and easily moves
+                </p>
+                <p className="m-0">
+                  with the MANY changes we all deal with in this
+                </p>
+                <p className="m-0">
+                  industry. They are thoroughly accommodating without
+                </p>
+                <p className="m-0">
+                  skipping a beat. Our company has, and will continue, to
+                </p>
+                <p className="m-0">
+                  rely on Audio Visual Nation and the amazing group they
+                </p>
                 <p className="m-0">have put together.</p>
               </i>
             </div>
@@ -116,9 +152,15 @@ const FrameComponent1 = ({ className = "" }) => {
                 Great company, great communication, fast response
               </i>
               <i className="leading-6 block">
-                <p className="m-0">and best bang for your buck. The Audio Visual Nation</p>
-                <p className="m-0">team is one of the greatest and got the job done two</p>
-                <p className="m-0">hours before they were scheduled. Will definitely hire</p>
+                <p className="m-0">
+                  and best bang for your buck. The Audio Visual Nation
+                </p>
+                <p className="m-0">
+                  team is one of the greatest and got the job done two
+                </p>
+                <p className="m-0">
+                  hours before they were scheduled. Will definitely hire
+                </p>
               </i>
             </div>
             <div className="w-28 flex flex-col items-center gap-1.5">
@@ -152,14 +194,17 @@ const FrameComponent1 = ({ className = "" }) => {
       ),
     },
   ];
-  
 
   const handlePrevClick = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1));
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1
+    );
   };
 
   const handleNextClick = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1));
+    setCurrentIndex((prevIndex) =>
+      prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1
+    );
   };
 
   return (
@@ -169,26 +214,27 @@ const FrameComponent1 = ({ className = "" }) => {
       <div className="max-w-full flex flex-col py-[20px] items-center justify-center gap-[2vw]">
         {/* Title Section */}
         <div className="flex flex-col items-center justify-center py-0 px-2 box-border w-full text-center text-black">
-            <h1 className="text-2.5xl leading-[40px] font-semibold font-poppins text-black">
-              Testimonials
-            </h1>
+          <h1 className="text-2.5xl leading-[40px] font-semibold font-poppins text-black">
+            Testimonials
+          </h1>
           <h1 className="m-0 text-lg leading-[10px] font-bold font-poppins text-darkslateblue">
             Hear From Our Happy Clients
           </h1>
         </div>
-  
+
         {/* Intro Text */}
         <div className="flex flex-row items-center justify-center py-0 px-10 box-border w-full text-center text-base">
           <div className="w-full max-w-[772.8px] relative leading-[24px] flex items-center shrink-0 z-[1]">
             <span className="w-full">
               <p className="m-0">
-                Don't just take our word for it. See how working with AVN has helped our clients execute unforgettable events across the nation.
+                Don't just take our word for it. See how working with AVN has
+                helped our clients execute unforgettable events across the
+                nation.
               </p>
-              
             </span>
           </div>
         </div>
-  
+
         {/* Testimonials Section */}
         <div className="w-full flex flex-row items-center justify-center gap-[10px] lg:gap-[2px] text-center font-roboto ">
           {/* Left Navigation Button */}
@@ -202,12 +248,12 @@ const FrameComponent1 = ({ className = "" }) => {
               </div>
             </button>
           </div>
-  
+
           {/* Testimonial Cards */}
           <div className="flex overflow-hidden items-center justify-center py-3 px-3 box-border gap-[10px] lg:gap-[2px] min-w-[200px] max-w-full z-[1] mq1350:flex-wrap mq1350:min-w-full">
             {testimonials[currentIndex].content}
           </div>
-  
+
           {/* Right Navigation Button */}
           <div className="flex flex-col items-center justify-center h-full">
             <button
@@ -223,13 +269,10 @@ const FrameComponent1 = ({ className = "" }) => {
       </div>
     </section>
   );
-  
-  
-  
-    };
-    
-    FrameComponent1.propTypes = {
-      className: PropTypes.string,
-    };
-    
-    export default FrameComponent1;
+};
+
+FrameComponent1.propTypes = {
+  className: PropTypes.string,
+};
+
+export default FrameComponent1;

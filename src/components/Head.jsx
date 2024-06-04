@@ -1,33 +1,44 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import image1 from '/imaaag.jpg';
-import image2 from '/Auditorium.jpeg';
-import image3 from '/conference.jpg';
-import image4 from '/Kramer.jpg';
+import React from "react";
+import PropTypes from "prop-types";
+import image1 from "/imaaag.jpg";
+import image2 from "/Auditorium.jpeg";
+import image3 from "/conference.jpg";
+import image4 from "/Kramer.jpg";
 
 const Head = ({ className = "" }) => {
-    return (
-        <div className={`p-8 items-center justify-center bg-orange-500 ${className}`}>
-           <div className= "flex flex-col items-center justify-center">
-               <h1 className="text-white font-poppins text-4xl font-bold mb-6">About SecureTech AV</h1>
-                <p className="text-white text-lg font-poppins flex px-20 items-center justify-center mb-8">
-                    "At SecureTech AV Designs Private Limited, our mission is to engineer seamless, immersive experiences by harmonizing technology, design, and innovation. We strive to pioneer cutting-edge solutions, exceed expectations, and amplify the way the world interacts with audiovisuals, architecture, and technology."
-                </p>
-            </div>
-            <div className="flex flex-row items-center justify-center gap-6">
-                <div className="flex flex-col items-center justify-center gap-10 "><img src={image1} alt="Event" className="w-96 max-h-60" />
-                    <img src={image3} alt="Auditorium" className="w-96 max-h-60" />
-                </div>
-                <div className="flex flex-col items-center justify-center gap-10"> <img src={image2} alt="Conference Room" className="w-96 max-h-60" />
-                    <img src={image4} alt="Classroom" className="max-w-96 max-h-full" />
-                </div>
-            </div>
+  return (
+    <div
+      className={`p-8 items-center justify-center bg-orange-500 ${className}`}
+    >
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="text-white font-poppins text-4xl font-bold mb-6">
+          About SecureTech AV
+        </h1>
+        <p className="text-white text-lg font-poppins flex px-20 items-center justify-center mb-8">
+          "At SecureTech AV Designs Private Limited, our mission is to engineer
+          seamless, immersive experiences by harmonizing technology, design, and
+          innovation. We strive to pioneer cutting-edge solutions, exceed
+          expectations, and amplify the way the world interacts with
+          audiovisuals, architecture, and technology."
+        </p>
+      </div>
+      <div className="flex flex-row items-center justify-center gap-6">
+        <div className="flex flex-col items-center justify-center gap-10 ">
+          <img src={image1} alt="Event" className="w-96 max-h-60" />
+          <img src={image3} alt="Auditorium" className="w-96 max-h-60" />
         </div>
-    );
+        <div className="flex flex-col items-center justify-center gap-10">
+          {" "}
+          <img src={image2} alt="Conference Room" className="w-96 max-h-60" />
+          <img src={image4} alt="Classroom" className="max-w-96 max-h-full" />
+        </div>
+      </div>
+    </div>
+  );
 };
 
 Head.propTypes = {
-    className: PropTypes.string,
+  className: PropTypes.string,
 };
 
 export default Head;
