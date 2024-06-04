@@ -33,7 +33,7 @@ const Component = ({ className = "" }) => {
 
   return (
     <div className={`relative top-[6vw] lg:top-[100px] xl:top-[450px] gap-14 w-full max-w-full ${className}`}>
-      <h2 className="text-center text-black font-poppins font-semibold text-2.5xl">Solutions and Services</h2>
+      <h2 className="text-center text-black font-poppins lg:text-lg font-semibold text-2.5xl">Solutions and Services</h2>
       
       <Slider {...settings} className="flex items-center justify-center gap-8 ml-10 px-4 sm:px-1">
         <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border gap-8 max-w-[95%] bg-white rounded-4 ">
@@ -125,7 +125,7 @@ const Component = ({ className = "" }) => {
         </div>
 
         <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4">
-          <div className="max-w-full sm:max-w-[70%] relative">
+          <div className="max-w-full sm:max-w-[70%] mx-auto relative">
             <img
               className="ml-[-1.25vmax] w-full h-auto relative rounded-16 sm:rounded-0 object-cover z-1"
               alt=""
@@ -167,7 +167,6 @@ const Component = ({ className = "" }) => {
             </div>
           </div>
         </div>
-        {/* Repeat the above div for additional slides as needed */}
       </Slider>
     </div>
   );

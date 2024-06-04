@@ -4,9 +4,9 @@ import {
   Route,
   useNavigationType,
   useLocation,
-  Outlet, createBrowserRouter
 } from "react-router-dom";
 import SecuretechavHomepage from "./pages/SecuretechavHomepage";
+import AboutUs from "./pages/Aboutuspage";
 
 function App() {
   const action = useNavigationType();
@@ -25,8 +25,16 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
+        title = "Home";
+        metaDescription = "Welcome to the Securetechav Homepage";
+        break;
+      case "/AboutUs":
+        title = "About Us";
+        metaDescription = "Learn more about us on the About Us page.";
+        break;
+      default:
+        title = "Securetechav";
+        metaDescription = "Securetechav Website";
         break;
     }
 
@@ -47,7 +55,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<SecuretechavHomepage />} />
+      <Route path="/AboutUs" element={<AboutUs />} />
     </Routes>
   );
 }
+
 export default App;

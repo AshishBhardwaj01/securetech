@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 
 function App() {
  const [isOpen, setIsOpen] = useState(false);
@@ -38,9 +38,12 @@ function App() {
          <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            Home
          </a>
-         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
-           About Us
-         </a>
+         <Link
+          to="/AboutUs"
+          className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline"
+        >
+          About Us
+        </Link>
          <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            Solution
          </a>
