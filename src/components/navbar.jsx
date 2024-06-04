@@ -6,10 +6,10 @@ function App() {
 
  return (
    <nav className="flex flex-row items-center justify-between flex-wrap">
-     <div className="flex items-center flex-shrink-0 text-white mr-6 2xl:mr-72">
+     <a href="/" className="flex items-center flex-shrink-0 text-white mr-6 2xl:mr-72">
        <img src="image-5@2x.png" className="w-150 h-20 mr-2" alt="Logo" />
        <span className="text-4xl-3 text-black font-bold">SecureTech AV Designs</span>
-     </div>
+     </a>
      <div className="block 2xl:hidden">
        <button
          onClick={() => setIsOpen(!isOpen)}
@@ -35,7 +35,7 @@ function App() {
        className={`w-full block 2xl:flex 2xl:items-center 2xl:w-auto ${isOpen ? "block" : "hidden"}`}
      >
        <div className="text-sm ">
-         <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
+         <a href="/" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            Home
          </a>
          <Link
