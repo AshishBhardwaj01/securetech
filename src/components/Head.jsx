@@ -8,18 +8,18 @@ import image4 from "/Kramer.jpg";
 const Head = ({ className = "" }) => {
   return (
     <div
-      className={`p-8 items-center justify-center bg-orange-500 ${className}`}
+      className={`p-12 items-center justify-center bg-orange-500 ${className}`}
     >
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-white font-poppins text-4xl font-bold mb-6">
           About SecureTech AV
         </h1>
-        <p className="text-white text-lg font-poppins flex px-20 items-center justify-center mb-8">
-          "At SecureTech AV Designs Private Limited, our mission is to engineer
+        <p className="text-white text-lg font-poppins flex flex-col px-20 mb-8">
+          At SecureTech AV Designs Private Limited, our mission is to engineer
           seamless, immersive experiences by harmonizing technology, design, and
           innovation. We strive to pioneer cutting-edge solutions, exceed
           expectations, and amplify the way the world interacts with
-          audiovisuals, architecture, and technology."
+          audiovisuals, architecture, and technology.
         </p>
       </div>
       <div className="flex flex-row items-center justify-center gap-6">

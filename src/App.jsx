@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import SecuretechavHomepage from "./pages/SecuretechavHomepage";
 import AboutUs from "./pages/Aboutuspage";
+import ContactUs from "./pages/ContactUspage";
+
 
 function App() {
   const action = useNavigationType();
@@ -56,6 +58,7 @@ function App() {
     <Routes>
       <Route path="/" element={<SecuretechavHomepage />} />
       <Route path="/AboutUs" element={<AboutUs />} />
+      <Route path="/Contactus" element={<ContactUs />} />
     </Routes>
   );
 }
