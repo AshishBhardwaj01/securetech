@@ -40,13 +40,13 @@ const ContactForm = ({ className = "" }) => {
         <div class="flex flex-row items-start justify-start gap-[10px]">
           <img class="h-5 w-5 mt-1" loading="lazy" alt="" src="/message.png" />
           <div class="leading-[29px] whitespace-nowrap">
-            info@securetech.com
+            ashish@securetechav.com
           </div>
         </div>
         <div class="flex flex-row items-start justify-start gap-[10px]">
           <img class="h-5 w-5 mt-1" loading="lazy" alt="" src="/phone.png" />
           <div class="leading-[29px] whitespace-nowrap">
-            +91 7008166042
+            +91 7017247344
           </div>
         </div>
       </div>
