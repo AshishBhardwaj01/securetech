@@ -60,12 +60,12 @@ function App() {
           >
             Solution
           </a>
-          <a
-            href="#"
+          <Link
+            to="https://drive.google.com/file/d/1VDGplc_6wfvQ7Y9-0vvbBtACm-72q_Cj/view?usp=drivesdk"
             className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline"
           >
             Corporate Profile
-          </a>
+          </Link>
           <Link
             to="/Contactus"
             className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline"

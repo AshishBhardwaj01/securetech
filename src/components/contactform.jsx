@@ -81,7 +81,7 @@ const ContactForm = ({ className = "" }) => {
         <div class="bg-gray-900 flex flex-row items-start justify-start pt-[12.3px] pb-[11px] border-b-[1px] border-solid border-slategray">
           <input
             class="w-[371px] bg-[transparent] h-[22.4px] text-white"
-            placeholder="Which Business do you have ?*"
+            placeholder="Company*"
             type="text"
           />
         </div>
