@@ -52,18 +52,18 @@ const ContactForm = ({ className = "" }) => {
       </div>
     </div>
   </div>
-  <div class="flex bg-gray-900 flex flex-col items-start justify-center py-5 px-10 gap-2 text-white">
+  <div class="flex bg-gray-900  flex-col items-start justify-center py-5 px-10 gap-2 text-white">
     <h1 className="font-poppins font-semibold items-start">Drop Us A Message</h1>
     <div class="w-[555px] flex flex-col items-start justify-start pb-2 gap-[26px]">
       <div class="flex flex-col items-start justify-start gap-[10px]">
-        <div class="bg-gray-900 flex flex-row items-start justify-start pt-[12.3px] px-4 pb-[11px] border-b-[1px] border-solid border-slategray">
+        <div class="bg-gray-900 flex flex-row items-start justify-start pt-[12.3px] pb-[11px] border-b-[1px] border-solid border-slategray">
           <input
             class="w-[371px] bg-[transparent] h-[22.4px] text-white"
             placeholder="Name*"
             type="text"
           />
         </div>
-        <div class="bg-gray-900 flex flex-row items-start justify-start pt-[12.3px] px-4 pb-[11px] border-b-[1px] border-solid border-slategray">
+        <div class="bg-gray-900 flex flex-row items-start justify-start pt-[12.3px] pb-[11px] border-b-[1px] border-solid border-slategray">
         <img class="w-[34.4px] h-[22px] object-contain" loading="lazy" alt="" src="/flag.png" />
           <input
             class="w-[371px] bg-[transparent] h-[22.4px] text-white"
@@ -71,21 +71,21 @@ const ContactForm = ({ className = "" }) => {
             type="text"
           />
         </div>
-        <div class="bg-gray-900 flex flex-row items-start justify-start pt-[12.3px] px-4 pb-[11px] border-b-[1px] border-solid border-slategray">
+        <div class="bg-gray-900 flex flex-row items-start justify-start pt-[12.3px] pb-[11px] border-b-[1px] border-solid border-slategray">
           <input
             class="w-[180.5px] bg-[transparent] h-[22.4px] text-white"
             placeholder="Email*"
             type="text"
           />
         </div>
-        <div class="bg-gray-900 flex flex-row items-start justify-start pt-[12.3px] px-4 pb-[11px] border-b-[1px] border-solid border-slategray">
+        <div class="bg-gray-900 flex flex-row items-start justify-start pt-[12.3px] pb-[11px] border-b-[1px] border-solid border-slategray">
           <input
             class="w-[371px] bg-[transparent] h-[22.4px] text-white"
             placeholder="Which Business do you have ?*"
             type="text"
           />
         </div>
-        <div class="bg-gray-900 flex flex-row items-start justify-start pt-[12.3px] px-4 pb-[11px] border-b-[1px] border-solid border-slategray">
+        <div class="bg-gray-900 flex flex-row items-start justify-start pt-[12.3px] pb-[11px] border-b-[1px] border-solid border-slategray">
           <input
             class="w-[371px] bg-[transparent] h-[22.4px] text-white"
             placeholder="Location*"
@@ -93,19 +93,19 @@ const ContactForm = ({ className = "" }) => {
           />
         </div>
         <textarea
-      class="bg-gray-900 h-[232px] w-[553px] text-white border-b-[1px] border-solid border-slategray"
+      class="bg-gray-900 h-[232px] w-[553px] text-white border-b-[1px] py-4 border-solid border-slategray"
       placeholder="Message*"
       rows="10"
       cols="28"
     ></textarea>
       </div>
     </div>
-    <div class="flex flex-row items-start justify-start">
-      <button class="cursor-pointer bg-orange-500 px-20 py-5 bg-chocolate-100 flex flex-row items-end justify-start gap-[9.4px] border-[1px] border-solid border-aquamarine ">
+    <div class="flex flex-row items-center justify-center">
+      <button class="cursor-pointer bg-orange-500 px-36 py-5 bg-chocolate-100 flex flex-row items-end justify-start gap-[9.4px] border-[1px] border-solid border-aquamarine ">
         <div class="text-base leading-[19px] capitalize font-normal text-white">
           Connect with Securetech today
         </div>
-        <img class="h-4 w-4" alt="" src="/icon-3.svg" />
+        <img class="h-4 w-4" alt="" src="/Icon.png" />
       </button>
     </div>
   </div>
