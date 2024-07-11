@@ -52,7 +52,7 @@ const FooterLinks = ({ className = "" }) => {
           <div className="flex flex-col items-start justify-start gap-2 text-base hover:no-underline">
             <a
               className="tracking-tight leading-snug font-light text-inherit hover:font-bold cursor-pointer"
-              href="https://www.figma.com/design/IApfjMwLHH2HcQEzFuA1Df?node-id=528-2"
+              href="/"
               target="_blank"
               rel="noopener noreferrer"
               style={{ textDecoration: "none" }}
@@ -82,21 +82,27 @@ const FooterLinks = ({ className = "" }) => {
       >
         <div className="w-full flex flex-col items-center justify-start gap-[32.5px] max-w-full mq925:gap-[16px]">
           <div className="flex flex-row items-start justify-start gap-[16px]">
+            <a href="https://instagram.com/secuetechav?utm_source=qr">
             <img
               className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]"
               alt=""
               src="/link.svg"
             />
+            </a>
+            <a href="https://www.linkedin.com/company/securetechav-designs/">
             <img
               className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]"
               alt=""
               src="/link-1.svg"
             />
+            </a>
+            <a  href="https://www.facebook.com/profile.php?id=61553741201034&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
             <img
               className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]"
               alt=""
               src="/link-3.svg"
             />
+            </a>
           </div>
           <div className="self-stretch flex flex-row items-center justify-center max-w-full">
             <div className="flex flex-row flex-wrap items-end justify-start gap-[11.2px] max-w-full">
