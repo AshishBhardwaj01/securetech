@@ -11,7 +11,7 @@ const Solutionpage = () => {
     <div className="min-h-screen flex flex-col font-poppins">
       <App />
       <Solutionimg />
-      <IndustrySolutions />
+      {/* <IndustrySolutions /> */}
       <SolutionsContainer />
       <Solutionvenue />
       {/* <Quote /> */}
