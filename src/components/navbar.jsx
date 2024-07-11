@@ -41,13 +41,13 @@ function App() {
          <a href="/AboutUs" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            About Us
          </a>
-         <a href="Solutionpage" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
+         <a href="/Solutionpage" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            Solution
          </a>
          <a href="#" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            Corporate Profile
          </a>
-         <a href="Contactus" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
+         <a href="/Contactus" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
            Contact Us
          </a>
        </div>

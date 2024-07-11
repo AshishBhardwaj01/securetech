@@ -59,7 +59,7 @@ const FooterLinks = ({ className = "" }) => {
             >
               Home
             </a>
-            <a href="Solutionpage" className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            <a href="/Solutionpage" className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               AV Solutions
             </a>
             <a href="/AboutUs" className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
@@ -71,7 +71,7 @@ const FooterLinks = ({ className = "" }) => {
             {/* <a className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               Venue
             </a> */}
-            <a href="/ContactUs" className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            <a href="/Contactus" className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               Contact Us
             </a>
           </div>
