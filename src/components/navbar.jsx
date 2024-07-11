@@ -34,23 +34,29 @@ function App() {
      <div
        className={`w-full block 2xl:flex font-poppins 2xl:items-center 2xl:w-auto ${isOpen ? "block" : "hidden"}`}
      >
-       <div className="text-sm ">
-         <a href="/" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
-           Home
-         </a>
-         <a href="/AboutUs" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
-           About Us
-         </a>
-         <a href="/Solutionpage" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
-           Solution
-         </a>
-         <a href="https://drive.google.com/file/d/1VDGplc_6wfvQ7Y9-0vvbBtACm-72q_Cj/view" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
-           Corporate Profile
-         </a>
-         <a href="/Contactus" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 no-underline hover:underline">
-           Contact Us
-         </a>
-       </div>
+       <div className="text-sm">
+  <a href="/" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 relative overflow-hidden group no-underline">
+    <span className="relative z-10 ">Home</span>
+    <span className="absolute inset-x-0 bottom-0 h-1 bg-orange-500 transform origin-left scale-x-0 transition-all duration-300 group-hover:scale-x-100"></span>
+  </a>
+  <a href="/AboutUs" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 relative overflow-hidden group no-underline">
+    <span className="relative z-10">About Us</span>
+    <span className="absolute inset-x-0 bottom-0 h-1 bg-orange-500 transform origin-left scale-x-0 transition-all duration-300 group-hover:scale-x-100"></span>
+  </a>
+  <a href="/Solutionpage" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 relative overflow-hidden group no-underline">
+    <span className="relative z-10">Solution</span>
+    <span className="absolute inset-x-0 bottom-0 h-1 bg-orange-500 transform origin-left scale-x-0 transition-all duration-300 group-hover:scale-x-100"></span>
+  </a>
+  <a href="https://drive.google.com/file/d/1VDGplc_6wfvQ7Y9-0vvbBtACm-72q_Cj/view" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 relative overflow-hidden group no-underline">
+    <span className="relative z-10">Corporate Profile</span>
+    <span className="absolute inset-x-0 bottom-0 h-1 bg-orange-500 transform origin-left scale-x-0 transition-all duration-300 group-hover:scale-x-100"></span>
+  </a>
+  <a href="/Contactus" className="block mt-4 2xl:inline-block 2xl:mt-0 text-black mr-4 relative overflow-hidden group no-underline">
+    <span className="relative z-10">Contact Us</span>
+    <span className="absolute inset-x-0 bottom-0 h-1 bg-orange-500 transform origin-left scale-x-0 transition-all duration-300 group-hover:scale-x-100"></span>
+  </a>
+</div>
+
        <div>
          {/* <button className="inline-flex items-center bg-amber-500 border-0 py-2 px-4 text-white no-underline hover:underline">
            Sign In

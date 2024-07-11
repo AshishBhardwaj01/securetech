@@ -13,6 +13,7 @@ module.exports = {
           "400": "#336994",
           "500": "rgba(0, 148, 214, 0.09)",
         },
+        
         gray: {
           "100": "#fcfcfc",
           "200": "#242424",
@@ -41,6 +42,7 @@ module.exports = {
         chocolate: "#f38230",
         "bg-orange-600": "rgb(234 88 12)",
       },
+      
       spacing: {sm: '8px',
       md: '12px',
       lg: '16px',
