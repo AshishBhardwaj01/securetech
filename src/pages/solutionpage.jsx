@@ -4,7 +4,7 @@ import Solutionimg from "../components/Solutionhead.jsx";
 import IndustrySolutions from "../components/exploresolution.jsx";
 import FooterLinks from "../components/FooterLinks";
 import Solutionvenue from "../components/solutionvenue.jsx";
-import Solutioninpage from "../components/solutions.jsx";
+import SolutionsContainer from "../components/solutions.jsx";
 import Quote from "../components/Solutionquote.jsx";
 const Solutionpage = () => {
   return (
@@ -12,7 +12,7 @@ const Solutionpage = () => {
       <App />
       <Solutionimg />
       <IndustrySolutions />
-      <Solutioninpage />
+      <SolutionsContainer />
       <Solutionvenue />
       {/* <Quote /> */}
       <FooterLinks />
