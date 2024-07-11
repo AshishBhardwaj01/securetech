@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import Slider from "react-slick";
+import React from 'react';
+import PropTypes from 'prop-types';
+import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -33,6 +33,7 @@ const FrameComponent2 = ({ className = "" }) => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          
         },
       },
     ],
@@ -40,7 +41,7 @@ const FrameComponent2 = ({ className = "" }) => {
 
   return (
     <section
-      className={`relative top-[40vw] xl:top-[850px] lg:top-[1500px] w-full flex-col items-center justify-start lg:justify-center py-[20px] px-[20px] box-border gap-[100px] max-w-full text-center text-51xl text-black font-poppins ${className}`}
+      className={`relative  w-full flex-col items-center justify-start lg:justify-center py-20 pl-28 box-border gap-[100px] max-w-full text-center text-51xl text-black font-poppins ${className}`}
     >
       <div className="w-full justify-center items-center py-0 px-5 max-w-full text-2.5xl">
         <h1 className="text-center mb-4 font-semibold m-0 pb-10 relative text-inherit tracking-[-0.05em] p-10 py-[10px] font-poppins shrink-0 max-w-full ">{`Our Clients`}</h1>

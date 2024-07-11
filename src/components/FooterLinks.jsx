@@ -59,21 +59,21 @@ const FooterLinks = ({ className = "" }) => {
             >
               Home
             </a>
-            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            <a href="Solutionpage" className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               AV Solutions
-            </div>
-            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            </a>
+            <a href="/AboutUs" className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               About Us
-            </div>
-            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            </a>
+            <a className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               Our Projects
-            </div>
-            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
-              Venues
-            </div>
-            <div className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            </a>
+            {/* <a className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+              Venue
+            </a> */}
+            <a href="/ContactUs" className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               Contact Us
-            </div>
+            </a>
           </div>
         </div>
       </div>

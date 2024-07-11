@@ -8,7 +8,7 @@ import image4 from "/Kramer.jpg";
 const Head = ({ className = "" }) => {
   return (
     <div
-      className={`p-12 items-center justify-center bg-orange-500 ${className}`}
+      className={`p-12 items-center justify-center bg-gradient-to-r from-orangered-200 to-orange-600 ${className}`}
     >
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-white font-poppins text-4xl font-bold mb-6">

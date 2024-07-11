@@ -1,8 +1,8 @@
 import React from "react";
 import App from "../components/navbar.jsx";
 import Head from "../components/Head.jsx";
-import Body from "../components/Body.jsx";
-import Solution from "../components/Solution.jsx";
+import Body from "../components/AboutBody.jsx";
+import Solution from "../components/Aboutsolution.jsx";
 import FooterLinks from "../components/FooterLinks";
 
 const AboutUs = () => {

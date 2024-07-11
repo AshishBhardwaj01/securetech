@@ -8,6 +8,7 @@ import {
 import SecuretechavHomepage from "./pages/SecuretechavHomepage";
 import AboutUs from "./pages/Aboutuspage";
 import ContactUs from "./pages/ContactUspage";
+import Solutionpage from "./pages/solutionpage"
 
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
       <Route path="/" element={<SecuretechavHomepage />} />
       <Route path="/AboutUs" element={<AboutUs />} />
       <Route path="/Contactus" element={<ContactUs />} />
+      <Route path="/Solutionpage" element={<Solutionpage />} />
     </Routes>
   );
 }
