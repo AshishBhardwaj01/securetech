@@ -15,7 +15,7 @@ const FooterLinks = ({ className = "" }) => {
               alt="Company Logo"
               className="w-12 h-12"
             />
-            <span className="text-2xl font-bold">SecureTech AV</span>
+            <span className="text-2xl font-semibold">SecureTech AV</span>
           </div>
           <p className="text-white text-left font-poppins">
             Secure TechAV Designs Private Limited is driven by a passion for
@@ -59,10 +59,10 @@ const FooterLinks = ({ className = "" }) => {
             >
               Home
             </a>
-            <a href="/Solutionpage" className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            <a href="/Solutionpage" className="tracking-tight no-underline leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               AV Solutions
             </a>
-            <a href="/AboutUs" className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            <a href="/AboutUs" className="tracking-tight no-underline leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               About Us
             </a>
             <a className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
@@ -71,7 +71,7 @@ const FooterLinks = ({ className = "" }) => {
             {/* <a className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               Venue
             </a> */}
-            <a href="/Contactus" className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            <a href="/Contactus" className="tracking-tight no-underline leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               Contact Us
             </a>
           </div>

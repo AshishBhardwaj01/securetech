@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Solutionimg = ({ className = "" }) => {
   return (
@@ -23,11 +24,11 @@ const Solutionimg = ({ className = "" }) => {
             </p>
             <p className="m-0">start uncovering new business value.</p>
           </div>
-          <div className="bg-darkorange-100 box-border overflow-hidden flex flex-row items-start justify-start pt-[1.5px] pb-0 pr-[15px] pl-5 whitespace-nowrap text-center text-sm text-white border-[2px] border-solid border-darkorange-100">
+          <Link to="/Contactus" className="bg-darkorange-100 box-border no-underline overflow-hidden flex flex-row items-start justify-start pt-[1.5px] pb-0 pr-[15px] pl-5 whitespace-nowrap text-center hover:text-orange-400 hover:bg-white text-sm text-white border-[2px] border-solid border-darkorange-100">
             <div className="relative leading-[40px] uppercase font-semibold inline-block min-w-[85px]">
-              Get a demo
+              Contact Us
             </div>
-          </div>
+          </Link>
         </div>
       </div>
       <img
