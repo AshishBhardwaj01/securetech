@@ -12,8 +12,9 @@ const FrameComponent2 = ({ className = "" }) => {
     slidesToShow: 5, // Adjust the number of slides to show
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
+    autoplaySpeed: 2000,
+    pauseOnHover: false,
+        responsive: [
       {
         breakpoint: 1024,
         settings: {

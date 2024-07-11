@@ -53,6 +53,7 @@ const FrameComponent3 = ({ className = "" }) => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024,
