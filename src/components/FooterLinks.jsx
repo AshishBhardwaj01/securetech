@@ -82,14 +82,14 @@ const FooterLinks = ({ className = "" }) => {
       >
         <div className="w-full flex flex-col items-center justify-start gap-[32.5px] max-w-full mq925:gap-[16px]">
           <div className="flex flex-row items-start justify-start gap-[16px]">
-            <a href="https://instagram.com/secuetechav?utm_source=qr">
+            <a href="https://www.linkedin.com/company/securetechav-designs/">
             <img
               className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]"
               alt=""
               src="/link.svg"
             />
             </a>
-            <a href="https://www.linkedin.com/company/securetechav-designs/">
+            <a href="https://instagram.com/secuetechav?utm_source=qr">
             <img
               className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]"
               alt=""
