@@ -39,7 +39,6 @@ import PropTypes from "prop-types";
     const SolutionsContainer = ({ className = "" }) => {
       return (
         <div className="container mx-auto p-6">
-                  <IndustrySolutions />
           {solutions.map((solution, index) => (
             <div 
               key={index}
