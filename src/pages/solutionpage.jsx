@@ -5,7 +5,7 @@ import IndustrySolutions from "../components/exploresolution.jsx";
 import FooterLinks from "../components/FooterLinks";
 import Solutionvenue from "../components/solutionvenue.jsx";
 import SolutionsContainer from "../components/solutions.jsx";
-import Quote from "../components/Solutionquote.jsx";
+// import Quote from "../components/Solutionquote.jsx";
 const Solutionpage = () => {
   return (
     <div className="min-h-screen flex flex-col font-poppins">
