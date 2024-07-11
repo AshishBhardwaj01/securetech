@@ -4,6 +4,7 @@ import Head from "../components/Head.jsx";
 import Body from "../components/AboutBody.jsx";
 import Solution from "../components/Aboutsolution.jsx";
 import FooterLinks from "../components/FooterLinks";
+import FrameComponent2 from "../components/ourclients.jsx";
 
 const AboutUs = () => {
   return (
@@ -12,6 +13,7 @@ const AboutUs = () => {
       <Head />
       <Body />
       <Solution className="my-8" />
+      <FrameComponent2 />
       <FooterLinks />
     </div>
   );
