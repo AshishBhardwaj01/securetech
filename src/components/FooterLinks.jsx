@@ -101,7 +101,7 @@ const FooterLinks = ({ className = "" }) => {
           <a
       href="https://drive.google.com/file/d/1VDGplc_6wfvQ7Y9-0vvbBtACm-72q_Cj/view"
       download
-      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+      className="bg-orange-500 hover:bg-white hover:text-orange-500 text-white no-underline font-bold py-2 px-4 rounded"
     >
       Download
     </a>
