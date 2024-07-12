@@ -99,7 +99,7 @@ const FooterLinks = ({ className = "" }) => {
         <div className="justify-center items-center w-60">
           <h3>Check out our Corporate Profile</h3>
           <a
-      href="/path-to-your-file"
+      href="https://drive.google.com/file/d/1VDGplc_6wfvQ7Y9-0vvbBtACm-72q_Cj/view"
       download
       className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
     >
