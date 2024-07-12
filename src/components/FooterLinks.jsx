@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const FooterLinks = ({ className = "" }) => {
   return (
-    <footer className={`max-w-full bg-black flex flex-col text-white ${className}`}>
+    <footer className={`max-w-full bg-slate-900 flex flex-col text-white ${className}`}>
       <div className="flex flex-row items-center justify-center p-5 gap-14">
             <a href="https://www.linkedin.com/company/securetechav-designs/">
             <img
@@ -28,7 +28,7 @@ const FooterLinks = ({ className = "" }) => {
             </a>
           </div>
       <div
-        className={` flex flex-col-4 2xl:grid 2xl:grid-cols-4 pl-40 pb-5 2xl:gap-20 lg:flex-row items-center justify-between px-10 gap-20 lg:gap-9 max-w-full lg:flex-wrap text-center text-11xl text-white font-sans`}
+        className={` flex flex-col-4 2xl:grid 2xl:grid-cols-4 2xl:pl-40 2xl:pb-5 2xl:gap-20 lg:flex-row items-center justify-between px-10 gap-20 lg:gap-9 max-w-full lg:flex-wrap text-center text-11xl text-white font-sans`}
         
       >
         <div className="flex flex-col items-center space-y-4">
@@ -96,7 +96,7 @@ const FooterLinks = ({ className = "" }) => {
             </a>
           </div>
         </div>
-        <div className="justify-center items-center w-60">
+        <div className="justify-center items-center p-5  w-60">
           <h3>Check out our Corporate Profile</h3>
           <a
       href="https://drive.google.com/file/d/1VDGplc_6wfvQ7Y9-0vvbBtACm-72q_Cj/view"

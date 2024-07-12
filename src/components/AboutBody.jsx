@@ -8,7 +8,7 @@ import image5 from "/imaga.png";
 
 const Body = ({ className = "" }) => {
   return (
-    <div className={`p-8 ${className}`}>
+    <div className={`px-40 py-10 ${className}`}>
       <h2 className="text-orange-500 text-xl mb-10">Our Pillars</h2>
 
       <div className="grid gap-20">
