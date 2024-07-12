@@ -3,10 +3,33 @@ import PropTypes from "prop-types";
 
 const FooterLinks = ({ className = "" }) => {
   return (
-    <footer className={`max-w-full bg-black text-white ${className}`}>
+    <footer className={`max-w-full bg-black flex flex-col text-white ${className}`}>
+      <div className="flex flex-row items-center justify-center p-5 gap-14">
+            <a href="https://www.linkedin.com/company/securetechav-designs/">
+            <img
+              className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]"
+              alt=""
+              src="/linkdin.svg"
+            />
+            </a>
+            <a href="https://instagram.com/secuetechav?utm_source=qr">
+            <img
+              className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]"
+              alt=""
+              src="instagram.svg"
+            />
+            </a>
+            <a  href="https://www.facebook.com/profile.php?id=61553741201034&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
+            <img
+              className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]"
+              alt=""
+              src="/facebook.svg"
+            />
+            </a>
+          </div>
       <div
-        className={` flex flex-col-3 2xl:grid 2xl:grid-cols-3 2xl:gap-50 lg:flex-row items-center justify-between px-10 gap-20 lg:gap-9 max-w-full lg:flex-wrap text-center text-11xl text-white font-sans`}
-        style={{ minHeight: "300.9px" }}
+        className={` flex flex-col-4 2xl:grid 2xl:grid-cols-4 pl-40 pb-5 2xl:gap-20 lg:flex-row items-center justify-between px-10 gap-20 lg:gap-9 max-w-full lg:flex-wrap text-center text-11xl text-white font-sans`}
+        
       >
         <div className="flex flex-col items-center space-y-4">
           <div className="flex items-center space-x-2">
@@ -45,65 +68,49 @@ const FooterLinks = ({ className = "" }) => {
             </span>
           </address>
         </div>
-        <div className="flex top-0 left-0 flex-col items-start justify-start gap-4 py-5 text-lg p-5">
+        <div className="flex top-0 left-0 flex-col items-center justify-start gap-4 py-5 text-lg p-5">
           <div className="tracking-tighter leading-snug font-semibold">
             Sitemap
           </div>
           <div className="flex flex-col items-start justify-start gap-2 text-base hover:no-underline">
             <a
-              className="tracking-tight leading-snug font-light text-inherit hover:font-bold cursor-pointer"
+              className="tracking-tight leading-snug no-underline font-light text-inherit hover:underline cursor-pointer"
               href="/"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
             >
               Home
             </a>
-            <a href="/Solutionpage" className="tracking-tight no-underline leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            <a href="/Solutionpage" className="tracking-tight no-underline leading-snug font-light text-inherit hover:underline cursor-pointer">
               AV Solutions
             </a>
-            <a href="/AboutUs" className="tracking-tight no-underline leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            <a href="/AboutUs" className="tracking-tight no-underline leading-snug font-light text-inherit hover:underline cursor-pointer">
               About Us
             </a>
-            <a className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            <a className="tracking-tight leading-snug font-light text-inherit hover:underline cursor-pointer">
               Our Projects
             </a>
             {/* <a className="tracking-tight leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
               Venue
             </a> */}
-            <a href="/Contactus" className="tracking-tight no-underline leading-snug font-light text-inherit hover:font-bold hover:no-underline cursor-pointer">
+            <a href="/Contactus" className="tracking-tight no-underline leading-snug font-light text-inherit hover:underline cursor-pointer">
               Contact Us
             </a>
           </div>
         </div>
+        <div className="justify-center items-center w-60">
+          <h3>Check out our Corporate Profile</h3>
+          <a
+      href="/path-to-your-file"
+      download
+      className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+    >
+      Download
+    </a>
+        </div>
+
       </div>
       <div
-        className={`w-full flex flex-row items-start justify-center text-left text-sm-5 text-white font-sans`}
-      >
-        <div className="w-full flex flex-col items-center justify-start gap-[32.5px] max-w-full mq925:gap-[16px]">
-          <div className="flex flex-row items-start justify-start gap-[16px]">
-            <a href="https://www.linkedin.com/company/securetechav-designs/">
-            <img
-              className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]"
-              alt=""
-              src="/link.svg"
-            />
-            </a>
-            <a href="https://instagram.com/secuetechav?utm_source=qr">
-            <img
-              className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]"
-              alt=""
-              src="/link-1.svg"
-            />
-            </a>
-            <a  href="https://www.facebook.com/profile.php?id=61553741201034&mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
-            <img
-              className="cursor-pointer h-[29.6px] w-[25px] relative min-h-[30px]"
-              alt=""
-              src="/link-3.svg"
-            />
-            </a>
-          </div>
+        className={`w-full flex flex-row items-start justify-center p-2 text-left text-sm-5 text-white font-sans`}
+      >  
           <div className="self-stretch flex flex-row items-center justify-center max-w-full">
             <div className="flex flex-row flex-wrap items-end justify-start gap-[11.2px] max-w-full">
               <div className="h-[18.9px] box-border flex flex-row items-end justify-start pt-0 pb-[0.5px] pr-2 pl-0 border-r-[1px] border-solid border-white">
@@ -125,7 +132,6 @@ const FooterLinks = ({ className = "" }) => {
             </div>
           </div>
         </div>
-      </div>
     </footer>
   );
 };
