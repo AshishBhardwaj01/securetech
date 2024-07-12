@@ -86,7 +86,7 @@ const FrameComponent3 = ({ className = "" }) => {
       <div className="m-0 text-2.5xl">
       <h1 className="text-center mb-4 relative text-inherit font-semibold tracking-[-0.05em] p-10 py-[10px] font-poppins shrink-0 max-w-full ">Our Brands</h1>
       </div>
-      <div className="w-full pl-28 ">
+      <div className="w-full pl-20 ">
         <Slider {...settings}>
           {images.map((src, index) => (
             <div key={index} className="flex items-center justify-center h-[150px] max-w-full lg:h-[50px]">
