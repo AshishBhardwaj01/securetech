@@ -8,19 +8,19 @@ import image5 from "/imaga.png";
 
 const Body = ({ className = "" }) => {
   return (
-    <div className={`px-40 py-10 ${className}`}>
-      <h2 className="text-orange-500 text-xl mb-10">Our Pillars</h2>
+    <div className={`px-40 lg:px-2 py-10 ${className}`}>
+      <h2 className="text-orange-500 text-xl lg:text-sm lg:mb-5 mb-10">Our Pillars</h2>
 
-      <div className="grid gap-20">
-        <div className="flex flex-row md:flex-row items-start gap-20">
+      <div className="grid gap-20 lg:gap-10 ">
+        <div className="flex flex-row md:flex-row lg:flex-col lg:items-center items-start lg:gap-5 gap-20">
           <img
             src={image1}
             alt="SecureTech AV Designs Private Limited"
-            className="w-1/3 md:w-1/3 h-auto mb-4 md:mb-0 md:mr-4"
+            className="w-1/3 md:w-1/3 lg:w-96 h-auto mb-4 lg:mb-1 md:mb-0 md:mr-4"
           />
 
           <div className="flex-1">
-            <h3 className="text-orange-500 text-2xl font-bold mb-2">
+            <h3 className="text-orange-500 text-2xl lg:text-sm font-bold mb-2">
               Who We Are
             </h3>
             <p>
@@ -41,11 +41,11 @@ const Body = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-row md:flex-row items-start gap-20">
+        <div className="flex flex-row lg:flex-col md:flex-row lg:items-center items-start lg:gap-5 gap-20">
           <img
             src={image2}
             alt="What We Do"
-            className="w-1/3 md:w-1/3 h-80 mb-4 md:mb-0 md:mr-4"
+            className="w-1/3 md:w-1/3 lg:w-96  h-80 mb-4 md:mb-0 md:mr-4"
           />
           <div className="flex-1">
             <h3 className="text-orange-500 text-2xl font-bold mb-2">
@@ -68,11 +68,11 @@ const Body = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-row md:flex-row items-start gap-20">
+        <div className="flex flex-row lg:flex-col md:flex-row lg:items-center items-start lg:gap-5 gap-20">
           <img
             src={image3}
             alt="Solution & Integration"
-            className="w-1/3 md:w-1/3 h-auto mb-4 md:mb-0 md:mr-4"
+            className="w-1/3 md:w-1/3 lg:w-96  h-auto mb-4 md:mb-0 md:mr-4"
           />
           <div className="flex-1">
             <h3 className="text-orange-500 text-2xl font-bold mb-2">
@@ -97,11 +97,11 @@ const Body = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-row md:flex-row items-start gap-20">
+        <div className="flex flex-row lg:flex-col md:flex-row lg:items-center items-start lg:gap-5 gap-20">
           <img
             src={image4}
             alt="Methodology & Process"
-            className="w-1/3 md:w-1/3 h-80 mb-4 md:mb-0 md:mr-4"
+            className="w-1/3 md:w-1/3 lg:w-96  h-80 mb-4 md:mb-0 md:mr-4"
           />
           <div className="flex-1">
             <h3 className="text-orange-500 text-2xl font-bold mb-2">
@@ -125,11 +125,11 @@ const Body = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-row md:flex-row items-start gap-20">
+        <div className="flex flex-row lg:flex-col md:flex-row lg:items-center items-start lg:gap-5 gap-20">
           <img
             src={image5}
             alt="Our Vision"
-            className="w-1/3 md:w-1/3 h-auto mb-4 md:mb-0 md:mr-4"
+            className="w-1/3 md:w-1/3 lg:w-96  h-auto mb-4 md:mb-0 md:mr-4"
           />
           <div className="flex-1">
             <h3 className="text-orange-500 text-2xl font-bold mb-2">

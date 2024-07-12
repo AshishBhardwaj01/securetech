@@ -367,7 +367,7 @@ const FrameComponent1 = ({ className = "" }) => {
     setCurrentIndex((prevIndex) => (prevIndex + 3) % reviews.length);
   };
   return (
-    <div className={`flex flex-col gap-20 ${className}`}>
+    <div className={`flex flex-col gap-20  ${className}`}>
         {/* Title Section */}
         <div className="flex flex-col items-center justify-center py-0 px-2 box-border w-full text-center text-black">
             <h1 className="text-2.5xl leading-normal font-semibold font-poppins text-black">

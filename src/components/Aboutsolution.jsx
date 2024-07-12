@@ -87,7 +87,7 @@ const Solution = ({ className = "" }) => {
       Our Audio Video Solutions are tailored to enhance productivity, engagement, and overall user experience, making them ideal for businesses, educational institutions, healthcare facilities, and entertainment venues. With a focus on cutting-edge technology and exceptional service, we strive to provide solutions that meet the unique needs of each client.      </p>
 
       {/* Cards Section */}
-      <div className="grid grid-cols-4 md:grid-cols-4 gap-8 w-full max-w-6xl">
+      <div className="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-2 gap-8 w-full max-w-6xl">
         {/* Card 1 */}
         <div className="bg-white rounded-lg p-6 flex flex-col items-center justify-center shadow-lg">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-blue-500 mb-4" viewBox="0 0 20 20" fill="currentColor">
