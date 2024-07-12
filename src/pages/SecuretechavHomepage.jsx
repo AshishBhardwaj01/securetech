@@ -9,14 +9,15 @@ import FrameComponent2 from "../components/ourclients.jsx";
 import FrameComponent3 from "../components/ourbrands.jsx";
 import FooterLinks from "../components/FooterLinks";
 import App from '../components/navbar.jsx';
-
+import HeroContent from '../components/HomeBg.jsx';
 const SecuretechavHomepage = () => {
   return (
     <div className="w-full bg-white overflow-hidden">
       <div><App />
       </div>
       <main className="flex flex-col items-center space-y-8">
-        <MySection />
+        {/* <MySection /> */}
+        < HeroContent />
         <Component />
         <Venue />
         <VenueSpacesContainer />
