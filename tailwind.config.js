@@ -96,7 +96,7 @@ module.exports = {
       md: { max: '47.99875em' },  // 767.98px to em
       lg: { max: '61.99875em' },  // 991.98px to em
       xl: { max: '74.99875em' },  // 1199.98px to em
-      '2xl': { min: '75.1em' }, // 1200px to em 
+      '2xl': { min: '75.1em' }, // 1201px to em 
     },
     
   },

@@ -28,10 +28,10 @@ const FooterLinks = ({ className = "" }) => {
             </a>
           </div>
       <div
-        className={` flex flex-col-4 2xl:grid 2xl:grid-cols-4 2xl:pl-40 2xl:pb-5 2xl:gap-20 lg:flex-row items-center justify-between px-10 gap-20 lg:gap-9 max-w-full lg:flex-wrap text-center text-11xl text-white font-sans`}
+        className={` flex flex-col-4 2xl:grid 2xl:grid-cols-4 2xl:pl-40 xl:pl-20 2xl:pb-5 2xl:gap-20 lg:flex-row items-center justify-between px-10 gap-20 lg:gap-9 max-w-full lg:flex-wrap text-center text-11xl text-white font-sans`}
         
       >
-        <div className="flex flex-col items-center space-y-4">
+        <div className="flex flex-col xl:w-96 items-center space-y-4">
           <div className="flex items-center space-x-2">
             <img
               src="/image-5@2x.png"
