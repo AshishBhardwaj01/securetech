@@ -8,7 +8,7 @@ import SolutionsContainer from "../components/solutions.jsx";
 // import Quote from "../components/Solutionquote.jsx";
 const Solutionpage = () => {
   return (
-    <div className="min-h-screen flex flex-col font-poppins">
+    <div className="min-h-screen flex flex-col font-poppins overflow-hidden">
       <App />
       <Solutionimg />
       <IndustrySolutions />

@@ -14,9 +14,8 @@ const IndustrySolutions = ({ className = "" }) => {
             <span>
               <p className="m-0">
                 Learn more about SecureTech AV’s venue solutions and how you can
-                put data to work and accomplish
+                put data to work and accomplish more in your sector.
               </p>
-              <p className="m-0"> more in your sector.</p>
             </span>
           </div>
         </div>

@@ -48,9 +48,9 @@ import PropTypes from "prop-types";
 const HeroContent = ({ className = "" }) => {
   return (
     <div
-      className={`self-stretch h-[49.688rem] flex flex-row flex-wrap items-center justify-center py-[6.25rem] px-[0rem] box-border relative gap-[0rem_0.625rem] bg-[url('/image4@2x.png')] bg-cover bg-no-repeat bg-[top] max-w-full text-left text-[4.375rem] text-orangered font-poppins ${className}`}
+      className={`self-stretch h-[49.688rem] flex flex-row flex-wrap items-center justify-center py-[6.25rem] px-[0rem] box-border relative gap-[0rem_0.625rem] bg-[url('/Banner.gif')] bg-cover bg-no-repeat bg-[top] max-w-full text-left text-[4.375rem] text-orangered font-poppins ${className}`}
     >
-      <div className="h-[48.813rem] w-[120rem] relative bg-[url('/public/image4@2x.png')] bg-cover bg-no-repeat bg-[top] hidden max-w-full z-[0]" />
+      <div className="h-[48.813rem] w-[120rem] relative bg-[url('Banner.gif')] bg-cover bg-no-repeat bg-[top] hidden max-w-full z-[0]" />
            <div className="flex flex-col">
             <h1 className="!m-[0] w-[50.563rem] absolute top-[7.313rem] left-[7.563rem] text-inherit font-normal font-inherit flex items-center z-[1] mq450:text-[2.625rem] mq925:text-[3.5rem]">
               <span className="w-full ">

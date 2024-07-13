@@ -6,7 +6,7 @@ import Contactsolution from "../components/Contactsolution.jsx";
 import Contactbg from "../components/Contactbg.jsx";
 const Contactus = () => {
   return (
-    <div className=" flex flex-col font-poppins">
+    <div className=" flex flex-col font-poppins overflow-hidden">
       <App />
       <Contactbg />
       <ContactForm />
