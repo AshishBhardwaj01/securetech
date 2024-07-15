@@ -40,7 +40,7 @@ const FrameComponent = ({ className = "" }) => {
               </p>
             </h2>
             <Link to="/ContactUs" className="no-underline">
-            <button className="cursor-pointer py-2 px-5 bg-darkslategray-300 mb-2 rounded-2xl flex items-start justify-start text-white border-2 border-darkslategray-300 hover:bg-steelblue-300 hover:border-steelblue-300">
+            <button className="cursor-pointer py-2 px-5 bg-orange-500 mb-2 rounded-2xl flex items-start justify-start text-white hover:text-orange-500 hover:font-bold border-2 border-orange-300 hover:bg-white hover:border-white">
               Get in Touch
             </button>
             </Link>

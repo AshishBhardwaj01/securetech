@@ -7,8 +7,8 @@ function App() {
  return (
    <nav className="flex flex-row px-5 items-center justify-between flex-wrap">
      <a href="/" className="flex items-center flex-shrink-0 text-white mr-6 2xl:mr-72">
-       <img src="image-5@2x.png" className="w-150 h-20 mr-2" alt="Logo" />
-       <span className="text-4xl-3 text-black font-poppins font-bold">SecureTech AV Designs</span>
+       <img src="image-5@2x.png" className="w-150 h-20 lg:w-50 lg:h-15 py-1 mr-2" alt="Logo" />
+       <span className="text-4xl-3 lg:text-base text-black font-poppins font-bold">SecureTech AV Designs</span>
      </a>
      <div className="block 2xl:hidden">
        <button

@@ -33,7 +33,7 @@ const Component = ({ className = "" }) => {
   };
 
   return (
-    <div className={`relative gap-14 py-20 w-full max-w-full ${className}`}>
+    <div className={`relative gap-14 py-20 bg-transparent w-full max-w-full ${className}`}>
       <h2 className="text-center text-black font-poppins lg:text-lg font-semibold text-2.5xl">Solutions and Services</h2>
       
       <Slider {...settings} className="flex items-center justify-center gap-8 ml-10 px-4 sm:px-1">

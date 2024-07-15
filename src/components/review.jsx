@@ -314,7 +314,7 @@ import PropTypes from 'prop-types';
 const reviews = [
   {
     id: 1,
-    image: 'https://via.placeholder.com/200',
+    image: 'imag4.png',
     name: 'Anurag Khanna',
     feedback: 'I recently had the pleasure of working with Securetech for the audio system integration . Their expertise and professionalism left me thoroughly impressed I highly recommend Securetech for anyone in need of professional audio system integration. Their commitment to excellence and customer satisfaction sets them apart.',
     rating: 5,
@@ -367,25 +367,24 @@ const FrameComponent1 = ({ className = "" }) => {
     setCurrentIndex((prevIndex) => (prevIndex + 3) % reviews.length);
   };
   return (
-    <div className={`flex flex-col gap-20  ${className}`}>
+    <div className={`flex flex-col gap-5  ${className}`}>
         {/* Title Section */}
-        <div className="flex flex-col items-center justify-center py-0 px-2 box-border w-full text-center text-black">
+        <div className="flex flex-col items-center justify-center px-2 box-border w-full text-center text-black">
             <h1 className="text-2.5xl leading-normal font-semibold font-poppins text-black">
               Testimonials
             </h1>
-          <h1 className="m-0 text-lg leading-normal font-bold font-poppins text-darkslateblue">
-            Hear From Our Happy Clients
-          </h1>
         </div>
   
         {/* Intro Text */}
-        <div className="flex flex-row items-center justify-center py-0 px-10 box-border w-full text-center text-base">
-          <div className="w-96 relative leading-normal flex items-center shrink-0">
+        <div className="flex flex-row items-center justify-center px-10 box-border w-full text-center text-base">
+          <div className="flex-col w-96 p-2 relative leading-normal flex items-center shrink-0">
+          <h1 className="m-0 text-lg leading-normal font-bold font-poppins text-darkslateblue">
+            Hear From Our Happy Clients
+          </h1>
             <span className="w-full">
               <p className="m-0 font-poppins">
                 Don't just take our word for it. See how working with AVN has helped our clients execute unforgettable events across the nation.
               </p>
-              
             </span>
           </div>
         </div>
@@ -403,12 +402,12 @@ const FrameComponent1 = ({ className = "" }) => {
       {/* Reviews */}
       <div className="flex flex-row lg:flex-col gap-10 items-center">
       {reviews.slice(currentIndex, currentIndex + 3).map(review => (
-                  <div key={review.id} className="bg-white shadow-md rounded-lg p-6 w-80 h-96 relative">
-            <div className="absolute top-0 left-1/2  -translate-x-1/2 -translate-y-1/2">
+                  <div key={review.id} className=" shadow-md rounded-lg p-6 bg-slate-200  w-80 h-96 relative">
+            <div className="absolute lg:top-10 top-1 left-1/2 p-1 bg-white rounded-full -translate-x-1/2 -translate-y-1/2">
               <img
                 src={review.image}
                 alt={`${review.name}'s profile`}
-                className="w-24 h-24 rounded-full border-4 border-white shadow-lg"
+                className="w-24 h-24 rounded-full border-8 border-white  shadow-lg"
               />
             </div>
             <div className="mt-16 flex flex-col items-center space-y-2">
