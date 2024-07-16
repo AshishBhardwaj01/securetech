@@ -63,7 +63,7 @@ const FooterLinks = ({ className = "" }) => {
           <address className="text-white font-poppins h-full">
             <span className="text-chocolate font-poppins">Company Address</span>
             <span className="font-poppins">
-              : Secure TechAV Designs Private Limited A-70-SECTOR 33 NOIDA,
+              : SecureTech AV Designs Private Limited A-70-SECTOR 33 NOIDA,
               UTTAR PRADESH, 201301
             </span>
           </address>
