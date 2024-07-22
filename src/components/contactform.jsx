@@ -3,28 +3,28 @@ import PropTypes from "prop-types";
 
 const ContactForm = ({ className = "" }) => {
   return (
-    <div class="flex flex-row py-28 items-start justify-center gap-96 text-left text-base text-black font-poppins">
+    <div class="flex flex-row lg:flex-col py-28 items-start justify-center gap-60 text-left text-base text-black font-poppins">
       <div class="flex flex-col items-center justify-center max-w-full">
         <div class="flex flex-col items-start justify-start gap-[20.2px] max-w-full">
           <div class="flex flex-col items-start justify-start gap-[0.3px] text-29xl">
-            <h1 class="m-0 mt-10 tracking-[-0.96px] leading-[50px] font-semibold">
+            <h1 class="m-0 mt-10 tracking-[-0.96px] leading-normal font-semibold">
               Get in Touch with
             </h1>
             <div class="flex flex-row items-start justify-start gap-[33px] text-orange-500">
-              <h1 class="m-0 tracking-[-0.96px] leading-[58px] font-semibold">
+              <h1 class="m-0 tracking-[-0.96px] leading-normal font-semibold">
                 Securetech AV Designs
               </h1>
               <img class="h-12 w-12 " loading="lazy" alt="" src="/hand1.svg" />
             </div>
           </div>
           <div class="flex flex-col items-start justify-start text-darkslategray-400">
-            <p class="m-0 leading-[29px]">
+            <p class="m-0 leading-normal">
               Feel free to connect with us for any of your needs regarding our
             </p>
-            <p class="m-0 leading-[28.48px]">
+            <p class="m-0 leading-normal">
               services. Our support team is ready to solve any of your issues.
             </p>
-            <p class="m-0 leading-[29px]">
+            <p class="m-0 leading-normal">
               Just push a text to us and we will get back to you immediately.
             </p>
           </div>
@@ -38,7 +38,7 @@ const ContactForm = ({ className = "" }) => {
                 alt=""
                 src="/locator.png"
               />
-              <div class="leading-[29px]">
+              <div class="leading-normal">
                 A-70-SECTOR 33 NOIDA, UTTAR PRADESH, 201301
               </div>
             </div>
@@ -49,7 +49,7 @@ const ContactForm = ({ className = "" }) => {
                 alt=""
                 src="/message.png"
               />
-              <div class="leading-[29px] whitespace-nowrap">
+              <div class="leading-normal whitespace-nowrap">
                 ashish@securetechav.com
               </div>
             </div>
@@ -60,7 +60,7 @@ const ContactForm = ({ className = "" }) => {
                 alt=""
                 src="/phone.png"
               />
-              <div class="leading-[29px] whitespace-nowrap">+91 7017247344</div>
+              <div class="leading-normal whitespace-nowrap">+91 7017247344</div>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ const ContactForm = ({ className = "" }) => {
         </div>
         <div class="flex flex-row items-center justify-center">
           <button class="cursor-pointer bg-orange-500 px-36 py-5 bg-chocolate-100 flex flex-row items-end justify-start gap-[9.4px] border-[1px] border-solid border-aquamarine ">
-            <div class="text-base leading-[19px] capitalize font-normal text-white">
+            <div class="text-base leading-normal capitalize font-normal text-white">
               Connect with Securetech today
             </div>
             <img class="h-4 w-4" alt="" src="/Icon.png" />

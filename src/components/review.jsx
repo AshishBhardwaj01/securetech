@@ -315,8 +315,8 @@ const reviews = [
   {
     id: 1,
     image: 'imag4.png',
-    name: 'Anurag Khanna',
-    feedback: 'I recently had the pleasure of working with Securetech for the audio system integration . Their expertise and professionalism left me thoroughly impressed I highly recommend Securetech for anyone in need of professional audio system integration. Their commitment to excellence and customer satisfaction sets them apart.',
+    name: 'Antriksh verma',
+    feedback: 'Its indeed the place for all your technology needs. i have had a great experience dealing with them for an audio video professional solution. Solution being provided was state of the art and the team was really professional and competant. Thanks SecureTech AV for the awesome experience and wish you all the very best for your future endeavours.',
     rating: 5,
   },
   {
@@ -324,7 +324,7 @@ const reviews = [
     image: 'https://via.placeholder.com/200',
     name: 'Shivam Kapoor',
     feedback: "Unmatched in the market, their services are top-notch. The staff's cooperation is outstanding, always prioritizing client requirements. Extremely satisfied with the experience!",
-    rating: 4,
+    rating: 5,
   },
   {
     id: 3,
