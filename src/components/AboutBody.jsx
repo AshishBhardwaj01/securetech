@@ -9,21 +9,21 @@ import image5 from "/imaga.png";
 const Body = ({ className = "" }) => {
   return (
     <div className={`px-40 lg:px-2 py-10 ${className}`}>
-      <h2 className="text-orange-500 text-xl lg:text-sm lg:mb-5 mb-10">Our Pillars</h2>
+      <h2 className="text-orange-500 text-2xl lg:px-8 lg:mb-5 mb-10">Our Pillars</h2>
 
-      <div className="grid gap-20 lg:gap-10 ">
-        <div className="flex flex-row md:flex-row lg:flex-col lg:items-center items-start lg:gap-5 gap-20">
+      <div className="grid gap-20 lg:items-center">
+        <div className="flex flex-row lg:flex-col lg:items-center lg:shadow-lg items-start lg:gap-0 gap-20">
           <img
             src={image1}
             alt="SecureTech AV Designs Private Limited"
-            className="w-1/3 md:w-1/3 lg:w-96 h-auto mb-4 lg:mb-1 md:mb-0 md:mr-4"
+            className="w-1/3 lg:w-5/6 h-auto mb-4 lg:mb-1"
           />
 
-          <div className="flex-1">
-            <h3 className="text-orange-500 text-2xl lg:text-sm font-bold mb-2">
+          <div className="flex-1 lg:flex-col lg:px-10">
+            <h3 className="text-orange-500 text-xl font-bold mb-2">
               Who We Are
             </h3>
-            <p>
+            <p className="text-sm">
               SecureTech AV Designs Private Limited is a leading technology firm
               specializing in the seamless integration of audio, visual,
               lighting architecture, acoustics, ICT, and technology project
@@ -41,17 +41,17 @@ const Body = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-row lg:flex-col md:flex-row lg:items-center items-start lg:gap-5 gap-20">
+        <div className="flex flex-row lg:flex-col lg:items-center lg:shadow-lg items-start lg:gap-0 gap-20">
           <img
             src={image2}
             alt="What We Do"
-            className="w-1/3 md:w-1/3 lg:w-96  h-80 mb-4 md:mb-0 md:mr-4"
+            className="w-1/3 md:w-1/3 lg:w-5/6 h-80 mb-4"
           />
-          <div className="flex-1">
-            <h3 className="text-orange-500 text-2xl font-bold mb-2">
+          <div className="flex-1 lg:flex-col lg:px-10">
+            <h3 className="text-orange-500 text-xl font-bold mb-2">
               What We Do
             </h3>
-            <p>
+            <p className="text-sm">
               SecureTech AV Designs Private Limited is a specialized System
               Integration company leading in Professional Audio, Video, Control,
               and Lighting services. We excel in integrating cutting-edge
@@ -68,17 +68,17 @@ const Body = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-row lg:flex-col md:flex-row lg:items-center items-start lg:gap-5 gap-20">
+        <div className="flex flex-row lg:flex-col lg:items-center lg:shadow-lg items-start lg:gap-0 gap-20">
           <img
             src={image3}
             alt="Solution & Integration"
-            className="w-1/3 md:w-1/3 lg:w-96  h-auto mb-4 md:mb-0 md:mr-4"
+            className="w-1/3 lg:w-5/6  h-auto mb-4 "
           />
-          <div className="flex-1">
-            <h3 className="text-orange-500 text-2xl font-bold mb-2">
+          <div className="flex-1 lg:flex-col lg:px-10">
+            <h3 className="text-orange-500 text-xl font-bold mb-2">
               Solution & Integration
             </h3>
-            <p>
+            <p className="text-sm">
               SecureTech AV Designs Private Limited specializes in providing
               complete solutions and integration, offering turnkey services that
               encompass every phase of the project lifecycle. From customized
@@ -97,17 +97,17 @@ const Body = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-row lg:flex-col md:flex-row lg:items-center items-start lg:gap-5 gap-20">
+        <div className="flex flex-row lg:flex-col lg:items-center lg:shadow-lg items-start lg:gap-0 gap-20">
           <img
             src={image4}
             alt="Methodology & Process"
-            className="w-1/3 md:w-1/3 lg:w-96  h-80 mb-4 md:mb-0 md:mr-4"
+            className="w-1/3 lg:w-5/6  h-80 mb-4 "
           />
-          <div className="flex-1">
-            <h3 className="text-orange-500 text-2xl font-bold mb-2">
+          <div className="flex-1 lg:flex-col lg:px-10">
+            <h3 className="text-orange-500 text-xl font-bold mb-2">
               Methodology & Process
             </h3>
-            <p>
+            <p className="text-sm">
               At SecureTech AV Designs Private Limited, our operational ethos
               revolves around a systematic approach guided by stringent
               processes and meticulous guidelines. We execute every project with
@@ -125,17 +125,17 @@ const Body = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-row lg:flex-col md:flex-row lg:items-center items-start lg:gap-5 gap-20">
+        <div className="flex flex-row lg:flex-col md:flex-row lg:items-center items-start lg:shadow-lg lg:gap-0 gap-20">
           <img
             src={image5}
             alt="Our Vision"
-            className="w-1/3 md:w-1/3 lg:w-96  h-auto mb-4 md:mb-0 md:mr-4"
+            className="w-1/3 lg:w-5/6  h-auto mb-4 "
           />
-          <div className="flex-1">
-            <h3 className="text-orange-500 text-2xl font-bold mb-2">
+          <div className="flex-1 lg:flex-col lg:px-10">
+            <h3 className="text-orange-500 text-xl font-bold mb-2">
               Our Vision
             </h3>
-            <p>
+            <p className="text-sm">
               SecureTech AV Designs Private Limited' mission is to engineer
               seamless, immersive experiences by harmonizing technology, design,
               and innovation. The company strives to pioneer cutting-edge
