@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const FrameComponent = ({ className = "" }) => {
   return (
     <section className={`relative w-full flex flex-col items-center justify-center gap-10 py-40 lg:py-5 bg-slate-200 px-10 box-border text-center text-5xl text-darkslategray-200 font-sans lg:flex-col ${className}`}>
-      <div className="flex flex-row items-center justify-center gap-14 lg:gap-5 py-2.5 lg:flex-col lg:items-center lg:justify-center lg:gap-5">
+      <div className="flex flex-row items-center justify-center gap-14 lg:gap-5 py-2.5 lg:flex-col lg:items-center lg:justify-center">
         <div className="flex flex-col 2xl:mt-[70px] items-center justify-center 2xl:items-start 2xl:justify-start gap-5 lg:items-center lg:justify-center lg:gap-5">
           <div className="w-60 rounded-2xl bg-whitesmoke flex flex-col items-start justify-start pl-5 box-border relative shrink-0">
             <h3 className="m-0 text-gray-400 font-poppins pb-4 leading-tight text-lg lg:text-base 2xl:text-base xl:text-xl">
