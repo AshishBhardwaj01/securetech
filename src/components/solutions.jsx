@@ -38,22 +38,22 @@ import PropTypes from "prop-types";
     
     const SolutionsContainer = ({ className = "" }) => {
       return (
-        <div className="container mx-auto p-6">
+        <div className="container mx-auto p-6 lg:p-0">
           {solutions.map((solution, index) => (
             <div 
               key={index}
-              className={`flex flex-row md:flex-row items-center my-8 p-4 border rounded-lg shadow-lg ${
+              className={`flex flex-row md:flex-row lg:flex-col items-center my-8 p-4 gap-10 border rounded-lg shadow-lg ${
                 index % 2 === 0 ? 'md:flex-row' : 'flex-row-reverse'
               }`}
             >
               <img 
                 src={solution.image}
                 alt={solution.heading}
-                className="w-full md:w-1/2 h-64 object-cover rounded-lg"
+                className="w-full md:w-1/2 lg:w-96 h-64 lg:40 object-cover rounded-lg"
               />
-              <div className="w-full px-10 md:w-1/2 md:px-8 text-left md:text-left">
+              <div className="w-full px-10 lg:px-2 md:w-1/2 lg:w-80 md:px-8 text-left md:text-left">
                 <h2 className="text-lg font-semibold mb-4">{solution.heading}</h2>
-                <p className="text-sm">{solution.text}</p>
+                <p className="text-sm ">{solution.text}</p>
               </div>
             </div>
           ))}

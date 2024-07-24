@@ -5,14 +5,14 @@ const IndustrySolutions = ({ className = "" }) => {
     <section
       className={`self-stretch flex flex-row items-start justify-center py-20 px-10 box-border max-w-full text-center text-21xl text-black font-open-sans ${className}`}
     >
-      <div className="w-[408px] flex flex-col text-center gap-[15px] max-w-full">
-        <h1 className="m-0 relative text-lg leading-normal font-bold font-inherit text-orange-500 ">
+      <div className="w-96 flex flex-col text-center gap-3 max-w-full">
+        <h1 className="m-0 p-5 relative text-lg leading-normal font-bold font-inherit text-orange-500 ">
           Explore AV solutions
         </h1>
-        <div className="self-stretch flex flex-row items-start justify-end py-0 px-[41px] box-border max-w-full text-base">
+        <div className="self-stretch flex flex-row items-start justify-end py-0 px-10 box-border max-w-full text-base">
           <div className="h-20 flex-1 relative leading-normal flex items-center max-w-full">
             <span>
-              <p className="m-0">
+              <p className="m-0 ">
                 Learn more about SecureTech AV’s venue solutions and how you can
                 put data to work and accomplish more in your sector.
               </p>

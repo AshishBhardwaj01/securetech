@@ -314,7 +314,7 @@ import PropTypes from 'prop-types';
 const reviews = [
   {
     id: 1,
-    image: 'imag4.png',
+    image: 'https://via.placeholder.com/200',
     name: 'Antriksh verma',
     feedback: 'Its indeed the place for all your technology needs. i have had a great experience dealing with them for an audio video professional solution. Solution being provided was state of the art and the team was really professional and competant. Thanks SecureTech AV for the awesome experience and wish you all the very best for your future endeavours.',
     rating: 5,
