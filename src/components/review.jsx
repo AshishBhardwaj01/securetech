@@ -367,10 +367,10 @@ const FrameComponent1 = ({ className = "" }) => {
     setCurrentIndex((prevIndex) => (prevIndex + 3) % reviews.length);
   };
   return (
-    <div className={`flex flex-col gap-5  ${className}`}>
+    <div className={`flex flex-col gap-5   ${className}`}>
         {/* Title Section */}
         <div className="flex flex-col items-center justify-center px-2 box-border w-full text-center text-black">
-            <h1 className="text-2.5xl leading-normal font-semibold font-poppins text-black">
+            <h1 className="text-2.5xl lg:text-lg leading-normal font-semibold font-poppins text-black">
               Testimonials
             </h1>
         </div>
@@ -378,11 +378,11 @@ const FrameComponent1 = ({ className = "" }) => {
         {/* Intro Text */}
         <div className="flex flex-row items-center justify-center px-10 box-border w-full text-center text-base">
           <div className="flex-col w-96 p-2 relative leading-normal flex items-center shrink-0">
-          <h1 className="m-0 text-lg leading-normal font-bold font-poppins text-darkslateblue">
+          <h1 className="m-0 text-lg lg:text-mid leading-normal font-bold font-poppins text-darkslateblue">
             Hear From Our Happy Clients
           </h1>
             <span className="w-full">
-              <p className="m-0 font-poppins">
+              <p className="m-0 font-poppins lg:text-sm">
                 Don't just take our word for it. See how working with AVN has helped our clients execute unforgettable events across the nation.
               </p>
             </span>

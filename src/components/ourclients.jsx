@@ -25,14 +25,14 @@ const FrameComponent2 = ({ className = "" }) => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1,
           
         },
@@ -42,17 +42,17 @@ const FrameComponent2 = ({ className = "" }) => {
 
   return (
     <section
-      className={`relative w-full flex-col items-center justify-start lg:justify-center py-20 box-border gap-[100px] max-w-full text-center text-51xl text-black font-poppins ${className}`}
+      className={`relative w-full flex-col items-center justify-start lg:justify-center py-20 lg:py-5 box-border gap-24 max-w-full text-center text-51xl text-black font-poppins ${className}`}
     >
-      <div className="w-full justify-center items-center py-0 max-w-full text-2.5xl">
-        <h1 className="text-center mb-4 font-semibold m-0 pb-10 relative text-inherit tracking-[-0.05em] p-10 py-[10px] font-poppins shrink-0 max-w-full ">{`Our Clients`}</h1>
+      <div className="w-full justify-center items-center py-0 max-w-full text-2.5xl lg:text-lg">
+        <h1 className="text-center mb-4 font-semibold m-0 pb-10 relative text-inherit tracking-[-0.05em] px-10 py-2.5 font-poppins shrink-0 max-w-full ">{`Our Clients`}</h1>
       </div>
 
-      <div className="w-full pl-28 py-5">
+      <div className="w-full pl-28 lg:pl-3 py-5">
         <Slider {...settings}>
           <div className="flex items-center justify-center lg:object-contain px-2">
             <img
-              className="h-[150px] max-w-full lg:max-w-full"
+              className="h-32 lg:h-24  max-w-full lg:max-w-full"
               loading="lazy"
               alt=""
               src="/p2-1@2x.png"
@@ -60,7 +60,7 @@ const FrameComponent2 = ({ className = "" }) => {
           </div>
           <div className="flex items-center justify-center lg:object-contain px-2">
             <img
-              className="h-[150px] max-w-full lg:max-w-full"
+              className="h-32 lg:h-24 max-w-full lg:max-w-full"
               loading="lazy"
               alt=""
               src="/p1-1@2x.png"
@@ -68,7 +68,7 @@ const FrameComponent2 = ({ className = "" }) => {
           </div>
           <div className="flex items-center justify-center lg:object-contain px-2">
             <img
-              className="h-[150px] max-w-full lg:max-w-full"
+              className="h-32 lg:h-24 max-w-full lg:max-w-full"
               loading="lazy"
               alt=""
               src="/p17-1@2x.png"
@@ -76,7 +76,7 @@ const FrameComponent2 = ({ className = "" }) => {
           </div>
           <div className="flex items-center justify-center lg:object-contain px-2">
             <img
-              className="h-[150px] max-w-full lg:object-fit"
+              className="h-32 lg:h-24 max-w-full lg:object-fit"
               loading="lazy"
               alt=""
               src="/p14-1@2x.png"
@@ -84,7 +84,7 @@ const FrameComponent2 = ({ className = "" }) => {
           </div>
           <div className="flex items-center justify-center lg:object-fit px-2">
             <img
-              className="h-[150px] max-w-full lg:object-contain
+              className="h-32 lg:h-24 max-w-full lg:object-contain
               "
               loading="lazy"
               alt=""
@@ -93,7 +93,7 @@ const FrameComponent2 = ({ className = "" }) => {
           </div>
           <div className="flex items-center justify-center px-2">
             <img
-              className="h-[150px] max-w-full lg:object-contain
+              className="h-32 lg:h-24 max-w-full lg:object-contain
               "
               loading="lazy"
               alt=""
@@ -102,7 +102,7 @@ const FrameComponent2 = ({ className = "" }) => {
           </div>
           <div className="flex items-center justify-center px-2">
             <img
-              className="h-[150px] max-w-full lg:object-contain
+              className="h-32 lg:h-24 max-w-full lg:object-contain
               "
               loading="lazy"
               alt=""
@@ -111,7 +111,7 @@ const FrameComponent2 = ({ className = "" }) => {
           </div>
           <div className="flex items-center justify-center px-2">
             <img
-              className="h-[150px] max-w-full lg:object-contain
+              className="h-32 lg:h-24 max-w-full lg:object-contain
               "
               loading="lazy"
               alt=""

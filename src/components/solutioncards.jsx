@@ -36,8 +36,8 @@ const Component = ({ className = "" }) => {
     <div className={`relative gap-14 py-20 bg-transparent w-full max-w-full ${className}`}>
       <h2 className="text-center text-black font-poppins lg:text-lg font-semibold text-2.5xl">Solutions and Services</h2>
       
-      <Slider {...settings} className="flex items-center justify-center gap-8 ml-10 px-4 sm:px-1">
-        <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border gap-8 max-w-[95%] bg-white rounded-4 ">
+      <Slider {...settings} className="flex items-center justify-center gap-8 ml-10 lg:pt-10 px-4 sm:px-1">
+        <div className="flex flex-col items-start justify-start pt-0 pb-16 lg:pb-5 pr-0 pl-3 box-border gap-8 max-w-[95%] bg-white rounded-4 ">
           <div className="max-w-full sm:max-w-[70%] mx-auto items-center justify-center relative">
             <img
               className=" w-full h-auto relative rounded-16 sm:rounded-0 object-cover z-1"
@@ -59,7 +59,7 @@ const Component = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4 ">
+        <div className="flex flex-col items-start justify-start pt-0 pb-16 lg:pb-5 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4 ">
           <div className="max-w-full sm:max-w-[70%] mx-auto relative">
             <img
               className="w-full h-auto relative rounded-16 sm:rounded-0 object-cover z-1"
@@ -81,7 +81,7 @@ const Component = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4 ">
+        <div className="flex flex-col items-start justify-start pt-0 pb-16 lg:pb-5 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4 ">
           <div className="max-w-full sm:max-w-[70%] mx-auto relative">
             <img
               className="w-full h-auto relative rounded-16 sm:rounded-0 object-cover z-1"
@@ -103,7 +103,7 @@ const Component = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4 ">
+        <div className="flex flex-col items-start justify-start pt-0 pb-16 lg:pb-5 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4 ">
           <div className="max-w-full sm:max-w-[70%] mx-auto relative">
             <img
               className="w-full h-auto relative rounded-16 sm:rounded-0 object-cover z-1"
@@ -125,7 +125,7 @@ const Component = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4">
+        <div className="flex flex-col items-start justify-start pt-0 pb-16 lg:pb-5 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4">
           <div className="max-w-full sm:max-w-[70%] mx-auto relative">
             <img
               className="w-full h-auto relative rounded-16 sm:rounded-0 object-cover z-1"
@@ -147,7 +147,7 @@ const Component = ({ className = "" }) => {
           </div>
         </div>
 
-        <div className="flex flex-col items-start justify-start pt-0 pb-16 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4">
+        <div className="flex flex-col items-start justify-start pt-0 pb-16 lg:pb-5 pr-0 pl-3 box-border relative gap-8 max-w-[95%] bg-white rounded-4">
           <div className="max-w-full sm:max-w-[70%] mx-auto relative">
             <img
               className=" max-w-full h-auto relative rounded-16 sm:rounded-0 object-contain z-1"

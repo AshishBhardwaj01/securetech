@@ -79,7 +79,7 @@ module.exports = {
       "5xl-2": "1.5125rem",  // 24.2px to rem
       "39xl-9": "3.68125rem",  // 58.9px to rem // 24px to rem
       "4xl-3": "1.45625rem",
-      "5xl": "1.5rem",
+      "5xl": "1.55rem",
       "2xl":"2rem",
       "2.5xl":"2.5rem",
       "6xl":"3rem" ,  // 23.3px to rem
