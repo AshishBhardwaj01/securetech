@@ -30,10 +30,10 @@ const VenueSpacesContainer = ({ className = "" }) => {
               </div>
             </div>
 
-            <div className=" flex flex-row lg:flex-col items-center justify-center px-32 gap-8 max-w-full text-right text-11xl text-gray-200 font-poppins">
+            <div className=" flex flex-row lg:flex-col items-center justify-center px-32 gap-8 max-w-full text-right text-5xl text-gray-200 font-poppins">
               <div className="flex-1 flex flex-col items-start justify-start min-w-[287px] max-w-full text-right">
                 <div className="self-stretch flex flex-col items-end justify-end pt-0 pb-8 box-border gap-2.5 max-w-full">
-                  <h2 className="m-0 relative text-inherit leading-[32px] font-bold font-poppins inline-block max-w-full">
+                  <h2 className="m-0 relative text-inherit leading-8 font-semibold font-poppins inline-block max-w-full">
                     Industry Expertise
                   </h2>
                   <div className="relative text-base leading-normal">
@@ -45,7 +45,7 @@ const VenueSpacesContainer = ({ className = "" }) => {
                   </div>
                 </div>
                 <div className="self-stretch flex flex-col items-end justify-end pt-0 px-0 pb-8 box-border gap-2.5 max-w-full">
-                  <h2 className="m-0 relative text-inherit leading-8 font-bold font-poppins">
+                  <h2 className="m-0 relative text-inherit leading-8 font-semibold font-poppins">
                     Reliable Infrastructure
                   </h2>
                   <div className="w-[420.1px] relative text-base leading-6 flex items-center max-w-full">
@@ -59,7 +59,7 @@ const VenueSpacesContainer = ({ className = "" }) => {
                   </div>
                 </div>
                 <div className="self-stretch flex flex-col items-end justify-end pt-0 px-0 pb-[30.5px] gap-2.5">
-                  <h2 className="m-0 relative text-inherit leading-8 font-bold font-poppins">
+                  <h2 className="m-0 relative text-inherit leading-8 font-semibold font-poppins">
                     Skilled Professionals
                   </h2>
                   <div className="relative text-base leading-6">
@@ -82,7 +82,7 @@ const VenueSpacesContainer = ({ className = "" }) => {
                         </div>
               <div className="flex-1 flex flex-col items-start justify-start min-w-[287px] pt-5 max-w-full text-left mq1350:flex-1">
                 <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[25.5px] box-border gap-[9.5px] max-w-full">
-                  <h2 className="m-0 relative text-inherit leading-[32px] font-bold font-poppins inline-block max-w-full mq450:text-lg mq450:leading-[19px] mq925:text-5xl mq925:leading-[26px]">
+                  <h2 className="m-0 relative text-inherit leading-8 font-semibold font-poppins inline-block max-w-full mq450:text-lg mq450:leading-[19px] mq925:text-5xl mq925:leading-[26px]">
                     Premium Quality Output
                   </h2>
                   <div className="relative text-base leading-[26px]">
@@ -95,7 +95,7 @@ const VenueSpacesContainer = ({ className = "" }) => {
                   </div>
                 </div>
                 <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[30.5px] box-border gap-[9.5px] max-w-full">
-                  <h2 className="m-0 relative text-inherit leading-[32px] font-bold font-poppins mq450:text-lg mq450:leading-[19px] mq925:text-5xl mq925:leading-[26px]">
+                  <h2 className="m-0 relative text-inherit leading-8 font-semibold font-poppins mq450:text-lg mq450:leading-[19px] mq925:text-5xl mq925:leading-[26px]">
                     Scalable Services
                   </h2>
                   <div className="w-[420.1px] relative text-base leading-[26px] flex items-center max-w-full">
@@ -110,10 +110,10 @@ const VenueSpacesContainer = ({ className = "" }) => {
                   </div>
                 </div>
                 <div className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[30.5px] gap-[9.5px]">
-                  <h2 className="m-0 relative text-inherit leading-[32px] font-bold font-poppins mq450:text-lg mq450:leading-[19px] mq925:text-5xl mq925:leading-[26px]">
+                  <h2 className="m-0 relative text-inherit leading-8 font-semibold font-poppins mq450:text-lg mq450:leading-[19px] mq925:text-5xl mq925:leading-[26px]">
                     Reasonable Costs
                   </h2>
-                  <div className="relative text-base leading-[26px]">
+                  <div className="relative text-base leading-6">
                     <p className="m-0">
                       Benefit from flexible pricing options tailored to your
                       needs, ensuring cost-effectiveness without compromising
