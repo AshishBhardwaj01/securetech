@@ -21,21 +21,21 @@ const FrameComponent = ({ className = "" }) => {
           />
           
         </div>
-        <div className="flex-1 flex flex-col text-left items-center justify-start gap-1  text-gray-400 font-poppins">
+        <div className="flex-1 flex flex-col text-left items-center justify-start gap-1 lg:gap-0  text-gray-400 font-poppins">
           <h1 className="self-stretch text-transparent bg-clip-text bg-gradient-to-r from-[#c83a8c] to-[#3498db] font-bold leading-tight text-2.5xl lg:text-5xl-2">
             Contact SecureTech AV now!
           </h1>
-          <div className="flex flex-col items-start justify-center gap-10">
-            <h2 className="text-black items-center justify-center font-medium text-1vh leading-tight text-base">
-              <p className="text-base">
+          <div className="flex flex-col items-start justify-center gap-10 lg:gap-5">
+            <h2 className="text-black items-center justify-center font-medium text-1vh leading-5 text-base">
+              <p className="text-base lg:text-sm">
                 Transform your space with SecureTech AV's cutting-edge solutions.From audio-visual integration </p>
-                 <p className="text-base">
+                 <p className="text-base lg:text-sm">
                  to dynamic lighting and acoustics, we deliver customized,innovative technology
               </p>
-                <p className="text-base">
+                <p className="text-base lg:text-sm">
                    tailored to your needs. Our expert team ensures seamless implementation 
               </p>
-              <p className="text-base">
+              <p className="text-base lg:text-sm">
                 and ongoing support.
               </p>
             </h2>

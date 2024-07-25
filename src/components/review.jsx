@@ -402,7 +402,7 @@ const FrameComponent1 = ({ className = "" }) => {
       {/* Reviews */}
       <div className="flex flex-row lg:flex-col gap-10 items-center">
       {reviews.slice(currentIndex, currentIndex + 3).map(review => (
-                  <div key={review.id} className=" shadow-md rounded-lg p-6 bg-slate-200  w-80 h-96 relative">
+                  <div key={review.id} className=" shadow-md rounded-lg p-6 bg-slate-200  w-80 h-96 lg:h-auto relative">
             <div className="absolute lg:top-10 top-1 left-1/2 p-1 bg-white rounded-full -translate-x-1/2 -translate-y-1/2">
               <img
                 src={review.image}

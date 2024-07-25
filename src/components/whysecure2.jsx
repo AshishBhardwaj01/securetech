@@ -32,7 +32,7 @@ const VenueSpacesContainer = ({ className = "" }) => {
 
             <div className=" flex flex-row lg:flex-col items-center justify-center px-32 gap-8 max-w-full text-right lg:text-mid text-5xl text-gray-200 font-poppins">
               <div className="flex-1 flex flex-col items-start justify-start lg:items-center lg:justify-center min-w-[287px] max-w-full text-right lg:text-center">
-                <div className="self-stretch flex flex-col items-end justify-end lg:items-center lg:justify-center pt-0 pb-8 box-border gap-2.5 max-w-full">
+                <div className="self-stretch flex flex-col items-end justify-end lg:items-center lg:justify-left pt-0 pb-8 box-border gap-2.5 max-w-full">
                   <h2 className="m-0 relative text-inherit leading-8 font-semibold font-poppins inline-block max-w-full">
                     Industry Expertise
                   </h2>
@@ -80,7 +80,7 @@ const VenueSpacesContainer = ({ className = "" }) => {
                             />
                           </div>
                         </div>
-              <div className="flex-1 flex flex-col lg:text-mid items-start justify-start lg:items-center lg:justify-center min-w-[287px] pt-5 max-w-full text-left lg:text-center">
+              <div className="flex-1 flex flex-col lg:text-mid items-start justify-start lg:items-center lg:justify-center min-w-[287px] max-w-full text-left lg:text-center">
                 <div className="self-stretch flex flex-col items-start justify-start lg:items-center lg:justify-center pt-0 px-0 pb-[25.5px] box-border gap-[9.5px] max-w-full">
                   <h2 className="m-0 relative text-inherit leading-8 font-semibold font-poppins inline-block max-w-full ">
                     Premium Quality Output
