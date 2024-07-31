@@ -9,7 +9,7 @@ import SecuretechavHomepage from "./pages/SecuretechavHomepage";
 import AboutUs from "./pages/Aboutuspage";
 import ContactUs from "./pages/ContactUspage";
 import Solutionpage from "./pages/solutionpage"
-
+import Chatbot from "./components/Chatbot";
 
 function App() {
   const action = useNavigationType();
@@ -56,12 +56,15 @@ function App() {
   }, [pathname]);
 
   return (
+    <div className="App">
     <Routes>
       <Route path="/" element={<SecuretechavHomepage />} />
       <Route path="/AboutUs" element={<AboutUs />} />
       <Route path="/Contactus" element={<ContactUs />} />
       <Route path="/Solutionpage" element={<Solutionpage />} />
     </Routes>
+    <Chatbot />
+    </div>
   );
 }
 
