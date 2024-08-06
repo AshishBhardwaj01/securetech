@@ -88,8 +88,10 @@
 // Chatbot.jsx
 // Chatbot.jsx
 import React, { useState } from 'react';
-import { AiOutlineMessage } from 'react-icons/ai';
-import { AiOutlineClose } from 'react-icons/ai';
+import { AiOutlineMessage, AiOutlineClose } from 'react-icons/ai';
+import { FaHeadset, FaTools, FaProductHunt, FaWrench, FaInfoCircle } from 'react-icons/fa';
+
+
 
 const options = {
   initial: [
@@ -97,6 +99,7 @@ const options = {
     "Products",
     "Installation",
     "Support",
+    "Contact Information"
   ],
   Services: [
     "We offer a range of services including architectural acoustics, audio visuals, light architectures, information technology solutions, post-project services, and project management.",
@@ -114,6 +117,11 @@ const options = {
     "We provide comprehensive support for all our products and services. You can contact our support team for any technical issues or questions.",
     "Yes, all our products come with a warranty. Please reach out to our support team for any assistance."
   ],
+  "Contact Information":[
+    "Mob No. : +91 7017247344",
+    "Email ID: ashish@securetechav.com",
+    "Address: A-70, SECTOR 33, NOIDA, UTTAR PRADESH, 201301 ",
+  ]
 };
 
 const Chatbot = () => {
@@ -160,7 +168,8 @@ const Chatbot = () => {
           )}
           <ul className="space-y-2">
             {currentOptions.map((option, index) => (
-              <li key={index}>
+              <li key={index} className="flex items-start">
+              <span className="mr-2 text-blue-600">➔</span>
                 <button
                   onClick={() => handleOptionClick(option)}
                   className="w-full p-2 text-left bg-gray-100 rounded hover:bg-gray-200 focus:outline-none"
