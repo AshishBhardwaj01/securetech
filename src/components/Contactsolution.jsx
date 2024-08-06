@@ -62,25 +62,25 @@ const Contactsolution = ({ className = "" }) => {
               Services
             </h3>
             <Link
-              to="#"
+              to="/Solutionpage"
               className="leading-6 text-black no-underline hover:underline"
             >
               Audio Visual
             </Link>
             <Link
-              to="#"
+              to="/Solutionpage"
               className="leading-6 text-black no-underline hover:underline"
             >
               Architecture Acoustics
             </Link>
             <Link
-              to="#"
+              to="/Solutionpage"
               className="leading-6 text-black no-underline hover:underline"
             >
               Post project management
             </Link>
             <Link
-              to="#"
+              to="/Solutionpage"
               className="leading-6 text-black no-underline hover:underline"
             >
               Information Technology

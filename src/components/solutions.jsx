@@ -1,4 +1,3 @@
-import IndustrySolutions from "./exploresolution.jsx";
 import PropTypes from "prop-types";
 
 
