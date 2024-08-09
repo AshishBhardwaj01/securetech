@@ -49,7 +49,7 @@ import PropTypes from "prop-types";
 const HeroContent = ({ className = "" }) => {
   return (
     <div
-      className={`relative flex flex-col contrast-125 w-screen max-h-dvh items-start lg:items-center lg:justify-center justify-start py-10 md:py-5 lg:px-2 bg-[url('/Banner.gif')] bg-cover bg-no-repeat bg-top text-left lg:text-center font-poppins ${className}`}
+      className={`relative flex flex-col xl:px-10 contrast-125 w-screen max-h-dvh items-start lg:items-center lg:justify-center justify-start py-10 md:py-5 lg:px-2 bg-[url('/Banner.gif')] bg-cover bg-no-repeat bg-top text-left lg:text-center font-poppins ${className}`}
     >
       <div className="container items-start justify-start mx-auto px-4 py-40 lg:py-20 lg:px-1">
         <h1 className="text-8xl md:text-6xl xl:text-7xl font-normal mb-6  lg:m-0">

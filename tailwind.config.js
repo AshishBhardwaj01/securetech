@@ -89,9 +89,9 @@ module.exports = {
       inherit: "inherit",
     },
     screens: {
-      mq975: { raw: "screen and (max-width: 61.25em)" },  // 975px to em
-      mq700: { raw: "screen and (max-width: 43.75em)" },  // 700px to em
-      mq450: { raw: "screen and (max-width: 28.125em)" },  // 450px to em
+      // mq975: { raw: "screen and (max-width: 61.25em)" },  // 975px to em
+      // mq700: { raw: "screen and (max-width: 43.75em)" },  // 700px to em
+      // mq450: { raw: "screen and (max-width: 28.125em)" },  // 450px to em
       sm: { max: '35.99875em' },  // 575.98px to em
       md: { max: '47.99875em' },  // 767.98px to em
       lg: { max: '61.99875em' },  // 991.98px to em

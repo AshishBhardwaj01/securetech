@@ -161,7 +161,7 @@ const Chatbot = () => {
           {history.length > 0 && (
             <button
               onClick={handleBack}
-              className="mb-4 text-blue-500 underline hover:text-blue-700 focus:outline-none"
+              className="mb-4 text-blue-500 bg-white no-underline hover:text-white hover:bg-blue-500 focus:outline-none"
             >
               Back
             </button>

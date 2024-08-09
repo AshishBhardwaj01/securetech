@@ -75,7 +75,7 @@ const Venue = ({ className = "" }) => {
                   />
                 </div>
                 <div className="w-full text-center py-2 flex items-center justify-center h-16">
-                  <p className="text-black font-medium text-lg-5 md:text-5xl">{slide.text}</p>
+                  <p className="text-black font-medium text-lg-5 lg:text-mini">{slide.text}</p>
                 </div>
               </div>
             ))}
