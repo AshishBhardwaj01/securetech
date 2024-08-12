@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 const FeatureItem = ({ title, description }) => (
-  <div className="flex flex-col  justify-start lg:items-center lg:justify-center pt-0 px-0 pb-8 box-border gap-2.5 max-w-full">
-    <h2 className="m-0 text-4xl-3 xl:text-base lg:text-xs items-end leading-8 font-semibold font-poppins">{title}</h2>
-    <p className="m-0 text-base lg:w-40 items-start lg:text-xs md:text-xs leading-normal">{description}</p>
+  <div className="flex flex-col lg:flex-row lg:px-2 lg:py-2 justify-start lg:items-center lg:justify-center pt-0 px-0 pb-8 box-border gap-2.5 max-w-full">
+    <h2 className="m-0 text-4xl-3 xl:text-base lg:text-xs items-end leading-normal font-semibold font-poppins">{title}</h2>
+    <p className="m-0 text-base lg:w-40  items-start lg:text-xs md:text-xs leading-normal">{description}</p>
   </div>
 );
 
@@ -27,7 +27,7 @@ const features = [
     description: "Partner with SecureTech AV for a team of highly skilled AV Engineering and Programming professionals, ensuring efficient deliveries and swift project start."
   },
   {
-    title: "Premium Quality Output",
+    title: "Quality Assurance",
     description: "Leverage our team of experienced AV engineers and programmers, combined with our state-of-the-art infrastructure to ensure premium quality output for all your AV projects."
   },
   {
@@ -55,7 +55,7 @@ const VenueSpacesContainer = ({ className = "" }) => {
           on precision and innovation, consistently exceeding client expectations.
         </p>
 
-        <div className="flex flex-row lg:flex-row items-center justify-center px-32 xl:px-10 lg:px-1 2xl:gap-8 xl:gap-4 max-w-full text-5xl text-gray-200">
+        <div className="flex flex-row lg:flex-col items-center justify-center px-32 xl:px-10 lg:px-1 2xl:gap-8 xl:gap-10 lg:gap-10 max-w-full text-5xl text-gray-200">
           <div className="flex-1 flex flex-col items-end lg:items-center justify-start 2xl:min-w-[287px] lg:min-w-20 max-w-full text-right lg:text-center">
             {features.slice(0, 3).map((feature, index) => (
               <FeatureItem key={index} {...feature} />
