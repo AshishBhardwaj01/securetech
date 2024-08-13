@@ -49,15 +49,15 @@ import PropTypes from "prop-types";
 const HeroContent = ({ className = "" }) => {
   return (
     <div
-      className={`relative flex flex-col xl:px-10 contrast-125 w-screen max-h-dvh items-start lg:items-center lg:justify-center justify-start py-10 md:py-5 lg:px-2 bg-[url('/Banner.gif')] bg-cover bg-no-repeat bg-top text-left lg:text-center font-poppins ${className}`}
+      className={`relative flex flex-col xl:px-10 contrast-125 w-screen max-h-dvh items-start lg:justify-center justify-start py-10 md:py-5 bg-[url('/Banner.gif')] bg-cover bg-no-repeat bg-top text-left font-poppins ${className}`}
     >
-      <div className="container items-start justify-start mx-auto px-4 py-40 lg:py-20 lg:px-1">
-        <h1 className="text-8xl md:text-6xl xl:text-7xl font-normal mb-6  lg:m-0">
+      <div className="container  mx-auto px-4 py-40 lg:py-20 lg:px-2">
+        <h1 className="text-8xl items-start justify-start lg:px-2  md:text-6xl xl:text-7xl font-normal lg:leading-none mb-6  lg:m-0">
           <span className="text-orange-500 lg:text-2xl">Elevating Experiences, </span>
           <br className=" md:block" />
           <span className="text-gray-800 lg:text-2xl">Redefining Technology</span>
         </h1>
-        <p className="text-white text-left ml-2 pb-10 text-mid md:text-lg lg:text-base max-w-2xl mx-auto mb-8 lg:mb-12">
+        <p className="text-white items-start justify-start text-left 2xl:ml-2 pb-10 px-2 text-mid md:text-lg lg:text-base max-w-2xl mb-8 lg:mb-12">
           We provide tailored, cutting-edge audio and video solutions. Whether
           enhancing home entertainment, optimizing business conferencing, or
           creating a state-of-the-art media room, our experts are here to guide
