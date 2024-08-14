@@ -1,16 +1,17 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 
-const FeatureItem = ({ title, description }) => (
-  <div className="flex flex-col lg:flex-row lg:px-2 lg:py-2 justify-start lg:items-start xl:items-center pt-0 px-0 pb-8 box-border gap-10 max-w-full">
-    <h2 className="m-0 text-4xl-3 xl:text-base lg:text-xs  leading-normal font-semibold font-poppins lg:w-2/5 xl:w-2/5 lg:text-right xl:text-left">{title}</h2>
-    <p className="m-0 text-base lg:w-3/5 xl:w-3/5 items-start lg:text-xs md:text-xs leading-normal lg:text-left">{description}</p>
+const FeatureItem = ({ title, description, reverse }) => (
+  <div className={`flex flex-col lg:flex-row lg:px-2 lg:py-2 justify-start lg:items-start xl:items-center pt-0 px-0 pb-8 box-border gap-10 max-w-full ${reverse ? 'lg:flex-row-reverse' : ''}`}>
+    <h2 className="m-0 text-4xl-3 xl:text-mini lg:text-xs leading-normal font-semibold font-poppins lg:w-2/5 xl:w-3/5 lg:text-right xl:text-left">{title}</h2>
+    <p className="m-0 text-base xl:text-sm lg:w-3/5 xl:w-full items-start lg:text-xs leading-normal lg:text-left">{description}</p>
   </div>
 );
 
 FeatureItem.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  reverse: PropTypes.bool,
 };
 
 const features = [
@@ -58,12 +59,12 @@ const VenueSpacesContainer = ({ className = "" }) => {
         <div className="flex flex-row lg:flex-col items-start justify-center px-32 xl:px-10 lg:px-1 2xl:gap-8 xl:gap-10 lg:gap-10 max-w-full text-5xl text-gray-200">
           <div className="flex-1 flex flex-col items-end lg:items-center justify-start 2xl:min-w-[287px] lg:min-w-20 max-w-full text-right lg:text-center">
             {features.slice(0, 3).map((feature, index) => (
-              <FeatureItem key={index} {...feature} />
+              <FeatureItem key={index} {...feature} reverse={index % 2 !== 0} />
             ))}
           </div>
           
-          <div className="items-center justify-center px-5 lg:hidden">
-            <div className="w-96 h-96 flex items-center justify-center rounded-full bg-white">
+          <div className="items-center justify-center px-5 my-auto lg:hidden">
+            <div className="w-96 h-96 lg:w-20 lg:h-20 flex items-center justify-center rounded-full bg-white">
               <img
                 className="w-96 h-96 item-center relative object-contain"
                 alt="SecureTech AV background"
@@ -74,7 +75,7 @@ const VenueSpacesContainer = ({ className = "" }) => {
           
           <div className="flex-1 flex flex-col items-start lg:items-center justify-start 2xl:min-w-[287px] lg:min-w-20 max-w-full text-left lg:text-center">
             {features.slice(3).map((feature, index) => (
-              <FeatureItem key={index} {...feature} />
+              <FeatureItem key={index} {...feature} reverse={index % 2 === 0} />
             ))}
           </div>
         </div>
