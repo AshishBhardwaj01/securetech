@@ -4,121 +4,81 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+const ClientLogo = ({ src, alt }) => (
+  <div className="flex items-center justify-center px-2">
+    <img
+      className="h-32 w-auto object-contain max-w-full"
+      loading="lazy"
+      alt={alt}
+      src={src}
+    />
+  </div>
+);
+
+ClientLogo.propTypes = {
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+};
+
 const FrameComponent2 = ({ className = "" }) => {
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5, // Adjust the number of slides to show
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: false,
-        responsive: [
+    responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1280,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
+          slidesToShow: 4,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 991,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          
+          slidesToShow: 2,
         },
       },
     ],
+    centerMode: true,
+    centerPadding: '0px',
   };
 
-  return (
-    <section
-      className={`relative w-full flex-col items-center justify-start lg:justify-center py-20 lg:py-5 box-border gap-24 max-w-full text-center text-51xl text-black font-poppins ${className}`}
-    >
-      <div className="w-full justify-center items-center py-0 max-w-full text-2.5xl lg:text-lg">
-        <h1 className="text-center mb-4 font-semibold m-0 pb-10 relative text-inherit tracking-[-0.05em] px-10 py-2.5 font-poppins shrink-0 max-w-full ">{`Our Clients`}</h1>
-      </div>
+  const clientLogos = [
+    { src: "/p2-1@2x.png", alt: "Client 1" },
+    { src: "/p1-1@2x.png", alt: "Client 2" },
+    { src: "/p17-1@2x.png", alt: "Client 3" },
+    { src: "/p14-1@2x.png", alt: "Client 4" },
+    { src: "/p12-1@2x.png", alt: "Client 5" },
+    { src: "/p10-1@2x.png", alt: "Client 6" },
+    { src: "/dslogo.png", alt: "Client 7" },
+    { src: "/c1-1@2x.png", alt: "Client 8" },
+  ];
 
-      <div className="w-full pl-28 lg:pl-3 py-5">
-        <Slider {...settings}>
-          <div className="flex items-center justify-center lg:object-contain px-2">
-            <img
-              className="h-32 lg:h-24  max-w-full lg:max-w-full"
-              loading="lazy"
-              alt=""
-              src="/p2-1@2x.png"
-            />
-          </div>
-          <div className="flex items-center justify-center lg:object-contain px-2">
-            <img
-              className="h-32 lg:h-24 max-w-full lg:max-w-full"
-              loading="lazy"
-              alt=""
-              src="/p1-1@2x.png"
-            />
-          </div>
-          <div className="flex items-center justify-center lg:object-contain px-2">
-            <img
-              className="h-32 lg:h-24 max-w-full lg:max-w-full"
-              loading="lazy"
-              alt=""
-              src="/p17-1@2x.png"
-            />
-          </div>
-          <div className="flex items-center justify-center lg:object-contain px-2">
-            <img
-              className="h-32 lg:h-24 max-w-full lg:object-fit"
-              loading="lazy"
-              alt=""
-              src="/p14-1@2x.png"
-            />
-          </div>
-          <div className="flex items-center justify-center lg:object-fit px-2">
-            <img
-              className="h-32 lg:h-24 max-w-full lg:object-contain
-              "
-              loading="lazy"
-              alt=""
-              src="/p12-1@2x.png"
-            />
-          </div>
-          <div className="flex items-center justify-center px-2">
-            <img
-              className="h-32 lg:h-24 max-w-full lg:object-contain
-              "
-              loading="lazy"
-              alt=""
-              src="/p10-1@2x.png"
-            />
-          </div>
-          <div className="flex items-center justify-center px-2">
-            <img
-              className="h-32 lg:h-24 max-w-full lg:object-contain
-              "
-              loading="lazy"
-              alt=""
-              src="/dslogo.png"
-            />
-          </div>
-          <div className="flex items-center justify-center px-2">
-            <img
-              className="h-32 lg:h-24 max-w-full lg:object-contain
-              "
-              loading="lazy"
-              alt=""
-              src="/c1-1@2x.png"
-            />
-          </div>
-        </Slider>
+  return (
+    <section className={`w-full py-20 lg:py-10 ${className}`}>
+      <div className="container mx-auto px-4">
+        <h1 className="text-2.5xl lg:text-lg font-semibold font-poppins text-center mb-12 tracking-tight">
+          Our Clients
+        </h1>
+
+        <div className="w-full">
+          <Slider {...settings}>
+            {clientLogos.map((logo, index) => (
+              <ClientLogo key={index} {...logo} />
+            ))}
+          </Slider>
+        </div>
       </div>
     </section>
   );
