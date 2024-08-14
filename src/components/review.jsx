@@ -1,313 +1,3 @@
-// // import React, { useState } from 'react';
-// // import PropTypes from 'prop-types';
-
-// // const FrameComponent1 = ({ className = "" }) => {
-// //   const [currentIndex, setCurrentIndex] = useState(0);
-
-// //   const testimonials = [
-// //     {
-// //       content: (
-// //         <div className="flex shadow-md rounded-lg bg-whiteh-auto box-borderflex-col items-center justify-center p-6 2xl:py-20 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
-// //           <div className="flex flex-col items-start justify-start gap-4">
-// //             <div className="text-left">
-// //               <i className="leading-6 block">
-// //                 There's always a degree of anxiety when you hire labor
-// //               </i>
-// //               <i className="leading-6 block">
-// //                 <p className="m-0">outside of your market – but AVN showed up in force</p>
-// //                 <p className="m-0">and quickly squashed any concerns that I had! Charms,</p>
-// //                 <p className="m-0">Inez, and Mark were extraordinarily helpful in the</p>
-// //                 <p className="m-0">preproduction process and their team on site in Miami</p>
-// //                 <p className="m-0">was helpful, hardworking, and great company.</p>
-// //                 <p className="m-0">Everybody had a positive attitude and had the technical</p>
-// //                 <p className="m-0">skills to back it up. There have been several comments</p>
-// //                 <p className="m-0">on my team about wishing we could bring this team</p>
-// //                 <p className="m-0">back with us to New York!</p>
-// //               </i>
-// //             </div>
-// //             <div className="w-28 flex flex-col items-center gap-1.5">
-// //               <img
-// //                 className="h-5 pt-10 w-full object-cover"
-// //                 alt="Google Review"
-// //                 src="/google-reviewpng@2x.png"
-// //               />
-// //               <div className="flex flex-row items-center gap-1">
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg.svg" />
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg-1.svg" />
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg-2.svg" />
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg-3.svg" />
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg.svg" />
-// //               </div>
-// //             </div>
-// //             <div className="flex flex-row items-center gap-4 text-xl">
-// //               <img
-// //                 className="h-14 w-14 rounded-full object-cover"
-// //                 alt="Alex Claas"
-// //                 src="/1655045839750150x150jpeg@2x.png"
-// //               />
-// //               <div className="flex flex-col items-center justify-center">
-// //                 <b className="leading-6 block min-w-[95.2px] mq450:text-base mq450:leading-5">
-// //                   Alex Claas
-// //                 </b>
-// //               </div>
-// //             </div>
-// //           </div>
-// //         </div>
-// //       ),
-// //     },
-// //     {
-// //       content: (
-// //         <div className="flex-1 shadow-md rounded-lg bg-white box-border flex flex-col items-center justify-center p-6 2xl:py-20 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
-// //           <div className="flex flex-col items-center justify-center gap-4">
-// //             <div className="text-left">
-// //               <i className="leading-6 block">
-// //                 Audio Visual Nation has been a partner with my AV
-// //               </i>
-// //               <i className="leading-6 block">
-// //                 <p className="m-0">company for many years. They are our go-to labor</p>
-// //                 <p className="m-0">source whenever available. The group of people</p>
-// //                 <p className="m-0">carefully assembled by this company have been critical</p>
-// //                 <p className="m-0">to the success of our events. Basically, they make us</p>
-// //                 <p className="m-0">look good! Beyond the unparalleled individual efforts,</p>
-// //                 <p className="m-0">Audio Visual Nation is responsive and easily moves</p>
-// //                 <p className="m-0">with the MANY changes we all deal with in this</p>
-// //                 <p className="m-0">industry. They are thoroughly accommodating without</p>
-// //                 <p className="m-0">skipping a beat. Our company has, and will continue, to</p>
-// //                 <p className="m-0">rely on Audio Visual Nation and the amazing group they</p>
-// //                 <p className="m-0">have put together.</p>
-// //               </i>
-// //             </div>
-// //             <div className="w-28 flex flex-col items-center gap-1.5">
-// //               <img
-// //                 className="h-5 w-full object-cover"
-// //                 alt="Google Review"
-// //                 src="/google-reviewpng@2x.png"
-// //               />
-// //               <div className="flex flex-row items-center gap-1">
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg.svg" />
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg-1.svg" />
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg-2.svg" />
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg-3.svg" />
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg.svg" />
-// //               </div>
-// //             </div>
-// //             <div className="flex flex-row items-center gap-4 text-xl">
-// //               <img
-// //                 className="h-14 w-14 rounded-full object-cover"
-// //                 alt="Abe Gloria"
-// //                 src="/abegloriapng@2x.png"
-// //               />
-// //               <div className="flex flex-col items-center justify-center">
-// //                 <b className="leading-6 block min-w-[95px] mq450:text-base mq450:leading-5">
-// //                   Abe Gloria
-// //                 </b>
-// //               </div>
-// //             </div>
-// //           </div>
-// //         </div>
-// //       ),
-// //     },
-// //     {
-// //       content: (
-// //         <div className="flex-1 shadow-md rounded-lg bg-white box-border flex flex-col items-center justify-center p-6 2xl:py-20 min-w-[336px] max-w-full border border-gray-300 mq450:min-w-full">
-// //           <div className="flex flex-col items-center justify-center gap-4">
-// //             <div className="text-left">
-// //               <i className="leading-6 block">
-// //                 Great company, great communication, fast response
-// //               </i>
-// //               <i className="leading-6 block">
-// //                 <p className="m-0">and best bang for your buck. The Audio Visual Nation</p>
-// //                 <p className="m-0">team is one of the greatest and got the job done two</p>
-// //                 <p className="m-0">hours before they were scheduled. Will definitely hire</p>
-// //               </i>
-// //             </div>
-// //             <div className="w-28 flex flex-col items-center gap-1.5">
-// //               <img
-// //                 className="h-5 w-full object-cover"
-// //                 alt="Google Review"
-// //                 src="/google-reviewpng@2x.png"
-// //               />
-// //               <div className="flex flex-row items-center gap-1">
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg.svg" />
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg-1.svg" />
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg-2.svg" />
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg-3.svg" />
-// //                 <img className="h-3.5 w-4" alt="Star" src="/svg.svg" />
-// //               </div>
-// //             </div>
-// //             <div className="flex flex-row items-center gap-4 text-xl">
-// //               <img
-// //                 className="h-14 w-14 rounded-full object-cover"
-// //                 alt="Abe Gloria"
-// //                 src="/abegloriapng@2x.png"
-// //               />
-// //               <div className="flex flex-col items-center justify-center">
-// //                 <b className="leading-6 block min-w-[95px] mq450:text-base mq450:leading-5">
-// //                   Abe Gloria
-// //                 </b>
-// //               </div>
-// //             </div>
-// //           </div>
-// //         </div>
-// //       ),
-// //     },
-// //   ];
-  
-
-// //   const handlePrevClick = () => {
-// //     setCurrentIndex((prevIndex) => (prevIndex === 0 ? testimonials.length - 1 : prevIndex - 1));
-// //   };
-
-// //   const handleNextClick = () => {
-// //     setCurrentIndex((prevIndex) => (prevIndex === testimonials.length - 1 ? 0 : prevIndex + 1));
-// //   };
-
-// //   return (
-// //     <section
-// //       className={`relative items-center justify-center w-full h-screen p-10  lg:p-1 text-center text-base text-gray-300 font-poppins ${className}`}
-// //     >
-      // <div className="max-w-full flex flex-col py-[20px] items-center justify-center gap-[2vw]">
-      //   {/* Title Section */}
-      //   <div className="flex flex-col items-center justify-center py-0 px-2 box-border w-full text-center text-black">
-      //       <h1 className="text-2.5xl leading-[40px] font-semibold font-poppins text-black">
-      //         Testimonials
-      //       </h1>
-      //     <h1 className="m-0 text-lg leading-[10px] font-bold font-poppins text-darkslateblue">
-      //       Hear From Our Happy Clients
-      //     </h1>
-      //   </div>
-  
-      //   {/* Intro Text */}
-      //   <div className="flex flex-row items-center justify-center py-0 px-10 box-border w-full text-center text-base">
-      //     <div className="w-full max-w-[772.8px] relative leading-[24px] flex items-center shrink-0 z-[1]">
-      //       <span className="w-full">
-      //         <p className="m-0">
-      //           Don't just take our word for it. See how working with AVN has helped our clients execute unforgettable events across the nation.
-      //         </p>
-              
-      //       </span>
-      //     </div>
-      //   </div>
-  
-// //         {/* Testimonials Section */}
-// //         <div className="w-full flex flex-row items-center justify-center gap-[10px] lg:gap-[2px] text-center font-roboto ">
-// //           {/* Left Navigation Button */}
-// //           <div className="flex flex-col items-center justify-center h-full">
-// //             <button
-// //               className="cursor-pointer pt-2 pb-[13px] px-4 bg-transparent rounded-3xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-deepskyblue hover:bg-darkslateblue hover:border-white"
-// //               onClick={handlePrevClick}
-// //             >
-// //               <div className="text-21xl font-roboto text-deepskyblue text-center flex items-center justify-center mq450:text-5xl mq925:text-13xl">
-// //                 ‹
-// //               </div>
-// //             </button>
-// //           </div>
-  
-// //           {/* Testimonial Cards */}
-// //           <div className="flex overflow-hidden items-center justify-center py-3 px-3 box-border gap-[10px] lg:gap-[2px] min-w-[200px] max-w-full z-[1] mq1350:flex-wrap mq1350:min-w-full">
-// //             {testimonials[currentIndex].content}
-// //           </div>
-  
-// //           {/* Right Navigation Button */}
-// //           <div className="flex flex-col items-center justify-center h-full">
-// //             <button
-// //               className="cursor-pointer pt-2 pb-[13px] pr-4 pl-[17px] bg-transparent rounded-3xl overflow-hidden flex flex-row items-center justify-center border-[1px] border-solid border-deepskyblue hover:bg-darkslateblue hover:box-border hover:border-white"
-// //               onClick={handleNextClick}
-// //             >
-// //               <div className="text-21xl font-roboto text-deepskyblue text-center flex items-center justify-center mq450:text-5xl mq925:text-13xl">
-// //                 ›
-// //               </div>
-// //             </button>
-// //           </div>
-// //         </div>
-// //       </div>
-// //     </section>
-// //   );
-  
-  
-  
-// //     };
-    
-// //     FrameComponent1.propTypes = {
-// //       className: PropTypes.string,
-// //     };
-    
-// //     export default FrameComponent1;
-
-
-// import React from 'react';
-// import PropTypes from 'prop-types';
-
-// const reviews = [
-//   {
-//     id: 1,
-//     image: 'https://via.placeholder.com/100',
-//     name: 'John Doe',
-//     feedback: 'Great service, very satisfied!',
-//     rating: 5,
-//   },
-//   {
-//     id: 2,
-//     image: 'https://via.placeholder.com/100',
-//     name: 'Jane Smith',
-//     feedback: 'Very professional and quick response.',
-//     rating: 4,
-//   },
-//   {
-//     id: 3,
-//     image: 'https://via.placeholder.com/100',
-//     name: 'Michael Johnson',
-//     feedback: 'Good experience overall, would recommend.',
-//     rating: 5,
-//   },
-// ];
-
-// const FrameComponent1 = ({ className = "" }) => {
-//   return (
-//     <div className={`flex items-center justify-between p-4 ${className}`}>
-//       {/* Left Button */}
-//       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-//         Left
-//       </button>
-      
-//       {/* Reviews */}
-//       <div className="flex flex-col items-center space-y-4">
-//         {reviews.map(review => (
-//           <div key={review.id} className="bg-white shadow-md rounded-lg p-4 w-64">
-//             <div className="flex flex-col items-center space-y-2">
-//               <img
-//                 src={review.image}
-//                 alt={`${review.name}'s profile`}
-//                 className="w-16 h-16 rounded-full"
-//               />
-//               <h3 className="text-lg font-bold">{review.name}</h3>
-//               <p className="text-sm text-gray-600 text-center">{review.feedback}</p>
-//               <div className="flex">
-//                 {Array.from({ length: review.rating }).map((_, index) => (
-//                   <svg key={index} className="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-//                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.965a1 1 0 00.95.69h4.174c.969 0 1.371 1.24.588 1.81l-3.386 2.46a1 1 0 00-.363 1.118l1.287 3.965c.3.921-.755 1.688-1.538 1.118l-3.386-2.46a1 1 0 00-1.175 0l-3.386 2.46c-.783.57-1.838-.197-1.538-1.118l1.287-3.965a1 1 0 00-.363-1.118l-3.386-2.46c-.783-.57-.38-1.81.588-1.81h4.174a1 1 0 00.95-.69l1.286-3.965z" />
-//                   </svg>
-//                 ))}
-//               </div>
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-
-//       {/* Right Button */}
-//       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-//         Right
-//       </button>
-//     </div>
-//   );
-// };
-
-// FrameComponent1.propTypes = {
-//   className: PropTypes.string,
-// };
-
-// export default FrameComponent1;
-
 import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 
@@ -334,26 +24,89 @@ const reviews = [
     rating: 5,
   },
   {
-    id: 4,
-    image: 'https://via.placeholder.com/100',
-    name: 'Emily Davis',
-    feedback: 'Fantastic work, highly recommended!',
-    rating: 5,
+    "id": 4,
+    "image": "https://via.placeholder.com/100",
+    "name": "V M",
+    "feedback": "It is my sincere pleasure to recommend you and your organization to anyone considering your services. Not only are your team members highly skilled, they are equally responsive and refreshingly respectful. I have had my share of war stories with inept contractors and subcontractors. Doing this project with you, and your organization was nothing short of pleasurable. Wishing you and your team, nothing but the best.",
+    "rating": 5
   },
   {
-    id: 5,
-    image: 'https://via.placeholder.com/100',
-    name: 'David Brown',
-    feedback: 'Not bad, but could be better.',
-    rating: 3,
+    "id": 5,
+    "image": "https://via.placeholder.com/100",
+    "name": "Anurag Khanna",
+    "feedback": "At the pinnacle of service quality, this team goes above and beyond. The staff's cooperation and attention to client requirements make them the best in the market. I am thoroughly impressed and satisfied!",
+    "rating": 5
   },
   {
-    id: 6,
-    image: 'https://via.placeholder.com/100',
-    name: 'Sarah Wilson',
-    feedback: 'Exceptional service and quality!',
-    rating: 5,
+    "id": 6,
+    "image": "https://via.placeholder.com/100",
+    "name": "Mansi Banbasi",
+    "feedback": "The key is when a customer walks away, thinking ', Wow, I love doing business with them, and I want to tell others about the experience.' Securetech AV consistently exceed client expectations by delivering innovative solutions on time proficiently and professionally.",
+    "rating": 5
   },
+  {
+    "id": 7,
+    "image": "https://via.placeholder.com/100",
+    "name": "Crest Ai",
+    "feedback": "No other service comes close to the excellence provided by this team. The staff's cooperation and commitment to client needs are unparalleled. My satisfaction knows no bounds!",
+    "rating": 5
+  },
+  {
+    "id": 8,
+    "image": "https://via.placeholder.com/100",
+    "name": "Vivek Tandon",
+    "feedback": "Fantastic user experience. Service support is very supportive",
+    "rating": 4
+  },
+  {
+    "id": 9,
+    "image": "https://via.placeholder.com/100",
+    "name": "Pratibha Lalwani",
+    "feedback": "Best in market services. Very cooperative staff. Keeps the client requirements at utmost priority. Highly satisfied!!",
+    "rating": 5
+  },
+  {
+    "id": 10,
+    "image": "https://via.placeholder.com/100",
+    "name": "Sukeshi Dhawan",
+    "feedback": "The staff is very polite and helpful. You can be assured as they handle services skilfully. Highly recommended.",
+    "rating": 5
+  },
+  {
+    "id": 11,
+    "image": "https://via.placeholder.com/100",
+    "name": "Akshita Singh",
+    "feedback": "Finest service provider in market and always keep the customer need at first priority and deliver the service accordingly!! Kudos for the future relationship..",
+    "rating": 5
+  },
+  {
+    "id": 12,
+    "image": "https://via.placeholder.com/100",
+    "name": "Rajani Mehrotra",
+    "feedback": "Great service, very helpful employees",
+    "rating": 4
+  },
+  {
+    "id": 13,
+    "image": "https://via.placeholder.com/100",
+    "name": "Sonali Singh",
+    "feedback": "It's one of the best AV service provider. Great team and support.",
+    "rating": 5
+  },
+  {
+    "id": 14,
+    "image": "https://via.placeholder.com/100",
+    "name": "Shubham Singh",
+    "feedback": "Great service and support",
+    "rating": 5
+  },
+  {
+    "id": 15,
+    "image": "https://via.placeholder.com/100",
+    "name": "Dead Gamerz",
+    "feedback": "Very good service",
+    "rating": 4
+  }
 ];
 
 const FrameComponent1 = ({ className = "" }) => {
