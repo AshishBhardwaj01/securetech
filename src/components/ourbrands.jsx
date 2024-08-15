@@ -79,7 +79,7 @@ const FrameComponent3 = ({ className = "" }) => {
 
   return (
     <section className={`w-full py-20 lg:py-10 ${className}`}>
-      <div className="container mx-auto px-8">
+      <div className="container mx-auto px-8 lg:px-0">
         <h1 className="text-2.5xl lg:text-lg font-semibold text-center mb-12 tracking-tight font-poppins">
           Our Brands
         </h1>

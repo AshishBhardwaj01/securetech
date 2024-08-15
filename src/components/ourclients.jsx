@@ -67,7 +67,7 @@ const FrameComponent2 = ({ className = "" }) => {
 
   return (
     <section className={`w-full py-20 lg:py-10 ${className}`}>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 lg:px-0">
         <h1 className="text-2.5xl lg:text-lg font-semibold font-poppins text-center mb-12 tracking-tight">
           Our Clients
         </h1>
