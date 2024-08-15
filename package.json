@@ -10,8 +10,13 @@
     "@types/jest": "^29.5.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "emailjs-com": "^3.2.0",
+    "express": "^4.19.2",
     "framer-motion": "^11.2.6",
+    "nodemailer": "^6.9.14",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -55,5 +60,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Note: Please ensure you have installed <code><a href=\"https://nodejs.org/en/download/\">nodejs</a></code>",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

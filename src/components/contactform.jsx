@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
-import emailjs from "emailjs-com";
 
 const ContactForm = ({ className = "" }) => {
   const [formData, setFormData] = useState({
@@ -18,23 +17,34 @@ const ContactForm = ({ className = "" }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .send(
-        "service_2k42vuc",
-        "template_hvwdaqg",
-        formData,
-        "W79paBaiS7d5bwnb2bkJ_"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          alert("Message sent successfully!");
-        },
-        (error) => {
-          console.log(error.text);
-          alert("Failed to send message, please try again.");
+  
+    fetch('http://localhost:5000/send', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        if (data.success) {
+          alert('Message sent successfully!');
+          setFormData({
+            name: "",
+            phone: "",
+            email: "",
+            company: "",
+            location: "",
+            message: ""
+          });  // Clear form data on success
+        } else {
+          alert('Failed to send message, please try again.');
         }
-      );
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+        alert('Failed to send message, please try again.');
+      });
   };
 
   return (
@@ -160,7 +170,7 @@ const ContactForm = ({ className = "" }) => {
           </div>
         </div>
         <div className="flex flex-row items-center justify-center">
-          <button className="cursor-pointer bg-orange-500 hover:bg-slate-200 hover:text-orange-500 rounded-lg text-white px-36 lg:px-10 py-5 flex flex-row items-end justify-start gap-2.5 border-[1px] border-solid border-aquamarine" type="submit" onChange={handleChange}>
+          <button className="cursor-pointer bg-orange-500 hover:bg-slate-200 hover:text-orange-500 rounded-lg text-white px-36 lg:px-10 py-5 flex flex-row items-end justify-start gap-2.5 border-[1px] border-solid border-aquamarine" type="submit">
             <div className="text-base leading-normal capitalize font-normal">
               Connect with Securetech today
             </div>
