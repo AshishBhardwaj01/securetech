@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import PropTypes from "prop-types";
+import emailjs from '@emailjs/browser';
 
 const ContactForm = ({ className = "" }) => {
+  const form = useRef();
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
@@ -17,39 +19,31 @@ const ContactForm = ({ className = "" }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-  
-    fetch('http://localhost:5000/send', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(formData),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        if (data.success) {
-          alert('Message sent successfully!');
-          setFormData({
-            name: "",
-            phone: "",
-            email: "",
-            company: "",
-            location: "",
-            message: ""
-          });  // Clear form data on success
-        } else {
-          alert('Failed to send message, please try again.');
-        }
-      })
-      .catch((error) => {
-        console.error('Error:', error);
+
+    emailjs.sendForm(
+      'service_oslql4g', 
+      'template_hvwdaqg', 
+      form.current, {
+      publicKey:'dOG8NY3cIaRMiwlBj',})
+      .then((result) => {
+        console.log(result.text);
+        alert('Message sent successfully!');
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          company: "",
+          location: "",
+          message: ""
+        });
+      }, (error) => {
+        console.log(error.text);
         alert('Failed to send message, please try again.');
       });
   };
 
   return (
-    <form className={`flex flex-row lg:flex-col py-28 lg:py-14 items-start lg:items-center justify-center gap-60 text-left text-base text-black font-poppins ${className}`} onSubmit={handleSubmit}>
-      <div className="flex flex-col items-center justify-center max-w-full">
+      <form ref={form} className={`flex flex-row lg:flex-col py-28 lg:py-14 items-start lg:items-center justify-center gap-60 text-left text-base text-black font-poppins ${className}`} onSubmit={handleSubmit}>      <div className="flex flex-col items-center justify-center max-w-full">
         <div className="flex flex-col items-start lg:px-4 justify-start gap-5 max-w-full">
           <div className="flex flex-col items-start justify-start text-29xl">
             <h1 className="m-0 mt-10 tracking-normal leading-normal font-semibold">
@@ -101,7 +95,7 @@ const ContactForm = ({ className = "" }) => {
         </h1>
         <div className="w-1/2 flex flex-col items-start justify-start pb-2 gap-6">
           <div className="flex flex-col items-start justify-start gap-2.5">
-            <div className="flex flex-row items-start justify-start pt-3 pb-3 border-b-[1px] border-solid border-slategray">
+          <div className="flex flex-row items-start justify-start pt-3 pb-3 border-b-[1px] border-solid border-slategray">
               <input
                 className="w-96 lg:w-60 bg-[transparent] h-6 text-white"
                 placeholder="Name*"
@@ -159,18 +153,17 @@ const ContactForm = ({ className = "" }) => {
             </div>
             <textarea
               className="bg-transparent h-60 w-96 lg:w-60 text-white border-b-[1px] py-4 border-solid border-slategray"
-              placeholder="Message*"
+              placeholder="Message (Optional)"
               rows="10"
               cols="28 lg:18"
               name="message"
               value={formData.message}
               onChange={handleChange}
-              required
             ></textarea>
           </div>
         </div>
         <div className="flex flex-row items-center justify-center">
-          <button className="cursor-pointer bg-orange-500 hover:bg-slate-200 hover:text-orange-500 rounded-lg text-white px-36 lg:px-10 py-5 flex flex-row items-end justify-start gap-2.5 border-[1px] border-solid border-aquamarine" type="submit">
+          <button className="cursor-pointer bg-orange-500 hover:bg-orange-800 rounded-lg text-white px-36 lg:px-10 py-5 flex flex-row items-end justify-start gap-2.5 border-[1px] border-solid border-aquamarine" type="submit">
             <div className="text-base leading-normal capitalize font-normal">
               Connect with Securetech today
             </div>
