@@ -32,9 +32,9 @@ const CompanyInfo = () => (
   <div className="flex flex-col items-center 2xl:items-start space-y-4">
     <div className="flex items-center space-x-2">
       <img src="/image-5@2x.png" alt="Company Logo" className="w-10 h-10 sm:w-12 sm:h-12" />
-      <span className="text-xl sm:text-2xl font-semibold">SecureTech AV</span>
+      <span className="text-lg sm:text-2xl font-semibold">SecureTech AV</span>
     </div>
-    <p className="text-white text-sm 2xl:w-96 sm:text-base text-left font-poppins">
+    <p className="text-white text-sm 2xl:max-w-full sm:text-base text-left font-poppins">
       Secure TechAV Designs Private Limited is driven by a passion for
       absolute technology. Our company is a sound unit comprising eminent
       audio engineers & top of the league infrastructure. The core
