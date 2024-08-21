@@ -1,5 +1,4 @@
 import React from 'react';
-import MySection from "../components/HomeBg.jsx";
 import Component from "../components/solutioncards.jsx";
 import Venue from "../components/venue.jsx";
 import VenueSpacesContainer from "../components/whysecure2.jsx";
