@@ -8,7 +8,7 @@ import image5 from "/imaga.png";
 
 const Body = ({ className = "" }) => {
   return (
-    <div className={`px-40 lg:px-2 py-10 ${className}`}>
+    <div className={`px-40 xl:px-10 lg:px-2 py-10 ${className}`}>
       <h2 className="text-orange-500 text-2xl lg:px-8 lg:mb-5 mb-10 lg:text-mini">
         Our Pillars
       </h2>
@@ -18,11 +18,11 @@ const Body = ({ className = "" }) => {
           <img
             src={image1}
             alt="SecureTech AV Designs Private Limited"
-            className="w-1/3 lg:w-5/6 h-auto mb-4 lg:mb-1"
+            className="w-1/3 lg:w-5/6 h-auto mb-4 mt-8 lg:mb-1"
           />
 
           <div className="flex-1 lg:flex-col lg:px-10">
-            <h3 className="text-orange-500 text-xl font-bold mb-2 lg:text-base">
+            <h3 className="text-orange-500 text-5xl font-bold mb-2 lg:text-base">
               Who We Are
             </h3>
             <p className="text-sm lg:text-xs">
@@ -47,10 +47,10 @@ const Body = ({ className = "" }) => {
           <img
             src={image2}
             alt="What We Do"
-            className="w-1/3 md:w-1/3 lg:w-5/6 h-80 mb-4"
+            className="w-1/3 md:w-1/3 lg:w-5/6 h-80 mb-4 mt-8"
           />
           <div className="flex-1 lg:flex-col lg:px-10">
-            <h3 className="text-orange-500 text-xl font-bold mb-2 lg:text-base">
+            <h3 className="text-orange-500 text-5xl font-bold mb-2 lg:text-base">
               What We Do
             </h3>
             <p className="text-sm lg:text-xs">
@@ -74,10 +74,10 @@ const Body = ({ className = "" }) => {
           <img
             src={image3}
             alt="Solution & Integration"
-            className="w-1/3 lg:w-5/6  h-auto mb-4 "
+            className="w-1/3 lg:w-5/6  h-auto mb-4 mt-8"
           />
           <div className="flex-1 lg:flex-col lg:px-10">
-            <h3 className="text-orange-500 text-xl font-bold mb-2 lg:text-base">
+            <h3 className="text-orange-500 text-5xl font-bold mb-2 lg:text-base">
               Solution & Integration
             </h3>
             <p className="text-sm lg:text-xs">
@@ -103,10 +103,10 @@ const Body = ({ className = "" }) => {
           <img
             src={image4}
             alt="Methodology & Process"
-            className="w-1/3 lg:w-5/6  h-80 mb-4 "
+            className="w-1/3 lg:w-5/6  h-80 mb-4 mt-8"
           />
           <div className="flex-1 lg:flex-col lg:px-10">
-            <h3 className="text-orange-500 text-xl font-bold mb-2 lg:text-base">
+            <h3 className="text-orange-500 text-5xl font-bold mb-2 lg:text-base">
               Methodology & Process
             </h3>
             <p className="text-sm lg:text-xs">
@@ -131,13 +131,13 @@ const Body = ({ className = "" }) => {
           <img
             src={image5}
             alt="Our Vision"
-            className="w-1/3 lg:w-5/6  h-auto mb-4 "
+            className="w-1/3 lg:w-5/6  h-auto mb-4 mt-8"
           />
-          <div className="flex-1 lg:flex-col lg:px-10">
-            <h3 className="text-orange-500 text-xl font-bold mb-2 lg:text-base">
+          <div className="flex-1 lg:flex-col lg:px-10 ">
+            <h3 className="text-orange-500 text-5xl font-bold mb-2 lg:text-base">
               Our Vision
             </h3>
-            <p className="text-sm lg:text-xs">
+            <p className="text-sm lg:text-xs ">
               SecureTech AV Designs Private Limited' mission is to engineer
               seamless, immersive experiences by harmonizing technology, design,
               and innovation. The company strives to pioneer cutting-edge
