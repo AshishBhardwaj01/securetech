@@ -10,7 +10,7 @@ const FooterLinks = ({ className = "" }) => {
         <SocialLink href="https://www.facebook.com/profile.php?id=61553741201034&mibextid=LQQJ4d" src="/facebook.svg" alt="Facebook" />
       </div>
       
-      <div className="grid grid-cols-4 sm:grid-cols-1 lg:grid-cols-1 gap-8 px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-20 py-8">
+      <div className="flex flex-row lg:flex-col gap-8 px-4 sm:px-6 lg:px-8 xl:px-10 2xl:px-20 py-8">
         <CompanyInfo />
         <MapSection />
         <Sitemap />
@@ -29,12 +29,12 @@ const SocialLink = ({ href, src, alt }) => (
 );
 
 const CompanyInfo = () => (
-  <div className="flex flex-col items-center 2xl:items-start space-y-4">
+  <div className="flex flex-col w-96 lg:w-4/5  items-center 2xl:items-start space-y-4">
     <div className="flex items-center space-x-2">
       <img src="/image-5@2x.png" alt="Company Logo" className="w-10 h-10 sm:w-12 sm:h-12" />
-      <span className="text-lg sm:text-2xl font-semibold">SecureTech AV</span>
+      <span className="text-lg lg:text-mini font-semibold">SecureTech AV</span>
     </div>
-    <p className="text-white text-sm 2xl:max-w-full sm:text-base text-left font-poppins">
+    <p className="text-white text-sm lg:text-xs 2xl:max-w-full sm:text-base text-left font-poppins">
       Secure TechAV Designs Private Limited is driven by a passion for
       absolute technology. Our company is a sound unit comprising eminent
       audio engineers & top of the league infrastructure. The core
@@ -57,7 +57,7 @@ const MapSection = () => (
         className="rounded"
       ></iframe>
     </div>
-    <address className="text-white text-sm sm:text-base font-poppins">
+    <address className="text-white lg:text-xs text-sm sm:text-base font-poppins">
       <span className="text-chocolate font-poppins">Company Address</span>
       <span className="font-poppins">
         : SecureTech AV Designs Private Limited A-70-SECTOR 33 NOIDA,
@@ -69,8 +69,8 @@ const MapSection = () => (
 
 const Sitemap = () => (
   <div className="flex flex-col items-center sm:items-start gap-4">
-    <h3 className="text-lg font-semibold tracking-tighter">Sitemap</h3>
-    <nav className="flex flex-col items-center sm:items-start gap-2 text-sm sm:text-base">
+    <h3 className="text-lg lg:text-mini font-semibold tracking-normal">Sitemap</h3>
+    <nav className="flex flex-col lg:text-xs items-center sm:items-start gap-2 text-sm sm:text-base">
       <NavLink href="/" text="Home" />
       <NavLink href="/Solutionpage" text="AV Solutions" />
       <NavLink href="/AboutUs" text="About Us" />
@@ -87,8 +87,8 @@ const NavLink = ({ href, text }) => (
 );
 
 const DownloadSection = () => (
-  <div className="flex flex-col items-center sm:items-start space-y-4">
-    <h3 className="text-lg font-semibold">Check out our Corporate Profile</h3>
+  <div className="flex flex-col lg:text-xs items-center sm:items-start space-y-4">
+    <h3 className="text-lg lg:text-mini font-semibold">Check out our Corporate Profile</h3>
     <a
       href="https://drive.google.com/file/d/1VDGplc_6wfvQ7Y9-0vvbBtACm-72q_Cj/view"
       download
@@ -100,7 +100,7 @@ const DownloadSection = () => (
 );
 
 const Copyright = () => (
-  <div className="w-full flex flex-col items-center lg:items-start justify-center p-4 lg:p-1 text-xs sm:text-sm text-white font-poppins">
+  <div className="w-full lg:text-xs flex flex-col items-center lg:items-start justify-center p-4 lg:p-1 text-xs sm:text-sm text-white font-poppins">
     <div className="mb-2 border-r border-white pr-4 lg:pr-0">
       © 2024 SecureTech AV Private Limited
     </div>
