@@ -11,7 +11,7 @@ const Head = ({ className = "" }) => {
       className={`p-12 items-center justify-center lg:overflow-hidden bg-gradient-to-r from-orangered-200 to-orange-600 ${className}`}
     >
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-white lg:text-center font-poppins text-4xl font-bold mb-6">
+        <h1 className="text-white lg:text-center font-poppins text-4xl lg:text-lg font-bold mb-6">
           About SecureTech AV
         </h1>
         <p className="text-white text-lg lg:text-sm lg:px-4 font-poppins flex flex-col px-20 mb-8">

@@ -7,12 +7,12 @@ const Solution = ({ className = "" }) => {
       className={`flex flex-col items-center p-10 justify-center ${className}`}
     >
       {/* Heading */}
-      <h1 className="text-4xl font-semibold text-center">
+      <h1 className="text-4xl font-semibold text-center lg:text-lg">
         Audio Video Solutions
       </h1>
 
       {/* Description */}
-      <p className="text-md text-center max-w-2xl">
+      <p className="text-md text-center max-w-2xl lg:text-xs">
         Our Audio Video Solutions are tailored to enhance productivity,
         engagement, and overall user experience, making them ideal for
         businesses, educational institutions, healthcare facilities, and
@@ -22,7 +22,7 @@ const Solution = ({ className = "" }) => {
       </p>
 
       {/* Cards Section */}
-      <div className="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-2 gap-8 w-full max-w-6xl">
+      <div className="grid grid-cols-4 md:grid-cols-1 lg:grid-cols-1   gap-8 w-full max-w-6xl">
         {/* Card 1 */}
         <div className="bg-white rounded-lg p-6 flex flex-col items-center justify-center shadow-lg">
           <svg
@@ -33,8 +33,8 @@ const Solution = ({ className = "" }) => {
           >
             <path d="M15 10l4.553-4.553a1 1 0 00-1.415-1.414L15 7.586V5a1 1 0 00-1-1H5a1 1 0 00-1 1v10a1 1 0 001 1h9a1 1 0 001-1v-2.586l3.138 3.137a1 1 0 001.414-1.414L15 10z" />
           </svg>
-          <h3 className="text-xl font-semibold mb-2">Video Integration</h3>
-          <p className="text-center">
+          <h3 className="text-xl font-semibold mb-2 lg:text-mini">Video Integration</h3>
+          <p className="text-center lg:text-xs">
             High-quality video conferencing solutions tailored to your needs.
           </p>
         </div>
@@ -53,8 +53,8 @@ const Solution = ({ className = "" }) => {
               clipRule="evenodd"
             />
           </svg>
-          <h3 className="text-xl font-semibold mb-2">Audio Solutions</h3>
-          <p className="text-center">
+          <h3 className="text-xl font-semibold mb-2 lg:text-mini">Audio Solutions</h3>
+          <p className="text-center lg:text-xs">
             State-of-the-art audio systems for immersive sound experiences.
           </p>
         </div>
@@ -73,8 +73,8 @@ const Solution = ({ className = "" }) => {
               clipRule="evenodd"
             />
           </svg>
-          <h3 className="text-xl font-semibold mb-2">Lighting Solutions</h3>
-          <p className="text-center">
+          <h3 className="text-xl font-semibold mb-2 lg:text-mini">Lighting Solutions</h3>
+          <p className="text-center lg:text-xs">
             Innovative lighting solutions to enhance your environment.
           </p>
         </div>
@@ -93,8 +93,8 @@ const Solution = ({ className = "" }) => {
               clipRule="evenodd"
             />
           </svg>
-          <h3 className="text-xl font-semibold mb-2">Integration Services</h3>
-          <p className="text-center">
+          <h3 className="text-xl font-semibold mb-2 lg:text-mini">Integration Services</h3>
+          <p className="text-center lg:text-xs">
             Seamless integration of AV solutions into your infrastructure.
           </p>
         </div>

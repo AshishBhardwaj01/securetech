@@ -9,7 +9,7 @@ import image5 from "/imaga.png";
 const Body = ({ className = "" }) => {
   return (
     <div className={`px-40 lg:px-2 py-10 ${className}`}>
-      <h2 className="text-orange-500 text-2xl lg:px-8 lg:mb-5 mb-10">
+      <h2 className="text-orange-500 text-2xl lg:px-8 lg:mb-5 mb-10 lg:text-mini">
         Our Pillars
       </h2>
 
@@ -22,10 +22,10 @@ const Body = ({ className = "" }) => {
           />
 
           <div className="flex-1 lg:flex-col lg:px-10">
-            <h3 className="text-orange-500 text-xl font-bold mb-2">
+            <h3 className="text-orange-500 text-xl font-bold mb-2 lg:text-base">
               Who We Are
             </h3>
-            <p className="text-sm">
+            <p className="text-sm lg:text-xs">
               SecureTech AV Designs Private Limited is a leading technology firm
               specializing in the seamless integration of audio, visual,
               lighting architecture, acoustics, ICT, and technology project
@@ -50,10 +50,10 @@ const Body = ({ className = "" }) => {
             className="w-1/3 md:w-1/3 lg:w-5/6 h-80 mb-4"
           />
           <div className="flex-1 lg:flex-col lg:px-10">
-            <h3 className="text-orange-500 text-xl font-bold mb-2">
+            <h3 className="text-orange-500 text-xl font-bold mb-2 lg:text-base">
               What We Do
             </h3>
-            <p className="text-sm">
+            <p className="text-sm lg:text-xs">
               SecureTech AV Designs Private Limited is a specialized System
               Integration company leading in Professional Audio, Video, Control,
               and Lighting services. We excel in integrating cutting-edge
@@ -77,10 +77,10 @@ const Body = ({ className = "" }) => {
             className="w-1/3 lg:w-5/6  h-auto mb-4 "
           />
           <div className="flex-1 lg:flex-col lg:px-10">
-            <h3 className="text-orange-500 text-xl font-bold mb-2">
+            <h3 className="text-orange-500 text-xl font-bold mb-2 lg:text-base">
               Solution & Integration
             </h3>
-            <p className="text-sm">
+            <p className="text-sm lg:text-xs">
               SecureTech AV Designs Private Limited specializes in providing
               complete solutions and integration, offering turnkey services that
               encompass every phase of the project lifecycle. From customized
@@ -106,10 +106,10 @@ const Body = ({ className = "" }) => {
             className="w-1/3 lg:w-5/6  h-80 mb-4 "
           />
           <div className="flex-1 lg:flex-col lg:px-10">
-            <h3 className="text-orange-500 text-xl font-bold mb-2">
+            <h3 className="text-orange-500 text-xl font-bold mb-2 lg:text-base">
               Methodology & Process
             </h3>
-            <p className="text-sm">
+            <p className="text-sm lg:text-xs">
               At SecureTech AV Designs Private Limited, our operational ethos
               revolves around a systematic approach guided by stringent
               processes and meticulous guidelines. We execute every project with
@@ -134,10 +134,10 @@ const Body = ({ className = "" }) => {
             className="w-1/3 lg:w-5/6  h-auto mb-4 "
           />
           <div className="flex-1 lg:flex-col lg:px-10">
-            <h3 className="text-orange-500 text-xl font-bold mb-2">
+            <h3 className="text-orange-500 text-xl font-bold mb-2 lg:text-base">
               Our Vision
             </h3>
-            <p className="text-sm">
+            <p className="text-sm lg:text-xs">
               SecureTech AV Designs Private Limited' mission is to engineer
               seamless, immersive experiences by harmonizing technology, design,
               and innovation. The company strives to pioneer cutting-edge
