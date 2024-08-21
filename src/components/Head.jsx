@@ -23,15 +23,15 @@ const Head = ({ className = "" }) => {
         </p>
       </div>
       <div className="flex flex-row lg:flex-row lg:hidden items-center justify-center gap-6">
-  <div className="flex flex-col items-center justify-center gap-10 mb-2">
-    <img src={image1} alt="Event" className="w-96 mt-1 max-h-60" />
-    <img src={image3} alt="Auditorium" className="w-96 max-h-60" />
-  </div>
-  <div className="flex flex-col items-center justify-center gap-10">
-    <img src={image2} alt="Conference Room" className="w-96 max-h-60" />
-    <img src={image4} alt="Classroom" className="w-96 max-h-60" />
-  </div>
-</div>
+        <div className="flex flex-col items-center justify-center gap-10 mb-2">
+          <img src={image1} alt="Event" className="w-96 mt-1 max-h-60" />
+          <img src={image3} alt="Auditorium" className="w-96 max-h-60" />
+        </div>
+        <div className="flex flex-col items-center justify-center gap-10">
+          <img src={image2} alt="Conference Room" className="w-96 max-h-60" />
+          <img src={image4} alt="Classroom" className="w-96 max-h-60" />
+        </div>
+      </div>
     </div>
   );
 };

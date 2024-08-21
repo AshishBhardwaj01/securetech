@@ -9,7 +9,9 @@ import image5 from "/imaga.png";
 const Body = ({ className = "" }) => {
   return (
     <div className={`px-40 lg:px-2 py-10 ${className}`}>
-      <h2 className="text-orange-500 text-2xl lg:px-8 lg:mb-5 mb-10">Our Pillars</h2>
+      <h2 className="text-orange-500 text-2xl lg:px-8 lg:mb-5 mb-10">
+        Our Pillars
+      </h2>
 
       <div className="grid gap-20 lg:items-center">
         <div className="flex flex-row lg:flex-col lg:items-center lg:shadow-lg items-start lg:gap-0 gap-20">

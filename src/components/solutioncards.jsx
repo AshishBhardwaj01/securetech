@@ -33,10 +33,17 @@ const Component = ({ className = "" }) => {
   };
 
   return (
-    <div className={`relative gap-14 py-20 bg-transparent w-full max-w-full ${className}`}>
-      <h2 className="text-center text-black font-poppins lg:text-lg font-semibold text-2.5xl">Solutions and Services</h2>
-      
-      <Slider {...settings} className="flex items-center justify-center gap-8 ml-10 lg:pt-10 px-4 sm:px-1">
+    <div
+      className={`relative gap-14 py-20 bg-transparent w-full max-w-full ${className}`}
+    >
+      <h2 className="text-center text-black font-poppins lg:text-lg font-semibold text-2.5xl">
+        Solutions and Services
+      </h2>
+
+      <Slider
+        {...settings}
+        className="flex items-center justify-center gap-8 ml-10 lg:pt-10 px-4 sm:px-1"
+      >
         <div className="flex flex-col items-start justify-start pt-0 pb-16 lg:pb-5 pr-0 pl-3 lg:pl-0 box-border gap-8 max-w-[95%] bg-white rounded-4 ">
           <div className="max-w-full sm:max-w-[70%] mx-auto items-center justify-center relative">
             <img
@@ -95,7 +102,9 @@ const Component = ({ className = "" }) => {
             </h2>
             <div className="self-stretch relative text-1vmax lg:text-sm tracking-[-0.05em] inline-block shrink-0 z-1">
               <ul className="m-0 list font-poppins text-inherit ">
-                <li className="mb-0">Network infrastructure design and implementation</li>
+                <li className="mb-0">
+                  Network infrastructure design and implementation
+                </li>
                 <li className="mb-0">Unified communications solutions</li>
                 <li>Data center planning and management...</li>
               </ul>
@@ -118,7 +127,10 @@ const Component = ({ className = "" }) => {
             <div className="self-stretch relative text-1vmax lg:text-sm tracking-[-0.05em] inline-block shrink-0 z-1">
               <ul className="m-0 list font-poppins text-inherit ">
                 <li className="mb-0">Lighting design and consultancy</li>
-                <li className="mb-0"> LED and architectural lighting solutions</li>
+                <li className="mb-0">
+                  {" "}
+                  LED and architectural lighting solutions
+                </li>
                 <li>Dynamic lighting control systems...</li>
               </ul>
             </div>
@@ -139,7 +151,9 @@ const Component = ({ className = "" }) => {
             </h2>
             <div className="self-stretch relative text-1vmax lg:text-sm tracking-[-0.05em] inline-block shrink-0 z-1">
               <ul className="m-0 list font-poppins text-inherit">
-                <li className="mb-0">Comprehensive project planning and execution</li>
+                <li className="mb-0">
+                  Comprehensive project planning and execution
+                </li>
                 <li className="mb-0">Project oversight and coordination</li>
                 <li>Timely delivery and budget adherence...</li>
               </ul>
@@ -161,7 +175,9 @@ const Component = ({ className = "" }) => {
             </h2>
             <div className="self-stretch relative text-1vmax lg:text-sm tracking-[-0.05em] inline-block shrink-0 z-1">
               <ul className="m-0 font-poppins text-inherit">
-                <li className="mb-0">Maintenance contracts for AV, lighting, and ICT systems</li>
+                <li className="mb-0">
+                  Maintenance contracts for AV, lighting, and ICT systems
+                </li>
                 <li className="mb-0">Upgrades and system optimization</li>
                 <li>On-call technical support and troubleshooting...</li>
               </ul>

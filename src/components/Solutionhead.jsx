@@ -24,7 +24,10 @@ const Solutionimg = ({ className = "" }) => {
             </p>
             <p className="m-0">start uncovering new business value.</p>
           </div>
-          <Link to="/Contactus" className="bg-darkorange-100 box-border no-underline overflow-hidden flex flex-row items-start justify-start pt-[1.5px] pb-0 pr-[15px] pl-5 whitespace-nowrap text-center hover:text-orange-400 hover:bg-white text-sm text-white border-[2px] border-solid border-darkorange-100">
+          <Link
+            to="/Contactus"
+            className="bg-darkorange-100 box-border no-underline overflow-hidden flex flex-row items-start justify-start pt-[1.5px] pb-0 pr-[15px] pl-5 whitespace-nowrap text-center hover:text-orange-400 hover:bg-white text-sm text-white border-[2px] border-solid border-darkorange-100"
+          >
             <div className="relative leading-loose uppercase font-semibold inline-block min-w-[85px]">
               Contact Us
             </div>

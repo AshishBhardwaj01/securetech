@@ -24,48 +24,47 @@ const Solutionvenue = ({ className = "" }) => {
             </div>
           </div>
           <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-5">
-  <div className="max-w-full flex flex-row lg:flex-col gap-12 lg:gap-6">
-    <img
-      className="w-80 lg:w-40 relative object-cover"
-      loading="lazy"
-      alt=""
-      src="/imag2.png"
-    />
-    <img
-      className="w-80 lg:w-40 relative object-cover"
-      loading="lazy"
-      alt=""
-      src="/imag3.png"
-    />
-    <img
-      className="w-80 lg:w-40  relative object-cover"
-      loading="lazy"
-      alt=""
-      src="/imag4.png"
-    />
-  </div>
-  <div className="max-w-full flex flex-row lg:flex-col gap-12 lg:gap-6">
-    <img
-      className="w-80 lg:w-40  relative object-cover"
-      loading="lazy"
-      alt=""
-      src="/imag5.png"
-    />
-    <img
-      className="w-80 lg:w-40  relative object-cover"
-      loading="lazy"
-      alt=""
-      src="/imag6.png"
-    />
-    <img
-      className="w-80 lg:w-40 relative object-cover"
-      loading="lazy"
-      alt=""
-      src="/imag7.png"
-    />
-  </div>
-</div>
-
+            <div className="max-w-full flex flex-row lg:flex-col gap-12 lg:gap-6">
+              <img
+                className="w-80 lg:w-40 relative object-cover"
+                loading="lazy"
+                alt=""
+                src="/imag2.png"
+              />
+              <img
+                className="w-80 lg:w-40 relative object-cover"
+                loading="lazy"
+                alt=""
+                src="/imag3.png"
+              />
+              <img
+                className="w-80 lg:w-40  relative object-cover"
+                loading="lazy"
+                alt=""
+                src="/imag4.png"
+              />
+            </div>
+            <div className="max-w-full flex flex-row lg:flex-col gap-12 lg:gap-6">
+              <img
+                className="w-80 lg:w-40  relative object-cover"
+                loading="lazy"
+                alt=""
+                src="/imag5.png"
+              />
+              <img
+                className="w-80 lg:w-40  relative object-cover"
+                loading="lazy"
+                alt=""
+                src="/imag6.png"
+              />
+              <img
+                className="w-80 lg:w-40 relative object-cover"
+                loading="lazy"
+                alt=""
+                src="/imag7.png"
+              />
+            </div>
+          </div>
         </div>
         <div className="self-stretch hidden bg-gradient-to-r from-blue-500 to-purple-500  flex-row items-start justify-center py-0 pr-5 pl-[21px]">
           <button className="cursor-pointer bg-gradient-to-r from-blue-500 to-purple-500 [border:none] py-[9.5px] pr-[23px] pl-6 bg-lavender w-[240.7px] rounded flex flex-row items-start justify-start box-border whitespace-nowrap hover:bg-lightsteelblue">

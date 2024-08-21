@@ -1,12 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Slider from 'react-slick';
+import React from "react";
+import PropTypes from "prop-types";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const brandLogos = [
   { src: "/senheiserlogo.png", alt: "Sennheiser" },
-  { src: "/britishacousticscommerciallogo2019copy300webp@2x.png", alt: "British Acoustics" },
+  {
+    src: "/britishacousticscommerciallogo2019copy300webp@2x.png",
+    alt: "British Acoustics",
+  },
   { src: "/qnclogo.png", alt: "QNC" },
   { src: "/christielogo.png", alt: "Christie" },
   { src: "/images2webp@2x.png", alt: "Brand 5" },
@@ -22,7 +25,7 @@ const brandLogos = [
   { src: "/p4-1@2x.png", alt: "Brand 15" },
   { src: "/p5-1@2x.png", alt: "Brand 16" },
   { src: "/p4-2@2x.png", alt: "Brand 17" },
-  { src: "/p6-1@2x.png", alt: "Brand 18" }
+  { src: "/p6-1@2x.png", alt: "Brand 18" },
 ];
 
 const BrandLogo = ({ src, alt }) => (
@@ -40,7 +43,7 @@ const BrandLogo = ({ src, alt }) => (
 
 BrandLogo.propTypes = {
   src: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired
+  alt: PropTypes.string.isRequired,
 };
 
 const FrameComponent3 = ({ className = "" }) => {
@@ -74,7 +77,7 @@ const FrameComponent3 = ({ className = "" }) => {
       },
     ],
     centerMode: true,
-    centerPadding: '0px',
+    centerPadding: "0px",
   };
 
   return (
