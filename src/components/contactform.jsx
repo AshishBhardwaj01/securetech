@@ -47,12 +47,12 @@ const ContactForm = ({ className = "" }) => {
   return (
     <form
       ref={form}
-      className={`flex flex-row lg:flex-col py-28 lg:py-14 items-start lg:items-center justify-center gap-60 text-left text-base text-black font-poppins ${className}`}
+      className={`flex flex-row lg:flex-col py-28 lg:py-14 items-start lg:items-center justify-center gap-60 xl:gap-20 text-left text-base text-black font-poppins ${className}`}
       onSubmit={handleSubmit}
     >
       {" "}
       <div className="flex flex-col items-center justify-center max-w-full">
-        <div className="flex flex-col items-start lg:px-4 justify-start gap-5 max-w-full">
+        <div className="flex flex-col items-start xl:px-4 justify-start gap-5 max-w-full">
           <div className="flex flex-col items-start justify-start text-29xl">
             <h1 className="m-0 mt-10 tracking-normal leading-normal font-semibold">
               Get in Touch with
@@ -119,7 +119,7 @@ const ContactForm = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <div className="flex bg-gray-900 lg:max-w-full flex-col lg:rounded-lg items-start justify-center py-5 lg:pb-5 px-10 lg:pr-5 lg:pl-5 gap-2.5 lg:gap-0 text-white">
+      <div className="flex bg-gray-900 lg:max-w-full flex-col lg:rounded-lg items-start justify-center py-5 sm:pb-5 px-10 sm:pr-5 sm:pl-5 gap-2.5 lg:gap-0 text-white">
         <h1 className="font-poppins font-semibold items-start">
           Drop Us A Message
         </h1>
