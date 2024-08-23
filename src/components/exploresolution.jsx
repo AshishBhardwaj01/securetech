@@ -9,8 +9,8 @@ const IndustrySolutions = ({ className = "" }) => {
         <h1 className="m-0 p-5 relative text-lg leading-normal font-bold font-inherit text-orange-500 ">
           Explore AV solutions
         </h1>
-        <div className="self-stretch flex flex-row items-start justify-end py-0 px-10 box-border max-w-full text-base">
-          <div className="h-20 flex-1 relative leading-normal flex items-center max-w-full">
+        <div className="self-stretch flex flex-row items-start justify-end py-0 px-10 box-border max-w-full lg:text-smi text-base">
+          <div className="h-20 flex-1 relative leading-normal lg:leading-snug flex items-center max-w-full">
             <span>
               <p className="m-0 ">
                 Learn more about SecureTech AV’s venue solutions and how you can

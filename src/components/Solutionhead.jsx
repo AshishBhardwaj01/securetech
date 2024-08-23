@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const Solutionimg = ({ className = "" }) => {
   return (
     <div
-      className={`flex-1 [background:linear-gradient(180deg,_#fff,_#ff8022)] overflow-hidden flex flex-row items-center justify-center py-16 box-border gap-20 lg:gap-5 max-w-screen text-left text-21xl text-gray-900 font-open-sans  ${className}`}
+      className={`flex-1 [background:linear-gradient(180deg,_#fff,_#ff8022)] overflow-hidden flex flex-row items-center justify-center py-16 box-border gap-20 xl:gap-5 max-w-screen text-left text-21xl text-gray-900 font-open-sans  ${className}`}
     >
       <div className="flex flex-col lg:px-10 items-start justify-start lg:items-center lg:justify-center py-10 box-border max-w-full ">
-        <div className="flex flex-col items-start justify-start gap-8 max-w-full">
-          <h1 className="m-0 relative text-inherit tracking-tight leading-tight font-bold font-inherit inline-block max-w-full">
+        <div className="flex flex-col items-start justify-start gap-8 xl:gap-2  max-w-full">
+          <h1 className="m-0 relative  xl:text-2.5xl text-inherit tracking-tight leading-tight font-bold font-inherit inline-block max-w-full">
             <p className="m-0 text-6xl lg:text-5xl-2">Improve every process,</p>
             <p className="m-0 text-6xl lg:text-5xl-2">power every outcome.</p>
           </h1>
