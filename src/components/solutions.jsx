@@ -35,7 +35,7 @@ const solutions = [
 
 const SolutionsContainer = ({ className = "" }) => {
   return (
-    <div className="container mx-auto p-6 lg:p-0">
+    <div className="container mx-auto p-6 xl:p-0">
       {solutions.map((solution, index) => (
         <div
           key={index}

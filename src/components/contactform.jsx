@@ -51,7 +51,7 @@ const ContactForm = ({ className = "" }) => {
       onSubmit={handleSubmit}
     >
       {" "}
-      <div className="flex flex-col items-center justify-center max-w-full">
+      <div className="flex flex-col items-center justify-center max-w-full 2xl:pl-3 xl:pl-0 ">
         <div className="flex flex-col items-start xl:px-4 justify-start gap-5 max-w-full">
           <div className="flex flex-col items-start justify-start text-29xl">
             <h1 className="m-0 mt-10 tracking-normal leading-normal font-semibold">
@@ -119,7 +119,7 @@ const ContactForm = ({ className = "" }) => {
           </div>
         </div>
       </div>
-      <div className="flex bg-gray-900 lg:max-w-full flex-col lg:rounded-lg items-start justify-center py-5 sm:pb-5 px-10 sm:pr-5 sm:pl-5 gap-2.5 lg:gap-0 text-white">
+      <div className="flex bg-gray-900 lg:max-w-full mr-3 sm:mx-0 flex-col lg:rounded-lg items-start justify-center py-5 sm:pb-5 px-10 sm:pr-5 sm:pl-5 gap-2.5 lg:gap-0 text-white">
         <h1 className="font-poppins font-semibold items-start">
           Drop Us A Message
         </h1>
